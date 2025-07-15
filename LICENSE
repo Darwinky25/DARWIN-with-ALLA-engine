@@ -1,21 +1,99 @@
-MIT License
+DARWIN PUBLIC LICENSE (ALLA LICENSE)
+Version 1.0, July 2025
 
-Copyright (c) 2025 ALLA Project Contributors
+Copyright (c) 2025 Darwinky25 (Original Creator of ALLA Engine and DARWIN Project)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. DEFINITIONS
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by this document.
+
+"Licensor" shall mean Darwinky25, the original copyright owner granting the License.
+
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
+
+"Work" shall mean the ALLA Engine, DARWIN Project, and all related source code, documentation, and materials made available under this License.
+
+"Derivative Works" shall mean any work that is based upon the Work or portions thereof.
+
+2. GRANT OF COPYRIGHT LICENSE
+
+Subject to the terms and conditions of this License, the Licensor hereby grants to You a worldwide, royalty-free, non-exclusive license to:
+
+a) Use, study, and run the Work for educational and research purposes
+b) Reproduce and distribute copies of the Work
+c) Prepare Derivative Works based upon the Work, provided all conditions are met
+
+3. RESTRICTIONS
+
+This License is subject to the following restrictions:
+
+a) COMMERCIAL USE PROHIBITION: You may NOT use the Work or any Derivative Works for commercial purposes without explicit written permission from the Licensor.
+
+b) NO FALSE ATTRIBUTION: You may NOT modify the Work and then claim it as your own original creation. All Derivative Works must clearly acknowledge the original Work and its creator.
+
+c) CLEAR ATTRIBUTION REQUIRED: Any use, distribution, or derivative work must include clear and prominent attribution to Darwinky25 as the original creator of the ALLA Engine and DARWIN Project.
+
+d) PROHIBITED APPLICATIONS: You may NOT use the Work for:
+   - Military applications or weapons development
+   - Destructive or harmful purposes
+   - Exploitative applications that harm individuals or society
+   - Any purpose that violates human rights or ethical principles
+
+4. ATTRIBUTION REQUIREMENTS
+
+When using, distributing, or creating Derivative Works, You must:
+
+a) Include this license in all copies or substantial portions of the Work
+b) Provide clear attribution: "Based on ALLA Engine by Darwinky25"
+c) Include a link to the original repository: https://github.com/Darwinky25/DARWIN-with-ALLA-engine
+d) Do not remove or alter any copyright notices or attribution statements
+
+5. EDUCATIONAL AND RESEARCH USE
+
+This License explicitly permits and encourages:
+
+a) Academic research and study
+b) Educational use in universities and schools
+c) Non-commercial scientific research
+d) Open source collaboration for research purposes
+
+6. DISTRIBUTION OF DERIVATIVE WORKS
+
+If You distribute Derivative Works, You must:
+
+a) Apply this same license to the Derivative Work
+b) Clearly mark what changes were made
+c) Include prominent attribution to the original creator
+d) Not claim the Derivative Work as entirely your own creation
+
+7. NO WARRANTY
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+8. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
+
+9. TERMINATION
+
+This License and the rights granted hereunder will terminate automatically if You fail to comply with terms herein. Upon termination, You must cease all use and distribution of the Work.
+
+10. COMMERCIAL LICENSING
+
+For commercial use permissions, contact the Licensor through the GitHub repository issues.
+
+11. GOVERNING LAW
+
+This License shall be governed by and construed in accordance with applicable international copyright law.
+
+---
+
+NOTICE: This software implements the ALLA (Autonomous Learning Language Agent) Engine, a breakthrough in curiosity-driven artificial intelligence research. The ALLA Engine represents significant innovation in AI systems that learn through questioning and exploration.
+
+Original Creator: Darwinky25
+Project: DARWIN-with-ALLA-engine
+Repository: https://github.com/Darwinky25/DARWIN-with-ALLA-engine
+
+For questions about this license or commercial use inquiries, please contact the original creator through the GitHub repository.

@@ -1,8 +1,9 @@
 # ALLA - Autonomous Learning Language Agent
 
 [![Version](https://img.shields.io/badge/version-16.0-blue.svg)](https://github.com/Darwinky25/DARWIN-with-ALLA-engine)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Darwin%20Public%20License-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-yellow.svg)](https://python.org)
+[![CLA](https://img.shields.io/badge/CLA-required-orange.svg)](CLA.md)
 
 ## 🧠 The Inquisitive Agent: AI That Learns Through Curiosity
 
@@ -457,12 +458,24 @@ ALLA is an open-source project welcoming contributions! Here's how you can help:
 5. **Multi-Agent Systems**: Multiple ALLA instances collaborating
 
 ### **Contribution Guidelines:**
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Add comprehensive tests for new functionality
-4. Ensure all existing tests still pass
-5. Update documentation and README
-6. Submit a pull request
+1. **Read the CLA**: All contributors must agree to our [Contributor License Agreement](CLA.md)
+2. **Respect the License**: Understand and follow the Darwin Public License terms
+3. Fork the repository
+4. Create a feature branch (`git checkout -b feature/amazing-feature`)
+5. Add comprehensive tests for new functionality
+6. Ensure all existing tests still pass
+7. Update documentation and README
+8. **Add yourself to CONTRIBUTORS.md** in your first pull request
+9. **Include CLA agreement** in your pull request description
+10. Submit a pull request
+
+### **CLA Requirement:**
+Before contributing, you must agree to our Contributor License Agreement by including this statement in your pull request:
+
+```
+I agree to the Darwin Project Contributor License Agreement (CLA) v1.0.
+I understand that my contributions will be governed by the terms outlined in CLA.md.
+```
 
 ---
 
@@ -484,7 +497,21 @@ ALLA is an open-source project welcoming contributions! Here's how you can help:
 
 ## 📜 **License**
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Darwin Public License (ALLA License) v1.0** - see the [LICENSE](LICENSE) file for details.
+
+### Key License Points:
+- ✅ **Free for Education & Research**: Use freely for academic and research purposes
+- ✅ **Open Source Collaboration**: Contribute and share improvements
+- ❌ **No Commercial Use**: Commercial applications require explicit permission
+- ❌ **No False Claims**: Cannot claim modifications as entirely new original work
+- ❌ **No Harmful Use**: Prohibited for military, destructive, or exploitative purposes
+- ⚠️ **Attribution Required**: Must credit Darwinky25 as original creator
+
+### Commercial Licensing
+For commercial use inquiries, please contact through the GitHub repository.
+
+### Contributors
+All contributors must agree to our [Contributor License Agreement (CLA)](CLA.md). See [CONTRIBUTORS.md](CONTRIBUTORS.md) for our amazing contributors!
 
 ---
 
