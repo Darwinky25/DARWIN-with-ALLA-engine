@@ -1,0 +1,106 @@
+{
+    "create": {
+        "word_type": "action",
+        "meaning_expression": "none"
+    },
+    "what": {
+        "word_type": "inquiry",
+        "meaning_expression": "none"
+    },
+    "is": {
+        "word_type": "inquiry",
+        "meaning_expression": "none"
+    },
+    "where": {
+        "word_type": "inquiry",
+        "meaning_expression": "none"
+    },
+    "when": {
+        "word_type": "inquiry",
+        "meaning_expression": "none"
+    },
+    "take": {
+        "word_type": "action",
+        "meaning_expression": "none"
+    },
+    "give": {
+        "word_type": "action",
+        "meaning_expression": "none"
+    },
+    "destroy": {
+        "word_type": "action",
+        "meaning_expression": "none"
+    },
+    "red": {
+        "word_type": "property",
+        "meaning_expression": "obj.color == 'red'"
+    },
+    "blue": {
+        "word_type": "property",
+        "meaning_expression": "obj.color == 'blue'"
+    },
+    "green": {
+        "word_type": "property",
+        "meaning_expression": "obj.color == 'green'"
+    },
+    "brown": {
+        "word_type": "property",
+        "meaning_expression": "obj.color == 'brown'"
+    },
+    "grey": {
+        "word_type": "property",
+        "meaning_expression": "obj.color == 'grey'"
+    },
+    "box": {
+        "word_type": "noun",
+        "meaning_expression": "obj.shape == 'box'"
+    },
+    "cube": {
+        "word_type": "noun",
+        "meaning_expression": "obj.shape == 'cube'"
+    },
+    "tree": {
+        "word_type": "noun",
+        "meaning_expression": "obj.shape == 'tree'"
+    },
+    "crystal": {
+        "word_type": "noun",
+        "meaning_expression": "obj.shape == 'crystal'"
+    },
+    "lump": {
+        "word_type": "noun",
+        "meaning_expression": "obj.shape == 'lump'"
+    },
+    "big": {
+        "word_type": "property",
+        "meaning_expression": "obj.size >= 8"
+    },
+    "small": {
+        "word_type": "property",
+        "meaning_expression": "obj.size <= 3"
+    },
+    "tiny": {
+        "word_type": "property",
+        "meaning_expression": "obj.size <= 2"
+    },
+    "giant": {
+        "word_type": "property",
+        "meaning_expression": "obj.size >= 9"
+    },
+    "wood": {
+        "word_type": "property",
+        "meaning_expression": "obj.material == 'wood'"
+    },
+    "stone": {
+        "word_type": "property",
+        "meaning_expression": "obj.material == 'stone'"
+    },
+    "glass": {
+        "word_type": "property",
+        "meaning_expression": "obj.material == 'glass'"
+    },
+    "shiny": {
+        "word_type": "property",
+        "meaning_expression": "obj.material == 'crystal'"
+    }
+}
