@@ -210,7 +210,7 @@ def run_master_test():
     total = len(results)
     
     print("\n" + "=" * 60)
-    print("🎯 MASTER TEST SUMMARY")
+    print("MASTER TEST SUMMARY")
     print("=" * 60)
     print(f"Tests Passed: {passed}/{total}")
     

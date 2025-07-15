@@ -48,4 +48,4 @@ We deeply appreciate all contributors who help advance the ALLA Engine and curio
 
 *"The important thing is not to stop questioning. Curiosity has its own reason for existing." - Albert Einstein*
 
-**ALLA embodies this principle in code.** 🧠✨
+**ALLA embodies this principle in code.**
