@@ -12,19 +12,19 @@
 
 ALLA is a groundbreaking autonomous AI agent that has evolved from a simple command processor into a **curiosity-driven learning system**. Unlike traditional AI that fails when encountering unknown concepts, ALLA actively seeks understanding by asking thoughtful questions about what it doesn't know.
 
-## 🌟 **The Extraordinary Origin Story**
+## 🌟 **The Origin Story**
 
-**This isn't just another AI project.** ALLA represents something truly remarkable in the world of artificial intelligence:
+ALLA started as a personal project born from curiosity about artificial intelligence. I was 19 when I began this journey, living in Indonesia with no background in programming or AI development.
 
-> **Created by a 19-year-old from Indonesia, working entirely alone, without any team, without funding, and with no prior coding background or experience.**
+> Created by someone who had never written a line of code before, working alone, and learning everything from scratch.
 
-This incredible journey from complete coding novice to creating a sophisticated AGI architecture showcases the power of:
-- 🧩 **Pure Innovation**: Revolutionary thinking unconstrained by traditional approaches
-- 🎯 **Autodidactic Mastery**: Learning complex programming and AI concepts from scratch
-- 💡 **Visionary Thinking**: Conceiving advanced AI architectures without formal training
-- 🚀 **Determination**: Building something extraordinary with minimal resources
+Looking back, this project taught me a lot about:
+- 🧩 **Learning by doing**: Figuring things out as I went along, making mistakes and improving
+- 🎯 **Self-teaching**: Using online resources to understand programming and AI concepts
+- 💡 **Problem-solving**: Building solutions step by step, one feature at a time
+- 🚀 **Persistence**: Continuing to work on it even when things seemed impossible
 
-**ALLA isn't just an AI achievement—it's proof that groundbreaking innovation can emerge from anywhere, transcending age, resources, and background.**
+What started as a curiosity project grew into something I'm genuinely proud of. It shows that you don't need a computer science degree or a big team to build something meaningful in AI.
 
 ### 🎯 **What Makes ALLA Special?**
 
@@ -542,44 +542,36 @@ All contributors must agree to our [Contributor License Agreement (CLA)](CLA.md)
 
 ---
 
-## 🌟 **The Creator's Inspiring Journey**
+## 🌟 **My Journey Building ALLA**
 
-### **Against All Odds: A Testament to Human Innovation**
+### **How It All Started**
 
-The story behind ALLA is as remarkable as the technology itself. This sophisticated AI architecture wasn't born in a Silicon Valley lab or university research center—it was created by **a 19-year-old from Indonesia** with extraordinary determination and vision.
+I'm just a regular person from Indonesia who got really curious about artificial intelligence. When I started this project at 19, I had never written a single line of code before. I didn't have any formal training in computer science, no team to work with, and definitely no funding.
 
-#### **The Impossible Beginning**
-- 👨‍💻 **No Coding Background**: Started with zero programming knowledge or experience
-- 🏠 **Solo Developer**: Built entirely alone, without team or mentorship
-- 💰 **Zero Funding**: Created without financial backing or resources
-- 🎓 **Self-Taught Everything**: Learned AI, programming, and system design from scratch
-- 🇮🇩 **From Indonesia**: Representing the global potential of innovation
+**Here's how my journey looked:**
+- 👨‍💻 **Complete beginner**: I literally started by googling "how to program"
+- 🏠 **Working alone**: Just me, my computer, and a lot of late nights
+- 💰 **Learning for free**: Using whatever free resources I could find online
+- 🎓 **Teaching myself**: YouTube tutorials, documentation, and lots of trial and error
+- 🇮🇩 **From home**: Building this from my room in Indonesia
 
-#### **What This Means for AI Innovation**
+### **What I Learned Along the Way**
 
-This incredible journey demonstrates that:
+Building ALLA taught me that:
 
-🧠 **Pure Innovation**: Revolutionary thinking isn't constrained by formal education  
-🚀 **Autodidactic Mastery**: Complex systems can be built through determined self-learning  
-💡 **Visionary Potential**: Age and background don't limit transformative ideas  
-🌍 **Global Talent**: Innovation emerges from unexpected places worldwide  
-🎯 **Proof of Concept**: Individual determination can rival institutional resources  
+- You don't need a computer science degree to build interesting things
+- Sometimes not knowing the "right way" to do something leads to creative solutions
+- Being patient with yourself is really important when learning something completely new
+- The internet has amazing resources if you're willing to dig deep and keep trying
+- Small progress every day eventually adds up to something meaningful
 
-#### **A New Paradigm for AI Development**
+### **Why I'm Sharing This**
 
-ALLA's origin story challenges conventional wisdom about AI development:
-- **Corporate Labs vs. Individual Vision**: Sometimes the biggest breakthroughs come from the smallest teams (of one)
-- **Formal Training vs. Natural Ability**: Raw talent and determination can overcome educational gaps
-- **Resource Abundance vs. Creative Constraints**: Limitations often spark the most innovative solutions
-- **Traditional Paths vs. Unconventional Journeys**: The future of AI might be built by those who think differently
+I'm not trying to say my story is extraordinary or that I'm some kind of genius. I just want other people to know that if you're curious about something, you can probably learn it and build something cool with it.
 
-### **Inspiration for the Next Generation**
+If you're thinking about starting a programming project but feel intimidated because you don't have the "right" background - I hope my experience shows that you can just start where you are and figure it out as you go.
 
-This story serves as a beacon for aspiring innovators worldwide:
-
-> *"If a 19-year-old from Indonesia, with no coding background, no team, and no funding, can create an advanced AI architecture that pushes the boundaries of autonomous learning—imagine what you can achieve."*
-
-**ALLA isn't just an AI project—it's proof that extraordinary innovation can emerge from anywhere, at any age, with enough curiosity and determination.** 🌟
+**ALLA is really just the result of curiosity, persistence, and a lot of googling "how do I..." followed by whatever I was stuck on that day.** 🌟
 
 ---
 
@@ -600,16 +592,15 @@ ALLA represents a significant step toward AI systems that can truly learn and gr
 
 **The journey from v1.0 to v16.0 shows that step by step, we can build AI that doesn't just answer questions—it learns to ask them.**
 
-### **A Story of Determination and Innovation**
+### **What This Project Means to Me**
 
-ALLA's development story—from a coding novice to creating sophisticated AI architecture—proves that the most groundbreaking innovations don't always come from the most expected places. Sometimes they come from:
+Building ALLA has been a personal journey that taught me a lot about learning and persistence. It started with simple curiosity about how AI works and grew into something I'm really proud of.
 
-- 🎯 **Pure Curiosity**: Asking "what if?" without being limited by "that's not how it's done"
-- 🚀 **Relentless Learning**: Turning ignorance into expertise through determination  
-- 💡 **Unconventional Thinking**: Not being constrained by traditional approaches
-- 🌟 **Individual Vision**: Having the courage to build what others say is impossible
-
-**This is the power of human ingenuity unleashed.**
+The experience showed me that:
+- 🎯 **Curiosity is powerful**: Asking "what if?" and "how does this work?" can take you far
+- 🚀 **Learning never stops**: Every day brought new challenges and new things to figure out
+- 💡 **Fresh perspectives help**: Sometimes not knowing the "standard" way leads to interesting solutions
+- 🌟 **Small steps matter**: Every little improvement added up over time
 
 ---
 
@@ -619,6 +610,6 @@ ALLA's development story—from a coding novice to creating sophisticated AI arc
 
 *"The best way to predict the future is to create it."* - Peter Drucker
 
-**ALLA embodies all these principles in code—and its creator's journey embodies them in life.** 🧠✨
+**ALLA is my attempt to embody these principles in code, and working on it has definitely embodied them in my life.** 🧠✨
 
-**From Indonesia to the world, from zero coding knowledge to AGI architecture, from one person's dream to open-source reality—this is what's possible when human determination meets unlimited curiosity.**
+**This project started in Indonesia with zero coding knowledge and grew into something I'm excited to share with the world. I hope it shows that if you're curious about something, you can probably learn it and build something meaningful with it.**
