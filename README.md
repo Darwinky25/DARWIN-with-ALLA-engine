@@ -1,9 +1,12 @@
 # ALLA - Autonomous Learning Language Agent
 
 [![Version](https://img.shields.io/badge/version-16.0-blue.svg)](https://github.com/Darwinky25/DARWIN-with-ALLA-engine)
-[![License](https://img.shields.io/badge/license-Darwin%20Public%20License-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Darwin%20Public%20License%20v1.0-red.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-yellow.svg)](https://python.org)
 [![CLA](https://img.shields.io/badge/CLA-required-orange.svg)](CLA.md)
+[![Custom License](https://img.shields.io/badge/⚠️-Custom%20License%20Terms-critical.svg)](LICENSE)
+
+> **⚠️ IMPORTANT LICENSE NOTICE:** This project uses a **custom Darwin Public License v1.0** that prohibits commercial use without permission, military applications, and false attribution. Educational and research use is freely permitted. [Read full terms](LICENSE) | [CLA required for contributors](CLA.md)
 
 ## 🧠 The Inquisitive Agent: AI That Learns Through Curiosity
 
@@ -528,7 +531,7 @@ All contributors must agree to our [Contributor License Agreement (CLA)](CLA.md)
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/issues)
 - **Discussions**: [Join the conversation](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/discussions)
-- **Email**: darwinky25@example.com
+- **Email**: ikicenat@gmail.com
 - **Documentation**: [Full documentation](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/wiki)
 
 ---
