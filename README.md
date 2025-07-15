@@ -1,6 +1,6 @@
 # ALLA - Autonomous Learning Language Agent
 
-[![Version](https://img.shields.io/badge/version-16.0-blue.svg)](https://github.com/your-username/alla)
+[![Version](https://img.shields.io/badge/version-16.0-blue.svg)](https://github.com/Darwinky25/DARWIN-with-ALLA-engine)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-yellow.svg)](https://python.org)
 
@@ -22,8 +22,8 @@ ALLA is a groundbreaking autonomous AI agent that has evolved from a simple comm
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/alla.git
-cd alla
+git clone https://github.com/Darwinky25/DARWIN-with-ALLA-engine.git
+cd DARWIN-with-ALLA-engine
 
 # Run the v16.0 mystery object test
 python test_v16_mystery_object.py
@@ -356,8 +356,8 @@ ALLA/
 
 ### **Installation:**
 ```bash
-git clone https://github.com/your-username/alla.git
-cd alla
+git clone https://github.com/Darwinky25/DARWIN-with-ALLA-engine.git
+cd DARWIN-with-ALLA-engine
 ```
 
 ### **Basic Usage:**
@@ -499,10 +499,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 **Contact & Support**
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/your-username/alla/issues)
-- **Discussions**: [Join the conversation](https://github.com/your-username/alla/discussions)
-- **Email**: your-email@example.com
-- **Documentation**: [Full documentation](https://github.com/your-username/alla/wiki)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/issues)
+- **Discussions**: [Join the conversation](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/discussions)
+- **Email**: darwinky25@example.com
+- **Documentation**: [Full documentation](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/wiki)
 
 ---
 
