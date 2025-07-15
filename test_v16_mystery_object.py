@@ -190,12 +190,12 @@ def run_all_tests():
             print(f"\n{'='*20} {test_name} {'='*20}")
             success = test_func()
             if success:
-                print(f"✓ {test_name} PASSED")
+                print(f"- {test_name} PASSED")
                 passed += 1
             else:
-                print(f"✗ {test_name} FAILED")
+                print(f"- {test_name} FAILED")
         except Exception as e:
-            print(f"✗ {test_name} FAILED with exception: {e}")
+            print(f"- {test_name} FAILED with exception: {e}")
             import traceback
             traceback.print_exc()
     
@@ -203,16 +203,16 @@ def run_all_tests():
     print(f"ALLA v16.0 TEST RESULTS: {passed}/{total} tests passed")
     
     if passed == total:
-        print("🎉 ALL TESTS PASSED! ALLA v16.0 - The Inquisitive Agent is working correctly!")
+        print("ALL TESTS PASSED! ALLA v16.0 - The Inquisitive Agent is working correctly!")
         print("\nKey v16.0 Features Validated:")
-        print("✓ Unknown word detection triggers curiosity instead of failure")
-        print("✓ UNDERSTAND goals are created automatically")
-        print("✓ ALLA asks meaningful questions about unknown concepts")
-        print("✓ Learning new words completes UNDERSTAND goals")
-        print("✓ Known words continue to work normally")
-        print("✓ Multiple unknown words create separate inquiry goals")
+        print("- Unknown word detection triggers curiosity instead of failure")
+        print("- UNDERSTAND goals are created automatically")
+        print("- ALLA asks meaningful questions about unknown concepts")
+        print("- Learning new words completes UNDERSTAND goals")
+        print("- Known words continue to work normally")
+        print("- Multiple unknown words create separate inquiry goals")
     else:
-        print(f"❌ {total - passed} tests failed. Please check the implementation.")
+        print(f"- {total - passed} tests failed. Please check the implementation.")
     
     return passed == total
 

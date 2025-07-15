@@ -94,12 +94,12 @@ def test_v12_integration():
     
     print("\n" + "=" * 60)
     print("ALLA ENGINE v12.0 INTEGRATION TEST COMPLETE")
-    print("✓ External world loaded successfully")
-    print("✓ Object interaction working")
-    print("✓ Object creation/modification working") 
-    print("✓ Inventory management working")
-    print("✓ Teaching system retained")
-    print("✓ World persistence working")
+    print("- External world loaded successfully")
+    print("- Object interaction working")
+    print("- Object creation/modification working") 
+    print("- Inventory management working")
+    print("- Teaching system retained")
+    print("- World persistence working")
     print("=" * 60)
 
 if __name__ == "__main__":

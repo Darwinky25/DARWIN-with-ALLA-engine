@@ -59,7 +59,7 @@ def test_first_desire():
             
             # Check if goal is completed
             if goal.status == 'completed':
-                print(f"\n🎉 GOAL ACHIEVED! ALLA successfully obtained the red box!")
+                print(f"\nGOAL ACHIEVED! ALLA successfully obtained the red box!")
                 break
         
         # Show final state

@@ -12,7 +12,7 @@ from alla_engine import AllaEngine
 
 def test_knowledge_retrieval_fix():
     """Test B11 FIX: Ensure red concepts are properly learned and retrievable."""
-    print("🔴 TESTING B11 FIX: Knowledge Retrieval")
+    print("TESTING B11 FIX: Knowledge Retrieval")
     print("-" * 50)
     
     alla = AllaEngine()
@@ -37,12 +37,12 @@ def test_knowledge_retrieval_fix():
     print(f"Result: {result}")
     
     success = result and 'red' in result
-    print(f"✅ B11 FIX: {'PASSED' if success else 'FAILED'}")
+    print(f"B11 FIX: {'PASSED' if success else 'FAILED'}")
     return success
 
 def test_goal_parsing_fix():
     """Test B12 FIX: Ensure 'i have X' goals parse correctly."""
-    print("\n🎯 TESTING B12 FIX: Goal Parsing Regression")
+    print("\nTESTING B12 FIX: Goal Parsing Regression")
     print("-" * 50)
     
     alla = AllaEngine()
@@ -56,18 +56,18 @@ def test_goal_parsing_fix():
     
     success = goal is not None
     if success:
-        print(f"✅ Goal created: {goal.description}")
+        print(f"Goal created: {goal.description}")
         print(f"   Goal ID: {goal.id}")
         print(f"   Condition type: {goal.completion_condition.action_type}")
     else:
-        print("❌ Goal parsing failed")
+        print("Goal parsing failed")
     
-    print(f"✅ B12 FIX: {'PASSED' if success else 'FAILED'}")
+    print(f"B12 FIX: {'PASSED' if success else 'FAILED'}")
     return success
 
 def test_create_goal_planning():
     """Test L1 UPGRADE: Planner can handle CREATE goals."""
-    print("\n🏗️ TESTING L1 UPGRADE: CREATE Goal Planning")
+    print("\nTESTING L1 UPGRADE: CREATE Goal Planning")
     print("-" * 50)
     
     alla = AllaEngine()
@@ -83,7 +83,7 @@ def test_create_goal_planning():
         plan = alla.planner.create_plan_for_goal(goal)
         
         if plan:
-            print(f"✅ Plan created with {len(plan.steps)} steps:")
+            print(f"Plan created with {len(plan.steps)} steps:")
             for i, step in enumerate(plan.steps):
                 print(f"   Step {i+1}: {step.action_type} - {step.feedback}")
             
@@ -94,19 +94,18 @@ def test_create_goal_planning():
                 print(f"   Executed: {result}")
             
             success = True
-        else:
-            print("❌ No plan could be created")
-            success = False
+        else:            print("No plan could be created")
+        success = False
     else:
-        print("❌ Goal could not be set")
+        print("Goal could not be set")
         success = False
     
-    print(f"✅ L1 UPGRADE: {'PASSED' if success else 'FAILED'}")
+    print(f"L1 UPGRADE: {'PASSED' if success else 'FAILED'}")
     return success
 
 def test_container_aware_planning():
     """Test L2 UPGRADE: Multi-step planning for objects in containers."""
-    print("\n📦 TESTING L2 UPGRADE: Container-Aware Planning")
+    print("\nTESTING L2 UPGRADE: Container-Aware Planning")
     print("-" * 50)
     
     alla = AllaEngine()
@@ -136,29 +135,29 @@ def test_container_aware_planning():
         if goal:
             plan = alla.planner.create_plan_for_goal(goal)
             if plan:
-                print(f"✅ Plan created with {len(plan.steps)} steps")
+                print(f"Plan created with {len(plan.steps)} steps")
                 for i, step in enumerate(plan.steps):
                     print(f"   Step {i+1}: {step.action_type}")
                 success = True
             else:
-                print("❌ No plan created")
+                print("No plan created")
         else:
-            print("❌ Goal could not be set")
+            print("Goal could not be set")
     else:
-        print("❌ Test object not found")
+        print("Test object not found")
     
     # Even if container logic isn't fully implemented, 
     # we pass if basic planning works
     if not success and test_obj:
-        print("⚠️  Container detection not implemented yet, but basic planning works")
+        print("Container detection not implemented yet, but basic planning works")
         success = True
     
-    print(f"✅ L2 UPGRADE: {'PASSED' if success else 'FAILED'}")
+    print(f"L2 UPGRADE: {'PASSED' if success else 'FAILED'}")
     return success
 
 def test_autonomous_goal_pursuit():
     """Test autonomous goal pursuit and achievement."""
-    print("\n🤖 TESTING: Autonomous Goal Pursuit")
+    print("\nTESTING: Autonomous Goal Pursuit")
     print("-" * 50)
     
     alla = AllaEngine()
@@ -178,21 +177,21 @@ def test_autonomous_goal_pursuit():
             # Check if goal is completed
             result = alla.execution_engine.execute(goal.completion_condition)
             if result:
-                print(f"🎉 Goal achieved in {i+1} cycles!")
+                print(f"Goal achieved in {i+1} cycles!")
                 success = True
                 break
         
         if not success:
-            print("❌ Goal not achieved in 5 cycles")
+            print("Goal not achieved in 5 cycles")
     else:
         success = False
     
-    print(f"✅ AUTONOMOUS PURSUIT: {'PASSED' if success else 'FAILED'}")
+    print(f"AUTONOMOUS PURSUIT: {'PASSED' if success else 'FAILED'}")
     return success
 
 def run_master_test():
     """Run the comprehensive v15.0 master test."""
-    print("🧠 ALLA ENGINE v15.0 - THE MASTER TEST 🧠")
+    print("ALLA ENGINE v15.0 - THE MASTER TEST")
     print("=" * 60)
     print("Testing all bug fixes and new capabilities...")
     print("=" * 60)
@@ -216,10 +215,10 @@ def run_master_test():
     print(f"Tests Passed: {passed}/{total}")
     
     if passed == total:
-        print("🎉 ALL TESTS PASSED! v15.0 is stable and ready!")
-        print("🧠 The Integrated & Stable Mind is online!")
+        print("ALL TESTS PASSED! v15.0 is stable and ready!")
+        print("The Integrated & Stable Mind is online!")
     else:
-        print("⚠️  Some tests failed. Review needed.")
+        print("Some tests failed. Review needed.")
     
     print("=" * 60)
     

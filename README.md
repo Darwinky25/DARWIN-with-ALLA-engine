@@ -4,40 +4,25 @@
 [![License](https://img.shields.io/badge/license-Darwin%20Public%20License%20v1.0-red.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-yellow.svg)](https://python.org)
 [![CLA](https://img.shields.io/badge/CLA-required-orange.svg)](CLA.md)
-[![Custom License](https://img.shields.io/badge/⚠️-Custom%20License%20Terms-critical.svg)](LICENSE)
+[![Custom License](https://img.shields.io/badge/WARNING-Custom%20License%20Terms-critical.svg)](LICENSE)
 
-> **⚠️ IMPORTANT LICENSE NOTICE:** This project uses a **custom Darwin Public License v1.0** that prohibits commercial use without permission, military applications, and false attribution. Educational and research use is freely permitted. [Read full terms](LICENSE) | [CLA required for contributors](CLA.md)
+> **IMPORTANT LICENSE NOTICE:** This project uses a **custom Darwin Public License v1.0** that prohibits commercial use without permission, military applications, and false attribution. Educational and research use is freely permitted. [Read full terms](LICENSE) | [CLA required for contributors](CLA.md)
 
-## 🧠 The Inquisitive Agent: AI That Learns Through Curiosity
+## The Inquisitive Agent: AI That Learns Through Curiosity
 
 ALLA is a groundbreaking autonomous AI agent that has evolved from a simple command processor into a **curiosity-driven learning system**. Unlike traditional AI that fails when encountering unknown concepts, ALLA actively seeks understanding by asking thoughtful questions about what it doesn't know.
 
-## 🌟 **The Origin Story**
-
-ALLA started as a personal project born from curiosity about artificial intelligence. I was 19 when I began this journey, living in Indonesia with no background in programming or AI development.
-
-> Created by someone who had never written a line of code before, working alone, and learning everything from scratch.
-
-Looking back, this project taught me a lot about:
-- 🧩 **Learning by doing**: Figuring things out as I went along, making mistakes and improving
-- 🎯 **Self-teaching**: Using online resources to understand programming and AI concepts
-- 💡 **Problem-solving**: Building solutions step by step, one feature at a time
-- 🚀 **Persistence**: Continuing to work on it even when things seemed impossible
-
-What started as a curiosity project grew into something I'm genuinely proud of. It shows that you don't need a computer science degree or a big team to build something meaningful in AI.
-
-### 🎯 **What Makes ALLA Special?**
+### **What Makes ALLA Special?**
 
 - **Proactive Learning**: Instead of failing on unknown words, ALLA asks "What is that?"
 - **Autonomous Goal Pursuit**: Sets and pursues its own objectives
 - **Dynamic Vocabulary Expansion**: Learns new concepts through natural conversation
 - **Abstract Knowledge Formation**: Develops general understanding from specific experiences
 - **Living World Integration**: Interacts with a persistent, dynamic environment
-- **Grassroots Innovation**: Born from pure creativity and determination, not corporate labs
 
 ---
 
-## 🚀 **Quick Start Demo**
+## **Quick Start Demo**
 
 ```bash
 # Clone the repository
@@ -62,9 +47,9 @@ User: take the flute
 
 ---
 
-## 📚 **The ALLA Journey: Version History**
+## **The ALLA Journey: Version History**
 
-### 🔬 **v16.0 - The Inquisitive Agent** *(Current)*
+### **v16.0 - The Inquisitive Agent** *(Current)*
 **Breakthrough: Curiosity-Driven Learning**
 - **The Drive to Ask**: Unknown words trigger inquiry goals instead of failures
 - **UNDERSTAND Goal Type**: New goal category for learning about unknown concepts
@@ -73,105 +58,105 @@ User: take the flute
 
 **Key Innovation**: `"take the flute"` → `[ALLA ASKS] What is a 'flute'?`
 
-### 🧩 **v15.0 - The Integrated & Stable Mind**
+### **v15.0 - The Integrated & Stable Mind**
 **Focus: Consolidation & Bug Fixes**
 - **Critical Bug Fixes**: Fixed knowledge retrieval (B11) and goal parsing regression (B12)
 - **Enhanced Planner**: Added CREATE goal support and container-aware multi-step planning
 - **Hardened Parser**: Improved error handling and command pattern robustness
 - **Comprehensive Testing**: All features validated and working together
 
-### 🎯 **v14.0 - The Abstract Thinker**
+### **v14.0 - The Abstract Thinker**
 **Focus: Semantic Memory & Knowledge Formation**
 - **Semantic Memory System**: Abstract knowledge graphs with concepts and relationships
 - **Reflection Cycles**: Periodic analysis of experiences to form general insights
 - **Knowledge Queries**: Commands like "what do you know about X" and "list all colors"
 - **Concept Formation**: Automatic extraction of patterns from specific events
 
-### 🎮 **v13.0 - The Goal-Seeker**
+### **v13.0 - The Goal-Seeker**
 **Focus: Autonomous Behavior**
 - **Goal System**: Can set, plan for, and pursue objectives like "I have the red box"
 - **Planning Engine**: Multi-step plan generation and execution
 - **Autonomous Thinking**: Proactive tick-based cognitive cycles
 - **Internal Drive**: Self-motivated behavior beyond reactive responses
 
-### 🌍 **v12.0 - The World-Aware Agent**
+### **v12.0 - The World-Aware Agent**
 **Focus: External World Integration**
 - **Living World Engine**: Separated world simulation from agent logic
 - **Persistent State**: World continues existing between sessions
 - **Event History**: Complete record of all world changes and interactions
 - **External Object Management**: Clean separation of concerns
 
-### 🎓 **v11.0 - The Self-Educator**
+### **v11.0 - The Self-Educator**
 **Focus: Dynamic Learning**
 - **Teach Command**: Runtime vocabulary expansion via `teach noun "word" as "expression"`
 - **Persistent Memory**: Learned concepts saved and restored between sessions
 - **JSON Memory Storage**: Persistent lexicon with automatic save/load
 - **Revolutionary Self-Education**: Can learn new concepts on-the-fly
 
-### 🔍 **v10.0 - The Enhanced Reasoner**
+### **v10.0 - The Enhanced Reasoner**
 **Focus: Physical Properties & Advanced Queries**
 - **Rich Object Model**: Size, material, weight, and physical properties
 - **Temporal Reasoning**: "When was X created?" queries with event history
 - **Comparative Relations**: `bigger_than`, `smaller_than` with size comparison
 - **Enhanced Creation**: Multi-property object creation commands
 
-### 🤖 **v9.0 - The Possession Reasoner**
+### **v9.0 - The Possession Reasoner**
 **Focus: Conditional Logic & Ownership**
 - **Inventory Queries**: "do I have a red box?" with complex filtering
 - **Conditional Reasoning**: IF-THEN logic for complex decision making
 - **Hypothetical Queries**: "what if I have a blue sphere?" analysis
 - **Agent-Aware**: Understanding of ownership and possession states
 
-### 🔗 **v8.0 - The Social Interactor**
+### **v8.0 - The Social Interactor**
 **Focus: Multi-Agent Interaction**
 - **Interaction Commands**: `give`, `take`, ownership transfers
 - **Pronoun Resolution**: Understanding of "I", "you", "me" in context
 - **Agent Inventory**: Tracking what different agents possess
 - **Social Awareness**: Multi-entity world understanding
 
-### 🧮 **v7.0 - The Logical Thinker**
+### **v7.0 - The Logical Thinker**
 **Focus: Complex Logic & Conditions**
 - **Conditional Execution**: IF-THEN-ELSE logical structures
 - **Hypothetical Reasoning**: "What if" queries without world modification
 - **Complex Logic**: AND, OR, NOT operations in queries
 - **Structured Planning**: Conditional execution plans
 
-### ⏰ **v6.0 - The Time-Aware Agent**
+### **v6.0 - The Time-Aware Agent**
 **Focus: Temporal Understanding**
 - **Event System**: Complete history of world changes
 - **Temporal Queries**: "what happened before/after event X"
 - **Chronological Reasoning**: Time-based analysis and queries
 - **Event Correlation**: Understanding sequences and causality
 
-### 🔧 **v5.0 - The Complex Reasoner**
+### **v5.0 - The Complex Reasoner**
 **Focus: Advanced Language Processing**
 - **Complex Filtering**: Multi-property object queries
 - **Enhanced Parser**: Robust command interpretation
 - **Property Combinations**: Complex AND/OR filtering logic
 - **Error Resilience**: Graceful handling of edge cases
 
-### 📝 **v4.0 - The Questioner**
+### **v4.0 - The Questioner**
 **Focus: Interrogative Capabilities**
 - **Question Processing**: "what", "where", "is" queries
 - **Property Verification**: "is X red?" type questions
 - **Object Location**: "where is X?" spatial queries
 - **Answer Generation**: Intelligent response formation
 
-### 🔍 **v3.0 - The Object Explorer**
+### **v3.0 - The Object Explorer**
 **Focus: World Understanding**
 - **Object Filtering**: Find objects by properties
 - **Property Queries**: Understand object characteristics
 - **World Exploration**: Navigate and understand environment
 - **Basic Intelligence**: Simple reasoning about objects
 
-### 🏗️ **v2.0 - The World Builder**
+### **v2.0 - The World Builder**
 **Focus: World Manipulation**
 - **Object Creation**: `create` commands with properties
 - **Object Destruction**: `destroy` commands
 - **Property Assignment**: Color, shape, material specification
 - **World State**: Persistent object management
 
-### 🌱 **v1.0 - The Foundation**
+### **v1.0 - The Foundation**
 **Focus: Basic Architecture**
 - **Core Engine**: Basic cognitive architecture
 - **Lexicon System**: Word storage and retrieval
@@ -180,7 +165,7 @@ User: take the flute
 
 ---
 
-## 🏗️ **Architecture Overview**
+## **Architecture Overview**
 
 ALLA's architecture consists of several interconnected cognitive components:
 
@@ -188,28 +173,28 @@ ALLA's architecture consists of several interconnected cognitive components:
 ┌─────────────────────────────────────────────────────────────┐
 │                        ALLA ENGINE                          │
 ├─────────────────────────────────────────────────────────────┤
-│  🧠 CommandProcessor → 📋 Planner → ⚡ ExecutionEngine      │
+│  CommandProcessor → Planner → ExecutionEngine               │
 │                            ↓                               │
-│  📚 Lexicon ←→ 🎯 Goals ←→ 💭 SemanticMemory               │
+│  Lexicon ←→ Goals ←→ SemanticMemory                         │
 │                            ↓                               │
-│  🌍 LivingWorld ←→ 📊 EventHistory ←→ 🔄 ReflectionCycle    │
+│  LivingWorld ←→ EventHistory ←→ ReflectionCycle             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ### **Core Components:**
 
-- **🧠 CommandProcessor**: Natural language understanding and unknown word detection
-- **📚 Lexicon**: Dynamic vocabulary with runtime learning capabilities
-- **📋 Planner**: Multi-step plan generation for achieving goals
-- **⚡ ExecutionEngine**: Action execution with 20+ different action types
-- **🎯 Goal System**: Autonomous objective setting and pursuit
-- **💭 SemanticMemory**: Abstract knowledge formation and retrieval
-- **🌍 LivingWorld**: Persistent, dynamic environment simulation
-- **🔄 ReflectionCycle**: Automatic pattern detection and concept formation
+- **CommandProcessor**: Natural language understanding and unknown word detection
+- **Lexicon**: Dynamic vocabulary with runtime learning capabilities
+- **Planner**: Multi-step plan generation for achieving goals
+- **ExecutionEngine**: Action execution with 20+ different action types
+- **Goal System**: Autonomous objective setting and pursuit
+- **SemanticMemory**: Abstract knowledge formation and retrieval
+- **LivingWorld**: Persistent, dynamic environment simulation
+- **ReflectionCycle**: Automatic pattern detection and concept formation
 
 ---
 
-## 🎮 **Key Features & Capabilities**
+## **Key Features & Capabilities**
 
 ### **1. Curiosity-Driven Learning** *(v16.0)*
 ```python
@@ -254,7 +239,7 @@ ALLA: "If there is a giant purple elephant: This condition would be False"
 
 ---
 
-## 🧪 **Testing & Validation**
+## **Testing & Validation**
 
 ALLA includes comprehensive test suites for each version:
 
@@ -276,25 +261,25 @@ python test_v13_first_desire.py
 ### **Expected v16.0 Test Output:**
 ```
 ALLA v16.0 TEST RESULTS: 3/3 tests passed
-🎉 ALL TESTS PASSED! ALLA v16.0 - The Inquisitive Agent is working correctly!
+ALL TESTS PASSED! ALLA v16.0 - The Inquisitive Agent is working correctly!
 
 Key v16.0 Features Validated:
-✓ Unknown word detection triggers curiosity instead of failure
-✓ UNDERSTAND goals are created automatically  
-✓ ALLA asks meaningful questions about unknown concepts
-✓ Learning new words completes UNDERSTAND goals
-✓ Known words continue to work normally
-✓ Multiple unknown words create separate inquiry goals
+- Unknown word detection triggers curiosity instead of failure
+- UNDERSTAND goals are created automatically  
+- ALLA asks meaningful questions about unknown concepts
+- Learning new words completes UNDERSTAND goals
+- Known words continue to work normally
+- Multiple unknown words create separate inquiry goals
 ```
 
 ---
 
-## 🎨 **Example Interactions**
+## **Example Interactions**
 
 ### **1. Mystery Object Discovery** *(v16.0)*
 ```
-🏗️ World Setup: A mysterious "flute" object exists in the world
-🤖 ALLA doesn't know what a "flute" is
+World Setup: A mysterious "flute" object exists in the world
+ALLA doesn't know what a "flute" is
 
 User: take the flute
 [ALLA ASKS] What is a 'flute'? Please describe it so I can understand.
@@ -304,7 +289,7 @@ User: teach noun "flute" as "obj.shape == 'cylinder' and obj.material == 'wood'"
 
 User: take the flute  
 [ALLA] I am taking flute...
-✅ Success! ALLA learned about flutes and can now interact with them.
+Success! ALLA learned about flutes and can now interact with them.
 ```
 
 ### **2. Autonomous Goal Achievement** *(v13.0+)*
@@ -341,33 +326,33 @@ User: if I have a red box then create a blue sphere as companion
 
 ---
 
-## 📁 **Project Structure**
+## **Project Structure**
 
 ```
 ALLA/
-├── 🧠 alla_engine.py          # Main AI engine (2000+ lines)
-├── 🌍 world.py                # Living world simulation (300+ lines)
-├── 💾 alla_memory.json        # Persistent knowledge base
-├── 🏗️ genesis_world.json      # Initial world state
+├── alla_engine.py          # Main AI engine (2000+ lines)
+├── world.py                # Living world simulation (300+ lines)
+├── alla_memory.json        # Persistent knowledge base
+├── genesis_world.json      # Initial world state
 │
-├── 🧪 Tests/
+├── Tests/
 │   ├── test_v16_mystery_object.py  # v16.0 curiosity tests
 │   ├── test_v15_master.py          # v15.0 integration tests
 │   ├── test_v14_insight.py         # v14.0 knowledge formation tests
 │   └── test_v13_first_desire.py    # v13.0 autonomous behavior tests
 │
-├── 📋 Planning & Documentation/
+├── Planning & Documentation/
 │   ├── README.md                    # This comprehensive guide
 │   └── version_history.md           # Detailed version changelog
 │
-└── 🎮 Demo Scripts/
+└── Demo Scripts/
     ├── quick_demo.py               # Quick feature demonstration
     └── interactive_session.py     # Manual testing interface
 ```
 
 ---
 
-## 🚀 **Getting Started**
+## **Getting Started**
 
 ### **Prerequisites:**
 - Python 3.11+
@@ -414,7 +399,7 @@ while True:
 
 ---
 
-## 🔬 **Technical Deep Dive**
+## **Technical Deep Dive**
 
 ### **The Curiosity Mechanism** *(v16.0)*
 When ALLA encounters an unknown word, instead of failing:
@@ -447,7 +432,7 @@ ALLA's autonomous behavior is driven by:
 
 ---
 
-## 📊 **Performance & Metrics**
+## **Performance & Metrics**
 
 ### **Test Coverage:**
 - **v16.0**: 3/3 tests passing (Mystery Object, Multi-Unknown, Known vs Unknown)
@@ -464,7 +449,7 @@ ALLA's autonomous behavior is driven by:
 
 ---
 
-## 🤝 **Contributing**
+## **Contributing**
 
 ALLA is an open-source project welcoming contributions! Here's how you can help:
 
@@ -497,7 +482,7 @@ I understand that my contributions will be governed by the terms outlined in CLA
 
 ---
 
-## 🐛 **Known Issues & Future Work**
+## **Known Issues & Future Work**
 
 ### **Current Limitations:**
 - **Single-threaded**: No parallel processing of goals
@@ -513,17 +498,17 @@ I understand that my contributions will be governed by the terms outlined in CLA
 
 ---
 
-## 📜 **License**
+## **License**
 
 This project is licensed under the **Darwin Public License (ALLA License) v1.0** - see the [LICENSE](LICENSE) file for details.
 
 ### Key License Points:
-- ✅ **Free for Education & Research**: Use freely for academic and research purposes
-- ✅ **Open Source Collaboration**: Contribute and share improvements
-- ❌ **No Commercial Use**: Commercial applications require explicit permission
-- ❌ **No False Claims**: Cannot claim modifications as entirely new original work
-- ❌ **No Harmful Use**: Prohibited for military, destructive, or exploitative purposes
-- ⚠️ **Attribution Required**: Must credit Darwinky25 as original creator
+- **Free for Education & Research**: Use freely for academic and research purposes
+- **Open Source Collaboration**: Contribute and share improvements
+- **No Commercial Use**: Commercial applications require explicit permission
+- **No False Claims**: Cannot claim modifications as entirely new original work
+- **No Harmful Use**: Prohibited for military, destructive, or exploitative purposes
+- **Attribution Required**: Must credit Darwinky25 as original creator
 
 ### Commercial Licensing
 For commercial use inquiries, please contact through the GitHub repository.
@@ -533,7 +518,7 @@ All contributors must agree to our [Contributor License Agreement (CLA)](CLA.md)
 
 ---
 
-## 🙏 **Acknowledgments**
+## **Acknowledgments**
 
 - **Cognitive Architecture**: Inspired by ACT-R and SOAR cognitive architectures
 - **Natural Language Processing**: Built from first principles for educational purposes
@@ -542,18 +527,18 @@ All contributors must agree to our [Contributor License Agreement (CLA)](CLA.md)
 
 ---
 
-## 🌟 **My Journey Building ALLA**
+## **My Journey Building ALLA**
 
 ### **How It All Started**
 
 I'm just a regular person from Indonesia who got really curious about artificial intelligence. When I started this project at 19, I had never written a single line of code before. I didn't have any formal training in computer science, no team to work with, and definitely no funding.
 
 **Here's how my journey looked:**
-- 👨‍💻 **Complete beginner**: I literally started by googling "how to program"
-- 🏠 **Working alone**: Just me, my computer, and a lot of late nights
-- 💰 **Learning for free**: Using whatever free resources I could find online
-- 🎓 **Teaching myself**: YouTube tutorials, documentation, and lots of trial and error
-- 🇮🇩 **From home**: Building this from my room in Indonesia
+- **Complete beginner**: I literally started by googling "how to program"
+- **Working alone**: Just me, my computer, and a lot of late nights
+- **Learning for free**: Using whatever free resources I could find online
+- **Teaching myself**: YouTube tutorials, documentation, and lots of trial and error
+- **From home**: Building this from my room in Indonesia
 
 ### **What I Learned Along the Way**
 
@@ -571,11 +556,11 @@ I'm not trying to say my story is extraordinary or that I'm some kind of genius.
 
 If you're thinking about starting a programming project but feel intimidated because you don't have the "right" background - I hope my experience shows that you can just start where you are and figure it out as you go.
 
-**ALLA is really just the result of curiosity, persistence, and a lot of googling "how do I..." followed by whatever I was stuck on that day.** 🌟
+**ALLA is really just the result of curiosity, persistence, and a lot of googling "how do I..." followed by whatever I was stuck on that day.**
 
 ---
 
-## 📞 **Contact & Support**
+## **Contact & Support**
 
 - **GitHub Issues**: [Report bugs or request features](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/issues)
 - **Discussions**: [Join the conversation](https://github.com/Darwinky25/DARWIN-with-ALLA-engine/discussions)
@@ -584,9 +569,9 @@ If you're thinking about starting a programming project but feel intimidated bec
 
 ---
 
-## 🌟 **Star History**
+## **Star History**
 
-If you find ALLA interesting or useful, please consider giving it a star! ⭐
+If you find ALLA interesting or useful, please consider giving it a star!
 
 ALLA represents a significant step toward AI systems that can truly learn and grow through curiosity and interaction, rather than just processing pre-trained knowledge. Every version has been a step toward more autonomous, intelligent, and curious artificial minds.
 
@@ -597,10 +582,10 @@ ALLA represents a significant step toward AI systems that can truly learn and gr
 Building ALLA has been a personal journey that taught me a lot about learning and persistence. It started with simple curiosity about how AI works and grew into something I'm really proud of.
 
 The experience showed me that:
-- 🎯 **Curiosity is powerful**: Asking "what if?" and "how does this work?" can take you far
-- 🚀 **Learning never stops**: Every day brought new challenges and new things to figure out
-- 💡 **Fresh perspectives help**: Sometimes not knowing the "standard" way leads to interesting solutions
-- 🌟 **Small steps matter**: Every little improvement added up over time
+- **Curiosity is powerful**: Asking "what if?" and "how does this work?" can take you far
+- **Learning never stops**: Every day brought new challenges and new things to figure out
+- **Fresh perspectives help**: Sometimes not knowing the "standard" way leads to interesting solutions
+- **Small steps matter**: Every little improvement added up over time
 
 ---
 
@@ -610,6 +595,6 @@ The experience showed me that:
 
 *"The best way to predict the future is to create it."* - Peter Drucker
 
-**ALLA is my attempt to embody these principles in code, and working on it has definitely embodied them in my life.** 🧠✨
+**ALLA is my attempt to embody these principles in code, and working on it has definitely embodied them in my life.**
 
 **This project started in Indonesia with zero coding knowledge and grew into something I'm excited to share with the world. I hope it shows that if you're curious about something, you can probably learn it and build something meaningful with it.**
