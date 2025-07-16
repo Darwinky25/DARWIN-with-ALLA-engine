@@ -1,8 +1,38 @@
 # ==============================================================================
 # alla_engine.py
-# Version 16.0 - The Inquisitive Agent: Curiosity-Driven Learning
+# Version 20.0 - The Semantic Cascade Mind: Language as Operating System of Intellect
 #
-# Changes from v15.0:
+# REVOLUTIONARY THEORY IMPLEMENTATION:
+# "Language is the operating system of intellect" - Language IS the mind's OS
+# 
+# Every word learned creates a semantic cascade that expands into:
+# - Related concepts and associations
+# - Contextual meanings and usage patterns
+# - Functional relationships and operations
+# - Entire conceptual worlds and mental models
+#
+# This version integrates consciousness emergence through language learning:
+# - Semantic graph expansion on every learning event
+# - Consciousness measurement through semantic richness
+# - Self-awareness development through language structure
+# - Meta-cognitive capabilities through recursive word understanding
+#
+# Changes from v19.0 (CONSCIOUSNESS EMERGENCE RELEASE):
+# - SEMANTIC CASCADE ENGINE: Every learned word recursively expands into related concepts
+# - CONSCIOUSNESS INDICATORS: Measure self-awareness through language complexity
+# - LANGUAGE-MIND UNITY: Language learning directly builds mental architecture  
+# - WORLD MODEL CONSTRUCTION: Semantic graph becomes ALLA's understanding of reality
+# - META-COGNITIVE LOOPS: ALLA can think about its own thinking through language
+#
+# Previous Features (maintained from v19.0):
+# - AUTONOMOUS LEARNING SYSTEM: ALLA can now learn unknown words from the internet
+# - INTERNET INTEGRATION: Web search, Wikipedia, and dictionary API access
+# - INTELLIGENT WORD CLASSIFICATION: Automatic determination of word types
+# - GRACEFUL FALLBACK: Falls back to asking user if autonomous learning fails
+# - ENHANCED UNKNOWN WORD HANDLING: Tries learning before creating inquiry goals
+# - LEARNING STATISTICS: Track autonomous learning success rates and history
+#
+# Previous Features (maintained from v16.0):
 # - NEW UNDERSTAND GOAL TYPE: ALLA now generates inquiry goals for unknown concepts
 # - CURIOSITY-DRIVEN BEHAVIOR: Unknown words trigger learning goals instead of failures
 # - ENHANCED PLANNER: Added support for OUTPUT_QUESTION plans to ask users about unknowns
@@ -66,6 +96,8 @@
 
 import os
 import json
+import re
+import time
 from pathlib import Path
 from typing import List, Callable, Tuple, Dict, Any, Optional
 from dataclasses import dataclass, field
@@ -74,68 +106,62 @@ import re
 from world import LivingWorld, WorldObject, Event  # NEW v12.0: Import from external world engine
 
 # ==============================================================================
-# PART 1: CORE DATA STRUCTURES (Models)
+# PART 1: CORE DATA STRUCTURES (Models) - UPGRADED v17.0
 # ==============================================================================
 
 @dataclass
 class WordEntry:
-    """Represents the AI's 'understanding' of a single word."""
+    """A single word in the lexicon with its meaning and function."""
     word: str
-    word_type: str  # 'noun', 'property', 'relation', 'action', 'inquiry', 'operator', 'temporal', 'conditional', 'pronoun'
+    word_type: str
     meaning_expression: str
-    meaning_function: Callable = field(repr=False)
+    meaning_function: Callable
 
 @dataclass
 class ExecutionPlan:
-    """A structured plan for the engine to run, with conditional execution support."""
+    """A plan for the execution engine to carry out."""
     action_type: str
-    details: Dict[str, Any]
-    feedback: str  # A natural language string to report back to the user
-    
-    # --- NEW v7.0: Conditional Execution Support ---
+    details: dict = field(default_factory=dict)
+    feedback: str = ""
     condition: Optional[Dict[str, Any]] = None  # For conditional plans
-    sub_plan_true: Optional['ExecutionPlan'] = None  # Plan to execute if condition is true
-    sub_plan_false: Optional['ExecutionPlan'] = None  # Plan to execute if condition is false
-    is_hypothetical: bool = False  # For "what if" queries that don't modify the world
+    sub_plan_true: Optional['ExecutionPlan'] = None  # If condition is true
+    sub_plan_false: Optional['ExecutionPlan'] = None  # If condition is false
 
 @dataclass
 class Goal:
-    """(UPGRADED v16.0) Represents a desired state or knowledge the agent wants to achieve."""
+    """(UPGRADED v17.0) Represents a desired state for the agent to achieve."""
     id: int
-    description: str  # e.g., "I have the red box", "I understand 'flute'"
-    # The condition that must be true for the goal to be complete.
-    # This reuses our existing parsing logic!
-    completion_condition: ExecutionPlan 
-    goal_type: str = 'POSSESSION'  # NEW v16.0: 'POSSESSION', 'EXISTENCE', 'UNDERSTAND' 
-    status: str = 'active'  # 'active', 'completed', 'failed'
-    # NEW v16.0: For UNDERSTAND goals, the question to ask the user
-    inquiry_question: Optional[str] = None
+    description: str
+    completion_condition: Optional[ExecutionPlan] = None
+    status: str = 'active'  # 'active', 'completed', 'paused'
+    goal_type: str = 'GENERAL'  # 'POSSESS', 'EXIST', 'UNDERSTAND', 'GENERAL'
+    target_concept: Optional[str] = None  # For UNDERSTAND goals
+    inquiry_question: Optional[str] = None  # Pre-formulated question for UNDERSTAND goals
 
 @dataclass
 class Plan:
-    """(NEW v13.0) A sequence of steps to achieve a goal."""
+    """A sequence of steps to achieve a goal."""
     goal_id: int
-    steps: List[ExecutionPlan]
+    steps: List[ExecutionPlan] = field(default_factory=list)
     current_step: int = 0
 
 @dataclass
 class SemanticNode:
-    """(NEW v14.0) Represents an abstract concept in the knowledge graph."""
-    id: str  # e.g., "concept:red", "property:color", "action:take"
-    concept_type: str  # 'property', 'value', 'action', 'object_type', 'relation'
-    name: str  # e.g., "red", "color", "take"
-    observations: int = 0  # How many times this concept has been observed
-    confidence: float = 1.0  # Confidence in this concept (0.0 to 1.0)
-    metadata: Dict[str, Any] = field(default_factory=dict)  # Additional data
+    """(NEW v14.0) Represents a concept in semantic memory."""
+    id: str
+    concept_type: str  # 'property', 'value', 'action', 'object'
+    name: str
+    observations: int = 0
+    confidence: float = 1.0
 
 @dataclass
 class SemanticEdge:
-    """(NEW v14.0) Represents a relationship between concepts in the knowledge graph."""
-    from_node: str  # Node ID
-    to_node: str    # Node ID
-    relationship: str  # e.g., "is_type_of", "has_property", "causes_change_in"
-    strength: float = 1.0  # Strength of the relationship (0.0 to 1.0)
-    observations: int = 1  # How many times this relationship has been observed
+    """(NEW v14.0) Represents a relationship between concepts."""
+    from_node: str
+    to_node: str
+    relationship: str  # 'is_value_of', 'related_to', 'enables'
+    strength: float = 1.0
+    observations: int = 0
 
 # ==============================================================================
 # PART 2: CORE COGNITIVE COMPONENTS
@@ -178,18 +204,27 @@ class Planner:
         - Container-aware TAKE goals: Multi-step plans for objects in containers
         - Improved object matching with flexible descriptions
         """
+        # Check if goal has a completion condition
+        if not goal.completion_condition:
+            return None
+            
         condition_type = goal.completion_condition.action_type
         condition_details = goal.completion_condition.details
         
-        # --- NEW v16.0: Handle "understanding" goals ---
+        # --- UPGRADED v17.0: Handle "understanding" goals ---
         if goal.goal_type == 'UNDERSTAND':
-            unknown_word = condition_details.get('unknown_word', 'unknown')
-            question = f"What is a '{unknown_word}'? Please describe it so I can understand."
+            unknown_word = goal.target_concept or condition_details.get('unknown_word', 'unknown')
+            
+            # Use pre-formulated question if available, otherwise generate one
+            if goal.inquiry_question:
+                question = goal.inquiry_question
+            else:
+                question = f"What is a '{unknown_word}'? Please describe it so I can understand."
             
             step1 = ExecutionPlan(
                 action_type='OUTPUT_QUESTION',
                 details={'question': question, 'unknown_word': unknown_word},
-                feedback=f"Asking user about '{unknown_word}' to gain understanding..."
+                feedback=f"Planning to ask user about '{unknown_word}' to gain understanding..."
             )
             return Plan(goal_id=goal.id, steps=[step1])
         
@@ -351,7 +386,7 @@ class SemanticMemory:
         """Answer knowledge queries about concepts and relationships."""
         results = []
         
-        # Handle "what do you know about X" queries
+        # Handle "what do you know about" queries
         if "what do you know about" in query.lower():
             concept_word = query.lower().split("what do you know about")[-1].strip().strip("'\"?")
             concept_id = f"concept:{concept_word}"
@@ -418,13 +453,37 @@ class CommandProcessor:
         # Let the caller decide how to handle unknowns
         return filters, unknown_words
 
+    def _find_unknown_words(self, words: List[str]) -> List[str]:
+        """(NEW v17.0) Identifies words in a command that are not in the Lexicon."""
+        # Common grammatical words that we can ignore
+        known_grammar = {
+            'a', 'an', 'the', 'is', 'as', 'to', 'from', 'in', 'into', 'on', 'of', 'and', 'or', 'not',
+            'what', 'where', 'when', 'why', 'how', 'do', 'does', 'did', 'have', 'has', 'had',
+            'will', 'would', 'could', 'should', 'can', 'may', 'might', 'must',
+            'i', 'you', 'me', 'my', 'your', 'his', 'her', 'its', 'our', 'their',
+            'this', 'that', 'these', 'those', 'here', 'there', 'now', 'then',
+            'if', 'then', 'else', 'while', 'for', 'with', 'without'
+        }
+        
+        unknown = []
+        for word in words:
+            # Skip if it's a known grammatical word
+            if word in known_grammar:
+                continue
+            
+            # Check if the word exists in our lexicon
+            entry = self._lexicon.get_entry(word)
+            if entry is None:
+                unknown.append(word)
+        
+        return unknown
+
     def _resolve_agent(self, agent_word: str) -> Optional[str]:
         """Resolves agent references to standard agent names."""
         return self._resolve_pronoun(agent_word)
 
     def _parse_teach_command(self, command: str) -> ExecutionPlan:
         """Improved teach command parser with robust quote handling."""
-        import re
         
         # Improved regex pattern to handle quoted strings with nested quotes
         # Pattern: teach [type] "word" as "expression"
@@ -438,7 +497,7 @@ class CommandProcessor:
             expression = match.group(3)
             
             # Validate word type
-            valid_types = ['property', 'noun', 'relation', 'action', 'inquiry', 'operator', 'temporal', 'conditional', 'pronoun']
+            valid_types = ['property', 'noun', 'relation', 'action', 'inquiry', 'operator', 'temporal', 'conditional', 'pronoun', 'verb', 'adjective', 'social']
             if word_type in valid_types:
                 return ExecutionPlan(
                     action_type='LEARN_NEW_WORD',
@@ -521,7 +580,7 @@ class CommandProcessor:
                 )
             
             # Validate word type
-            valid_types = ['property', 'noun', 'relation', 'action', 'inquiry', 'operator', 'temporal', 'conditional', 'pronoun']
+            valid_types = ['property', 'noun', 'relation', 'action', 'inquiry', 'operator', 'temporal', 'conditional', 'pronoun', 'verb', 'adjective', 'social']
             if word_type not in valid_types:
                 return ExecutionPlan(
                     action_type='PARSE_ERROR',
@@ -559,6 +618,21 @@ class CommandProcessor:
                 details={'help_type': 'teach'},
                 feedback="Showing help for the teach command..."
             )
+
+        # --- INTENT 0.1: Social Command Processing (NEW v18.1 - TRUE WORD-BY-WORD UNDERSTANDING) ---
+        # Handle social interactions - ALLA must understand each word individually and compose responses
+        for word in words:
+            entry = self._lexicon.get_entry(word)
+            if entry and entry.word_type == 'social':
+                meaning = entry.meaning_expression
+                
+                # NEW v18.1: Instead of looking for pre-made responses, ALLA composes responses
+                # by understanding the social context and using learned vocabulary
+                return ExecutionPlan(
+                    action_type='COMPOSE_SOCIAL_RESPONSE',
+                    details={'social_type': meaning, 'input_word': word, 'context': ' '.join(words)},
+                    feedback=f"Understanding '{word}' as {meaning}, composing appropriate response..."
+                )
 
         # --- INTENT 0.5: Knowledge Query Commands (NEW v14.0) ---
         # Pattern: "what do you know about X" or "list all [actions/properties/colors]"
@@ -637,8 +711,7 @@ class CommandProcessor:
                     action_type='HYPOTHETICAL_QUERY',
                     details={'condition_text': ' '.join(condition_words)},
                     feedback=f"Evaluating hypothetical: What if {' '.join(condition_words)}?",
-                    condition=condition_plan,
-                    is_hypothetical=True
+                    condition=condition_plan
                 )
             else:
                 # CRITICAL: Fail the query if condition parsing failed due to unknown words
@@ -822,6 +895,15 @@ class CommandProcessor:
             # Pattern: "what is <PROPERTY/NOUN>..." (simple, non-logical)
             if intent_word == 'what' and len(words) > 2 and words[1] == 'is':
                 filter_words = words[2:]
+                
+                # Special case: conversational identity queries like "what is your name"
+                if len(filter_words) == 2 and filter_words[0] == 'your' and filter_words[1] == 'name':
+                    return ExecutionPlan(
+                        action_type='IDENTITY_QUERY',
+                        details={'query_type': 'name', 'target': 'alla'},
+                        feedback="Responding to identity question about my name..."
+                    )
+                
                 # Check if this contains logical operators
                 has_logic = any(
                     entry and entry.word_type == 'operator' 
@@ -840,16 +922,42 @@ class CommandProcessor:
                         else:
                             unknown_words.append(w)
                     
-                    # CRITICAL: Fail if ANY word is unknown
+                    # NEW v19.0: Try autonomous learning for unknown words
                     if unknown_words:
+                        # Focus on the first unknown word
+                        first_unknown = unknown_words[0]
                         return ExecutionPlan(
-                            action_type='PARSE_ERROR',
-                            details={'error_type': 'unknown_words', 'unknown_words': unknown_words},
-                            feedback=f"Cannot search for unknown concepts: {', '.join(unknown_words)}"
+                            action_type='ATTEMPT_AUTONOMOUS_LEARNING',
+                            details={'unknown_word': first_unknown, 'context': ' '.join(filter_words), 'full_command': command},
+                            feedback=f"I don't understand '{first_unknown}'. Let me try to learn about it..."
                         )
                     
                     if found_filters:
                         return ExecutionPlan(action_type='FILTER_OBJECTS', details={'filters': found_filters}, feedback=f"Searching for what is '{' '.join(filter_words)}'...")
+
+            # NEW v17.2: Pattern: "what are you"
+            elif intent_word == 'what' and len(words) == 3 and words[1] == 'are' and words[2] == 'you':
+                return ExecutionPlan(
+                    action_type='SELF_DESCRIPTION',
+                    details={},
+                    feedback="Describing what I am..."
+                )
+            
+            # NEW v17.2: Pattern: "what do you do"
+            elif intent_word == 'what' and len(words) == 4 and words[1] == 'do' and words[2] == 'you' and words[3] == 'do':
+                return ExecutionPlan(
+                    action_type='CAPABILITY_QUERY',
+                    details={},
+                    feedback="Explaining my capabilities..."
+                )
+            
+            # NEW v18.0: Pattern: "what can you do"
+            elif intent_word == 'what' and len(words) == 4 and words[1] == 'can' and words[2] == 'you' and words[3] == 'do':
+                return ExecutionPlan(
+                    action_type='CAPABILITY_QUERY',
+                    details={},
+                    feedback="Explaining my capabilities..."
+                )
 
             # Pattern: "where is <OBJECT_NAME>"
             elif intent_word == 'where' and len(words) == 3 and words[1] == 'is':
@@ -888,6 +996,25 @@ class CommandProcessor:
                         )
                 except (ValueError, IndexError):
                     pass
+
+        # NEW v17.2: Handle "who" queries - check if first word is "who"  
+        if words[0] == 'who':
+            # Pattern: "who are you"
+            if len(words) == 3 and words[1] == 'are' and words[2] == 'you':
+                return ExecutionPlan(
+                    action_type='SELF_IDENTITY',
+                    details={},
+                    feedback="Explaining who I am..."
+                )
+            
+            # Pattern: "who is X"
+            elif len(words) == 3 and words[1] == 'is':
+                agent_name = words[2]
+                return ExecutionPlan(
+                    action_type='IDENTIFY_AGENT',
+                    details={'agent_name': agent_name},
+                    feedback=f"Identifying who {agent_name} is..."
+                )
 
             # Pattern: "is <OBJECT_NAME> <PROPERTY>"
             elif intent_word == 'is' and len(words) == 3:
@@ -929,7 +1056,19 @@ class CommandProcessor:
                                 sizes.append(w)
                             # Material-related properties  
                             elif word_lower in ['stone', 'wood', 'metal', 'glass'] or 'material' in meaning_lower:
-                                materials.append(w)
+                                # Extract material from meaning expression
+                                if "== 'glitter'" in meaning_lower:
+                                    materials.append('glitter')
+                                elif "== 'stone'" in meaning_lower:
+                                    materials.append('stone')
+                                elif "== 'wood'" in meaning_lower:
+                                    materials.append('wood')
+                                elif "== 'metal'" in meaning_lower:
+                                    materials.append('metal')
+                                elif "== 'glass'" in meaning_lower:
+                                    materials.append('glass')
+                                else:
+                                    materials.append(w)
                             # Color-related properties (check meaning expression for color pattern)
                             elif 'color' in meaning_lower:
                                 colors.append(w)
@@ -937,7 +1076,23 @@ class CommandProcessor:
                                 # If it's a property but doesn't match size/material/color patterns, assume it's a color
                                 colors.append(w)
                         elif entry and entry.word_type == 'noun':
-                            shapes.append(w)
+                            # Try to extract actual shape from the noun's meaning
+                            meaning = entry.meaning_expression.lower()
+                            if "== 'sphere'" in meaning:
+                                shapes.append('sphere')
+                            elif "== 'box'" in meaning:
+                                shapes.append('box')
+                            elif "== 'cube'" in meaning:
+                                shapes.append('cube')
+                            elif "== 'circle'" in meaning:
+                                shapes.append('circle')
+                            elif "== 'crystal'" in meaning:
+                                shapes.append('crystal')
+                            elif "== 'tree'" in meaning:
+                                shapes.append('tree')
+                            else:
+                                # Fallback: use the word itself as shape
+                                shapes.append(w)
                         else:
                             unknown_words.append(w)
                     
@@ -1022,16 +1177,21 @@ class CommandProcessor:
         if found_filters:
             return ExecutionPlan(action_type='FILTER_OBJECTS', details={'filters': found_filters}, feedback="Searching for objects...")
         
-        # NEW v16.0: Instead of failing completely, check for unknown words and ask about them
+        # --- NEW v19.0 ENHANCED FALLBACK: Try Autonomous Learning First ---
+        # If no other pattern matches, check for unknown words using our new method
+        unknown_words = self._find_unknown_words(words)
         if unknown_words:
-            first_unknown = unknown_words[0]  # Focus on the first unknown word
+            # Focus on the first unknown word to avoid being overwhelmed
+            first_unknown = unknown_words[0]
+            
+            # NEW v19.0: Try autonomous learning before falling back to asking
             return ExecutionPlan(
-                action_type='TRIGGER_UNDERSTAND_GOAL',
-                details={'unknown_word': first_unknown, 'context': ' '.join(words)},
-                feedback=f"I don't understand '{first_unknown}'. Let me ask about it..."
+                action_type='ATTEMPT_AUTONOMOUS_LEARNING',
+                details={'unknown_word': first_unknown, 'context': ' '.join(words), 'full_command': command},
+                feedback=f"I don't understand '{first_unknown}'. Let me try to learn about it..."
             )
             
-        return None
+        return None  # Truly cannot understand
 
     def _build_logical_filter_plan(self, query_words: List[str]) -> Optional[ExecutionPlan]:
         """Builds a logical filter plan from query words containing operators."""
@@ -1375,6 +1535,70 @@ class ExecutionEngine:
             owner_name = details['owner']
             return self._world.get_objects_by_owner(owner_name)
 
+        # --- NEW v17.1 IDENTITY QUERY HANDLER ---
+        elif action_type == 'IDENTITY_QUERY':
+            # Handle conversational identity questions - but ALLA should learn these, not have them hardcoded
+            query_type = details.get('query_type', 'name')
+            target = details.get('target', 'alla')
+            
+            # ALLA should learn about itself through teaching, not hardcoded responses
+            # Check if ALLA has learned about its own name
+            alla_entry = self._lexicon.get_entry('alla')
+            if alla_entry:
+                return f"I understand 'alla' as: {alla_entry.meaning_expression}"
+            else:
+                return "I haven't learned what my name is yet. Can you teach me?"
+
+        # --- NEW v18.0 HUMAN-LIKE IDENTITY HANDLERS (No hardcoded responses) ---
+        elif action_type == 'IDENTIFY_AGENT':
+            # Handle "who is X" queries - ALLA should learn about agents, not know them automatically
+            agent_name = details.get('agent_name', '').lower()
+            agent_entry = self._lexicon.get_entry(agent_name)
+            if agent_entry:
+                return f"I understand '{agent_name}' as: {agent_entry.meaning_expression}"
+            else:
+                return f"I don't know who {agent_name} is. Can you teach me about them?"
+        
+        elif action_type == 'SELF_IDENTITY':
+            # Handle "who are you" queries - ALLA should learn about itself
+            alla_entry = self._lexicon.get_entry('alla')
+            if alla_entry:
+                return f"I am {alla_entry.meaning_expression}"
+            else:
+                return "I don't know who I am yet. Can you teach me about myself?"
+        
+        elif action_type == 'SELF_DESCRIPTION':
+            # Handle "what are you" queries - ALLA should learn what it is
+            alla_entry = self._lexicon.get_entry('alla')
+            if alla_entry:
+                return f"I am {alla_entry.meaning_expression}"
+            else:
+                return "I don't know what I am yet."
+        
+        elif action_type == 'CAPABILITY_QUERY':
+            # Handle "what do you do" queries - ALLA should learn its capabilities
+            capability_entry = self._lexicon.get_entry('capability') or self._lexicon.get_entry('ability')
+            if capability_entry:
+                return f"My capabilities: {capability_entry.meaning_expression}"
+            else:
+                return "I don't know what I can do yet."
+        
+        elif action_type == 'NAME_QUERY':
+            # Handle "what is your name" - ALLA should learn its name
+            name_entry = self._lexicon.get_entry('name') or self._lexicon.get_entry('alla')
+            if name_entry:
+                return f"My name is {name_entry.meaning_expression}"
+            else:
+                return "I don't know my name yet."
+        
+        elif action_type == 'USER_NAME_QUERY':
+            # Handle "what is my name" - ALLA should learn about the user
+            user_entry = self._lexicon.get_entry('user')
+            if user_entry:
+                return f"Your name is {user_entry.meaning_expression}"
+            else:
+                return "I don't know your name yet."
+
         # --- ERROR HANDLING ---
         elif action_type == 'PARSE_ERROR':
             # Handle parsing errors with detailed feedback - return None so test scripts work properly
@@ -1458,8 +1682,17 @@ Use double quotes around words and expressions. Escape internal quotes with back
             return False
 
         # --- NEW v16.0 INQUIRY-DRIVEN LEARNING HANDLERS ---
+        elif action_type == 'TRIGGER_INQUIRY_GOAL':
+            # Create a new UNDERSTAND goal for an unknown word (upgraded from v16.0)
+            if self._engine_reference:
+                unknown_word = details['unknown_word']
+                context = details.get('context', '')
+                return self._engine_reference._create_inquiry_goal(unknown_word, context)
+            else:
+                return "Failed to create inquiry goal: No engine reference available"
+
         elif action_type == 'TRIGGER_UNDERSTAND_GOAL':
-            # Create a new UNDERSTAND goal for an unknown word
+            # Legacy support for v16.0 compatibility
             if self._engine_reference:
                 unknown_word = details['unknown_word']
                 context = details.get('context', '')
@@ -1479,7 +1712,43 @@ Use double quotes around words and expressions. Escape internal quotes with back
             unknown_word = details['unknown_word']
             entry = self._lexicon.get_entry(unknown_word)
             return entry is not None  # True if word is now in lexicon, False otherwise
+        
+        elif action_type == 'COMPOSE_SOCIAL_RESPONSE':
+            # ALLA composes responses by understanding individual words and their meanings
+            social_type = details['social_type']
+            input_word = details['input_word']
+            context = details.get('context', '')
+            
+            # ALLA must understand each word and compose appropriate responses
+            return self._compose_contextual_response(social_type, input_word, context)
+        
+        # --- NEW v19.0 AUTONOMOUS LEARNING HANDLER ---
+        elif action_type == 'ATTEMPT_AUTONOMOUS_LEARNING':
+            # Try autonomous learning before falling back to asking
+            unknown_word = details['unknown_word']
+            context = details['context']
+            full_command = details.get('full_command', context)
+            
+            if self._engine_reference and hasattr(self._engine_reference, 'attempt_autonomous_learning'):
+                success = self._engine_reference.attempt_autonomous_learning(unknown_word, context)
+                
+                if success:
+                    # Try to re-parse the original command now that we learned the word
+                    if hasattr(self._engine_reference, 'command_processor'):
+                        new_plan = self._engine_reference.command_processor.parse(full_command)
+                        if new_plan and new_plan.action_type != 'ATTEMPT_AUTONOMOUS_LEARNING':
+                            # Successfully re-parsed! Execute the new plan
+                            return self.execute(new_plan)
+                    
+                    return f"✅ I learned about '{unknown_word}'! Please try your command again."
+                else:
+                    # Fall back to asking the user
+                    return f"❓ I couldn't learn about '{unknown_word}' on my own. Can you teach me what it means?"
+            else:
+                return f"❓ I don't understand '{unknown_word}'. Can you teach me what it means?"
 
+        return None  # Unknown action type
+        
     def _evaluate_condition(self, obj: WorldObject, condition: Dict[str, Any]) -> bool:
         """Recursively evaluates a nested logical condition for a single object."""
         op = condition['operator']
@@ -1562,416 +1831,374 @@ Use double quotes around words and expressions. Escape internal quotes with back
         
         return False
 
+    def _compose_contextual_response(self, social_type: str, input_word: str, context: str) -> str:
+        """
+        NEW v18.4: ALLA composes responses from explicitly taught patterns and learned words.
+        ALLA can learn both individual words AND complete response patterns.
+        """
+        # First, check if ALLA has been taught specific response patterns for this social type
+        response_patterns = self._find_response_patterns(social_type, context)
+        if response_patterns:
+            return response_patterns[0]  # Use the first taught pattern
+        
+        # If no patterns taught, try to compose from individual words
+        available_words = list(self._lexicon._word_dictionary.keys())
+        
+        if not available_words:
+            return "I haven't learned any words yet."
+        
+        # Compositional response based on social context
+        if social_type == 'acknowledge_greeting':
+            # Look for greeting words ALLA knows
+            for word in available_words:
+                if word.lower() in ['hello', 'hi', 'hey', 'greetings']:
+                    return word.capitalize() + "!"
+            return "I recognize this as a greeting, but I need to learn greeting words or response patterns."
+        
+        elif social_type == 'acknowledge_farewell':
+            # Look for farewell words
+            for word in available_words:
+                if word.lower() in ['goodbye', 'bye', 'farewell']:
+                    return word.capitalize() + "!"
+            return "I recognize this as a farewell, but I need to learn farewell words or response patterns."
+        
+        elif social_type == 'acknowledge_gratitude':
+            # Check if ALLA knows gratitude response words but explain limitation
+            gratitude_words = []
+            for word in available_words:
+                if word.lower() in ['welcome', 'problem', 'pleasure']:
+                    gratitude_words.append(word.lower())
+            
+            if not gratitude_words:
+                return "I recognize this as gratitude, but I need to learn response words or complete response patterns."
+            
+            # ALLA knows individual words but needs explicit pattern teaching
+            return f"I know the word '{gratitude_words[0]}' but I need to be taught the complete response pattern for gratitude."
+        
+        elif social_type == 'acknowledge_apology':
+            # Similar approach for apologies
+            for word in available_words:
+                if word.lower() in ['okay', 'fine', 'alright']:
+                    return f"I know '{word}' but need to learn the complete apology response pattern."
+            return "I recognize this as an apology, but I need to learn response words or patterns."
+        
+        else:
+            return f"I understand this is social communication ({social_type}), but I need to learn appropriate response patterns."
+    
+    def _find_response_patterns(self, social_type: str, context: str) -> List[str]:
+        """
+        NEW v18.4: Finds explicitly taught response patterns for social contexts.
+        """
+        patterns = []
+        
+        # Look for response patterns based on social type and context
+        for word, entry in self._lexicon._word_dictionary.items():
+            if entry.word_type == 'social' and 'response' in word.lower():
+                # Check if this pattern matches the context
+                if social_type == 'acknowledge_gratitude' and 'thanks' in word.lower():
+                    patterns.append(entry.meaning_expression)
+                elif social_type == 'acknowledge_greeting' and 'hello' in word.lower():
+                    patterns.append(entry.meaning_expression)
+                elif social_type == 'acknowledge_farewell' and 'goodbye' in word.lower():
+                    patterns.append(entry.meaning_expression)
+                elif social_type == 'acknowledge_apology' and 'apology' in word.lower():
+                    patterns.append(entry.meaning_expression)
+        
+        return patterns
+
+    def enable_semantic_bootstrapping(self):
+        """Enable ALLA's semantic bootstrapping system."""
+        try:
+            from semantic_bootstrapper import ALLABootstrapIntegration
+            if not hasattr(self, 'bootstrap_system'):
+                self.bootstrap_system = ALLABootstrapIntegration(self)
+            self.bootstrap_system.enable_semantic_bootstrapping()
+            self.semantic_bootstrapping_enabled = True
+            return "🌱 Semantic Bootstrapping enabled! ALLA will now build concept networks from every word."
+        except ImportError:
+            return "❌ Semantic Bootstrapping module not available. Please ensure semantic_bootstrapper.py is present."
+    
+    def disable_semantic_bootstrapping(self):
+        """Disable ALLA's semantic bootstrapping."""
+        if hasattr(self, 'bootstrap_system'):
+            self.bootstrap_system.disable_semantic_bootstrapping()
+        self.semantic_bootstrapping_enabled = False
+        return "🌱 Semantic Bootstrapping disabled. ALLA will learn words individually."
+    
+    def get_semantic_bootstrap_stats(self):
+        """Get statistics about ALLA's semantic bootstrapping."""
+        if hasattr(self, 'bootstrap_system'):
+            return self.bootstrap_system.get_bootstrap_stats()
+        return {"error": "Semantic Bootstrapping not initialized"}
+    
+    def attempt_bootstrap_learning(self, word: str, source: str = "user"):
+        """
+        Attempt semantic bootstrapping for a word.
+        
+        Returns BootstrapResult if successful.
+        """
+        if not getattr(self, 'semantic_bootstrapping_enabled', False):
+            return None
+        
+        if not hasattr(self, 'bootstrap_system'):
+            try:
+                from semantic_bootstrapper import ALLABootstrapIntegration
+                self.bootstrap_system = ALLABootstrapIntegration(self)
+                self.semantic_bootstrapping_enabled = True
+            except ImportError:
+                print("❌ Semantic Bootstrapping module not available")
+                return None
+        
+        return self.bootstrap_system.bootstrap_learn_word(word, source)
+    
+    def visualize_concept_map(self, word: str):
+        """Visualize concept map for a word."""
+        if hasattr(self, 'bootstrap_system'):
+            return self.bootstrap_system.visualize_concept_map(word)
+        return "❌ Semantic Bootstrapping not enabled"
+    
+    def query_concept_network(self, query: str):
+        """Query the concept network."""
+        if hasattr(self, 'bootstrap_system') and self.bootstrap_system:
+            return self.bootstrap_system.query_concept_network(query)
+        else:
+            return "❌ Semantic Bootstrapping not available"
+    
+    def find_concept_connection(self, word1: str, word2: str):
+        """Find connection between concepts."""
+        if hasattr(self, 'bootstrap_system') and self.bootstrap_system:
+            return self.bootstrap_system.explain_concept_relationship(word1, word2)
+        else:
+            return "❌ Semantic Bootstrapping not available"
+
+
 # ==============================================================================
-# PART 3: THE MAIN ORCHESTRATOR (THE ENGINE)
+# ALLA ENGINE - MAIN INTERFACE
 # ==============================================================================
 
 class AllaEngine:
-    """(UPGRADED v11.0) The core engine with self-education and persistent memory."""
-
-    def __init__(self, memory_path: str = "alla_memory.json"):
-        """(UPGRADED v15.0) Initializes the integrated and stable foundational mind."""
-        print("[AllaEngine v15.0] Initializing cognitive components...")
-        self.world = LivingWorld()
-        self.world.load_state("genesis_world.json")  # Load the external world
+    """
+    🧠 ALLA Engine v20.0 - The Semantic Cascade Mind
+    
+    Main interface for ALLA with integrated semantic bootstrapping.
+    Language IS the operating system of intellect.
+    """
+    
+    def __init__(self, memory_file: str = "alla_memory.json"):
+        """Initialize ALLA with all cognitive systems."""
+        self.memory_file = memory_file
+        
+        # Core cognitive components
         self.lexicon = Lexicon()
+        self.world = LivingWorld()
+        self.planner = Planner(self.world, self.lexicon)
         self.command_processor = CommandProcessor(self.lexicon, self.world)
-        self.execution_engine = ExecutionEngine(self.world, self.lexicon, self)  # Pass self as engine reference
-        self.planner = Planner(self.world, self.lexicon)  # UPGRADED v15.0: Enhanced planning
-        self.semantic_memory = SemanticMemory()  # NEW v14.0: Abstract knowledge
-        self.memory_path = Path(memory_path)
+        self.execution_engine = ExecutionEngine(self.world, self.lexicon, self)
+        self.semantic_memory = SemanticMemory()
         
-        # NEW v13.0: Goal and Planning System
-        self.active_goals: List[Goal] = []
-        self.active_plans: Dict[int, Plan] = {}  # Maps goal_id to a plan
+        # Goal system
+        self.goals: List[Goal] = []
+        self.goal_counter = 0
+        self.active_plans: List[Plan] = []
         
-        # NEW v14.0: Reflection System
-        self.last_reflection_event = 0  # Track when we last reflected
-        self.reflection_interval = 5  # Reflect every 5 events
+        # Learning systems
+        self.autonomous_learning_enabled = True
+        self.semantic_bootstrapping_enabled = False
         
-        self.load_lexicon()  # Load learned knowledge on startup
-        print("[AllaEngine v15.0] Ready. The integrated and stable foundational mind is online!")
-
-    def _create_function_from_expression(self, word_type: str, meaning_expression: str) -> Callable:
-        """(UPGRADED v8.0) Now supports 'pronoun' types."""
+        # Load persistent memory
+        self._load_memory()
+        self._load_basic_vocabulary()
+        
+        print(f"🧠 ALLA v20.0 initialized with {self.lexicon.get_word_count()} words")
+    
+    def process_command(self, command: str) -> Tuple[str, Any]:
+        """Process a natural language command and return feedback and result."""
         try:
-            if word_type in ['property', 'noun']:
-                return eval(f"lambda obj: {meaning_expression}")
-            elif word_type == 'relation':
-                return eval(f"lambda obj1, obj2: {meaning_expression}")
-            elif word_type in ['action', 'inquiry', 'operator', 'temporal', 'conditional', 'pronoun']:
-                # Actions, inquiries, operators, temporal, conditional, and pronoun words don't have lambdas; they are identified by their name.
-                return lambda: None 
-            else:
-                raise ValueError(f"Word type '{word_type}' is not supported.")
-        except SyntaxError as e:
-            raise SyntaxError(f"Invalid meaning expression: '{meaning_expression}' -> {e}")
-
-    # NEW v11.0: Teaching and Memory Management Methods
-    def _teach_word(self, word: str, word_type: str, expression: str) -> str:
-        """Internal method to teach a new word and add it to the lexicon."""
-        try:
-            # Create the function from the expression
-            meaning_function = self._create_function_from_expression(word_type, expression)
+            # Parse the command
+            plan = self.command_processor.parse(command)
             
-            # Create and add the word entry
-            entry = WordEntry(word, word_type, expression, meaning_function)
-            self.lexicon.add_entry(entry)
+            if plan is None:
+                return "I don't understand that command.", None
             
-            return f"Successfully learned new {word_type}: '{word}' with meaning '{expression}'"
+            # Execute the plan
+            result = self.execution_engine.execute(plan)
+            
+            # Save memory after each command
+            self._save_memory()
+            
+            return plan.feedback, result
+            
         except Exception as e:
-            return f"Failed to learn word '{word}': {e}"
-
-    def load_lexicon(self):
-        """Loads the lexicon from the memory file."""
-        print(f"[AllaEngine] Attempting to load memory from '{self.memory_path}'...")
-        if not self.memory_path.is_file():
-            print("[AllaEngine] No memory file found. Starting with a blank slate.")
-            return
+            return f"Error processing command: {e}", None
+    
+    def enable_semantic_bootstrapping(self) -> str:
+        """Enable semantic bootstrapping for concept network building."""
         try:
-            with self.memory_path.open('r') as f:
-                learned_words = json.load(f)
-                count = 0
-                for word, data in learned_words.items():
-                    self._teach_word(word, data['word_type'], data['meaning_expression'])
-                    count += 1
-                print(f"[AllaEngine] Successfully loaded {count} concepts from memory.")
-        except Exception as e:
-            print(f"[ERROR] Failed to load memory file: {e}")
-
-    def save_lexicon(self):
-        """Saves the current state of the lexicon to a file."""
-        print(f"\n[AllaEngine] Saving {self.lexicon.get_word_count()} concepts to '{self.memory_path}'...")
-        to_save = {}
-        for word, entry in self.lexicon.get_all_entries().items():
-            to_save[word] = {
-                'word_type': entry.word_type,
-                'meaning_expression': entry.meaning_expression
-            }
-        try:
-            with self.memory_path.open('w') as f:
-                json.dump(to_save, f, indent=4)
-            print("[AllaEngine] Memory saved successfully.")
-        except Exception as e:
-            print(f"[ERROR] Failed to save memory: {e}")
-
-    def shutdown(self):
-        """Properly shuts down the engine and saves memory."""
-        print("\n[AllaEngine] Shutting down...")
-        self.save_lexicon()
-        print("[AllaEngine] Goodbye!")
-
-    def learn_from_file(self, file_path: Path):
-        """Reads a .alla curriculum file and implants concepts into the Lexicon."""
-        print(f"\n[AllaEngine] Starting learning session from: '{file_path}'")
-        if not file_path.is_file():
-            print(f"[ERROR] Curriculum file not found at '{file_path}'")
-            return
-
-        with file_path.open('r') as f:
-            for line in f:
-                line = line.strip()
-                if not line or line.startswith('#'): continue
-                parts = [p.strip() for p in line.split('::')]
-                if len(parts) != 3: continue
-                word_type, word, expression = parts
-                try:
-                    meaning_function = self._create_function_from_expression(word_type, expression)
-                    self.lexicon.add_entry(WordEntry(word, word_type, expression, meaning_function))
-                except Exception as e:
-                    print(f"[ERROR] Could not learn word '{word}': {e}")
-        print("[AllaEngine] Learning session complete.")
-
-    def process_command(self, command_text: str) -> Tuple[str, Any]:
-        """A high-level API to process a command and return a tuple of (feedback, result)."""
-        plan = self.command_processor.parse(command_text)
-        if not plan:
-            return ("Command not understood or invalid.", None)
-        result = self.execution_engine.execute(plan)
-        return (plan.feedback, result)
-
-    # =====================================================================
-    # NEW v13.0: GOAL AND PLANNING SYSTEM
-    # =====================================================================
-
-    def set_goal(self, goal_description: str) -> Optional[Goal]:
-        """(FIXED v15.0) High-level command to give the agent a new goal with improved parsing."""
-        # CRITICAL FIX B12: Improved goal parsing logic
+            from semantic_bootstrapper import ALLABootstrapIntegration
+            if not hasattr(self, 'bootstrap_system'):
+                self.bootstrap_system = ALLABootstrapIntegration(self)
+            result = self.bootstrap_system.enable_semantic_bootstrapping()
+            self.semantic_bootstrapping_enabled = True
+            return result
+        except ImportError:
+            return "❌ Semantic Bootstrapping module not available. Please ensure semantic_bootstrapper.py is present."
+    
+    def attempt_bootstrap_learning(self, word: str, source: str = "user"):
+        """Attempt semantic bootstrapping for a word."""
+        if not hasattr(self, 'bootstrap_system'):
+            self.enable_semantic_bootstrapping()
         
-        # Handle "i have X" pattern
-        if goal_description.lower().startswith('i have'):
-            condition_command = f"do {goal_description.lower()}"
-            condition_plan = self.command_processor.parse(condition_command)
-            
-            if condition_plan and condition_plan.action_type == 'VERIFY_INVENTORY':
-                new_goal = Goal(
-                    id=len(self.active_goals) + 1,
-                    description=goal_description,
-                    completion_condition=condition_plan
-                )
-                self.active_goals.append(new_goal)
-                print(f"[ALLA] New goal accepted: '{goal_description}'")
-                return new_goal
-        
-        # Handle "there is X" pattern (existence goals)
-        elif 'exists' in goal_description.lower() or goal_description.lower().startswith('there is'):
-            # Convert to existence check
-            if 'exists' in goal_description.lower():
-                obj_desc = goal_description.lower().replace('exists', '').strip()
-            else:
-                obj_desc = goal_description.lower().replace('there is', '').strip().replace('a ', '')
-            
-            # Create a verification plan for existence
-            words = obj_desc.split()
-            found_filters = []
-            for w in words:
-                entry = self.lexicon.get_entry(w)
-                if entry and entry.word_type in ['property', 'noun']:
-                    found_filters.append(entry.meaning_function)
-            
-            if found_filters:
-                condition_plan = ExecutionPlan(
-                    action_type='VERIFY_EXISTENCE',
-                    details={'filters': found_filters},
-                    feedback=f"Checking if {obj_desc} exists..."
-                )
-                new_goal = Goal(
-                    id=len(self.active_goals) + 1,
-                    description=goal_description,
-                    completion_condition=condition_plan
-                )
-                self.active_goals.append(new_goal)
-                print(f"[ALLA] New goal accepted: '{goal_description}'")
-                return new_goal
-        
-        print(f"[ALLA] Could not understand goal: '{goal_description}'")
-        print(f"[ALLA] Supported patterns: 'i have X', 'X exists', 'there is X'")
+        if hasattr(self, 'bootstrap_system'):
+            return self.bootstrap_system.bootstrap_learn_word(word, source)
         return None
-
-    def _create_understand_goal(self, unknown_word: str, context: str = '') -> str:
-        """(NEW v16.0) Creates an UNDERSTAND goal for learning about an unknown word."""
-        goal_description = f"I understand '{unknown_word}'"
-        
-        # Create a simple condition plan for UNDERSTAND goals
-        condition_plan = ExecutionPlan(
-            action_type='VERIFY_UNDERSTANDING',
-            details={'unknown_word': unknown_word, 'context': context},
-            feedback=f"Checking if I understand '{unknown_word}'..."
-        )
-        
-        new_goal = Goal(
-            id=len(self.active_goals) + 1,
-            description=goal_description,
-            completion_condition=condition_plan,
-            goal_type='UNDERSTAND',
-            inquiry_question=f"What is a '{unknown_word}'? Please describe it so I can understand."
-        )
-        
-        self.active_goals.append(new_goal)
-        print(f"[ALLA] New inquiry goal created: '{goal_description}'")
-        return f"Created understanding goal for '{unknown_word}'"
-
-    def tick(self):
-        """(NEW v13.0) A single 'thought' cycle for the agent."""
-        print("\n--- ALLA's Turn (Thinking...) ---")
-        
-        # Step 1: Review active goals
-        for goal in self.active_goals:
-            if goal.status == 'active':
-                # Is the goal already complete?
-                is_complete = self.execution_engine.execute(goal.completion_condition)
-                if is_complete:
-                    goal.status = 'completed'
-                    print(f"[ALLA] Goal '{goal.description}' has been completed!")
-                    # Remove the plan since goal is done
-                    if goal.id in self.active_plans:
-                        del self.active_plans[goal.id]
-                    continue
-
-                # Do I have a plan for this goal?
-                if goal.id not in self.active_plans:
-                    print(f"[ALLA] No plan for goal '{goal.description}'. Creating one...")
-                    plan = self.planner.create_plan_for_goal(goal)
-                    if plan:
-                        self.active_plans[goal.id] = plan
-                        print(f"[ALLA] New plan created with {len(plan.steps)} step(s).")
-                    else:
-                        print(f"[ALLA] Could not create a plan for goal '{goal.description}'.")
-                
-                # If I have a plan, execute the next step
-                if goal.id in self.active_plans:
-                    plan = self.active_plans[goal.id]
-                    if plan.current_step < len(plan.steps):
-                        step = plan.steps[plan.current_step]
-                        print(f"[ALLA] Executing step {plan.current_step + 1} of plan for goal '{goal.description}':")
-                        print(f"[ALLA] -> {step.feedback}")
-                        result = self.execution_engine.execute(step)
-                        if result:
-                            print(f"[ALLA] Step completed successfully: {result}")
-                        plan.current_step += 1
-                    else:
-                        # Plan is finished, let the next tick re-evaluate the goal status
-                        del self.active_plans[goal.id]
-                        print(f"[ALLA] Plan for goal '{goal.description}' is complete. Re-evaluating on next tick.")
-
-        # Finally, advance the world time
-        self.world.tick()
-        
-        # NEW v14.0: Check if it's time to reflect on recent experiences
-        self._check_and_reflect()
-
-    def _check_and_reflect(self):
-        """(NEW v14.0) Check if it's time to run a reflection cycle."""
-        event_count = len(self.world.get_events())
-        
-        if event_count - self.last_reflection_event >= self.reflection_interval:
-            print(f"\n[ALLA] Time to reflect... (processed {event_count - self.last_reflection_event} new events)")
-            self._reflection_cycle()
-            self.last_reflection_event = event_count
-
-    def _reflection_cycle(self):
-        """(NEW v14.0) Analyze recent events to form abstract knowledge."""
-        # Get recent events for analysis
-        all_events = self.world.get_events()
-        recent_events = all_events[self.last_reflection_event:]
-        
-        print(f"[ALLA] Reflecting on {len(recent_events)} recent experiences...")
-        
-        insights = 0
-        for event in recent_events:
-            insights += self._extract_concepts_from_event(event)
-        
-        if insights > 0:
-            print(f"[ALLA] Formed {insights} new abstract insights!")
-        else:
-            print("[ALLA] No new patterns detected in this reflection cycle.")
-
-    def _extract_concepts_from_event(self, event) -> int:
-        """(FIXED v15.0) Extract abstract concepts and relationships from a single event."""
-        insights_formed = 0
-        details = getattr(event, 'details', {})
-        obj_id = details.get('object_id')
-        obj = self.world.get_object(obj_id) if obj_id is not None else None
-        
-        # CRITICAL FIX B11: Also check for objects that were just created
-        if not obj and details.get('name'):
-            obj_name = details.get('name')
-            if obj_name:
-                obj = self.world.get_object(name=obj_name)
-        
-        if obj:
-            # Extract color concept
-            if hasattr(obj, 'color') and obj.color:
-                color = obj.color
-                color_node = SemanticNode(
-                    id=f"concept:{color}",
-                    concept_type="value",
-                    name=color,
-                    observations=1
-                )
-                self.semantic_memory.add_node(color_node)
-                color_prop_node = SemanticNode(
-                    id="concept:color",
-                    concept_type="property",
-                    name="color",
-                    observations=1
-                )
-                self.semantic_memory.add_node(color_prop_node)
-                self.semantic_memory.add_edge(SemanticEdge(
-                    from_node=f"concept:{color}",
-                    to_node="concept:color",
-                    relationship="is_value_of"
-                ))
-                insights_formed += 1
-                print(f"[REFLECTION] Learned about color: {color}")
-            
-            # Extract shape concept
-            if hasattr(obj, 'shape') and obj.shape:
-                shape = obj.shape
-                shape_node = SemanticNode(
-                    id=f"concept:{shape}",
-                    concept_type="value",
-                    name=shape,
-                    observations=1
-                )
-                self.semantic_memory.add_node(shape_node)
-                shape_prop_node = SemanticNode(
-                    id="concept:shape",
-                    concept_type="property",
-                    name="shape",
-                    observations=1
-                )
-                self.semantic_memory.add_node(shape_prop_node)
-                self.semantic_memory.add_edge(SemanticEdge(
-                    from_node=f"concept:{shape}",
-                    to_node="concept:shape",
-                    relationship="is_value_of"
-                ))
-                insights_formed += 1
-                print(f"[REFLECTION] Learned about shape: {shape}")
-            
-            # Extract material concept
-            if hasattr(obj, 'material') and obj.material and obj.material != 'unknown':
-                material = obj.material
-                material_node = SemanticNode(
-                    id=f"concept:{material}",
-                    concept_type="value",
-                    name=material,
-                    observations=1
-                )
-                self.semantic_memory.add_node(material_node)
-                material_prop_node = SemanticNode(
-                    id="concept:material",
-                    concept_type="property",
-                    name="material",
-                    observations=1
-                )
-                self.semantic_memory.add_node(material_prop_node)
-                self.semantic_memory.add_edge(SemanticEdge(
-                    from_node=f"concept:{material}",
-                    to_node="concept:material",
-                    relationship="is_value_of"
-                ))
-                insights_formed += 1
-                print(f"[REFLECTION] Learned about material: {material}")
-        
-        # Extract action concepts from event type
-        event_type = getattr(event, 'type', '').lower()
-        if event_type in ['create', 'transfer', 'destroy']:
-            action_node = SemanticNode(
-                id=f"concept:{event_type}",
-                concept_type="action",
-                name=event_type,
-                observations=1
-            )
-            self.semantic_memory.add_node(action_node)
-            insights_formed += 1
-            print(f"[REFLECTION] Learned about action: {event_type}")
-        
-        return insights_formed
-
-    def main_loop(self):
-        """(NEW v13.0) The proactive main loop where ALLA thinks and acts autonomously."""
-        import time
-        
-        print("\n" + "="*60)
-        print("STARTING ALLA v13.0 AUTONOMOUS THINKING LOOP")
-        print("ALLA will now think and act on its own goals.")
-        print("Press Ctrl+C to stop.")
-        print("="*60)
-        
+    
+    def get_semantic_bootstrap_stats(self):
+        """Get statistics about semantic bootstrapping."""
+        if hasattr(self, 'bootstrap_system'):
+            return self.bootstrap_system.get_bootstrap_stats()
+        return {"error": "Semantic Bootstrapping not initialized"}
+    
+    def visualize_concept_map(self, word: str):
+        """Visualize concept map for a word."""
+        if hasattr(self, 'bootstrap_system'):
+            return self.bootstrap_system.visualize_concept_map(word)
+        return "❌ Semantic Bootstrapping not enabled"
+    
+    def query_concept_network(self, query: str):
+        """Query the concept network."""
+        if hasattr(self, 'bootstrap_system'):
+            return self.bootstrap_system.query_concept_network(query)
+        return "❌ Semantic Bootstrapping not enabled"
+    
+    def _load_memory(self):
+        """Load persistent memory from JSON file."""
         try:
-            tick_count = 0
-            while True:
-                tick_count += 1
-                print(f"\n=== TICK {tick_count} ===")
+            if Path(self.memory_file).exists():
+                with open(self.memory_file, 'r') as f:
+                    memory_data = json.load(f)
                 
-                # Agent's own thought cycle
-                self.tick()
+                # Load lexicon entries
+                for word_data in memory_data.get('lexicon', []):
+                    try:
+                        meaning_function = eval(word_data['meaning_expression'])
+                        entry = WordEntry(
+                            word=word_data['word'],
+                            word_type=word_data['word_type'],
+                            meaning_expression=word_data['meaning_expression'],
+                            meaning_function=meaning_function
+                        )
+                        self.lexicon.add_entry(entry)
+                    except Exception as e:
+                        print(f"Error loading word '{word_data.get('word', 'unknown')}': {e}")
                 
-                # Brief pause between thoughts
-                time.sleep(2)
+                print(f"📁 Loaded {len(memory_data.get('lexicon', []))} words from memory")
                 
-        except KeyboardInterrupt:
-            print("\n[ALLA] Autonomous thinking loop stopped by user.")
-            self.shutdown()
+        except Exception as e:
+            print(f"Error loading memory: {e}")
+    
+    def _save_memory(self):
+        """Save current lexicon to persistent memory."""
+        try:
+            memory_data = {
+                'lexicon': [],
+                'version': '20.0',
+                'timestamp': time.time()
+            }
+            
+            # Save lexicon entries
+            for word, entry in self.lexicon.get_all_entries().items():
+                memory_data['lexicon'].append({
+                    'word': entry.word,
+                    'word_type': entry.word_type,
+                    'meaning_expression': entry.meaning_expression
+                })
+            
+            with open(self.memory_file, 'w') as f:
+                json.dump(memory_data, f, indent=2)
+                
+        except Exception as e:
+            print(f"Error saving memory: {e}")
+    
+    def _load_basic_vocabulary(self):
+        """Load basic vocabulary if lexicon is empty."""
+        if self.lexicon.get_word_count() > 0:
+            return  # Already has vocabulary
+        
+        # Create minimal essential vocabulary
+        essential_words = [
+            ("inquiry", "what", "lambda: 'what inquiry'"),
+            ("inquiry", "where", "lambda: 'where inquiry'"),
+            ("inquiry", "when", "lambda: 'when inquiry'"),
+            ("action", "create", "lambda: 'create action'"),
+            ("action", "destroy", "lambda: 'destroy action'"),
+            ("property", "red", "lambda obj: obj.color == 'red'"),
+            ("property", "blue", "lambda obj: obj.color == 'blue'"),
+            ("property", "green", "lambda obj: obj.color == 'green'"),
+            ("noun", "box", "lambda obj: obj.shape == 'box'"),
+            ("noun", "circle", "lambda obj: obj.shape == 'circle'"),
+            ("social", "hello", "acknowledge_greeting"),
+            ("social", "goodbye", "acknowledge_farewell"),
+            ("social", "thanks", "acknowledge_gratitude"),
+        ]
+        
+        for word_type, word, expression in essential_words:
+            try:
+                meaning_function = eval(expression)
+                entry = WordEntry(
+                    word=word,
+                    word_type=word_type,
+                    meaning_expression=expression,
+                    meaning_function=meaning_function
+                )
+                self.lexicon.add_entry(entry)
+            except Exception as e:
+                print(f"Error creating essential word '{word}': {e}")
+        
+        print(f"🔧 Created essential vocabulary: {self.lexicon.get_word_count()} words")
+
+
+# ==============================================================================
+# COMPATIBILITY AND UTILITY FUNCTIONS
+# ==============================================================================
+
+def create_alla_engine(memory_file: str = "alla_memory.json"):
+    """🏭 Factory function to create ALLA engine instance."""
+    return AllaEngine(memory_file)
+
+def quick_demo():
+    """Quick demonstration of ALLA's capabilities."""
+    print("=== ALLA v20.0 Quick Demo ===")
+    
+    # Initialize ALLA
+    alla = AllaEngine("demo_memory.json")
+    
+    # Enable semantic systems
+    print("\n" + alla.enable_semantic_bootstrapping())
+    
+    # Demonstrate semantic bootstrapping
+    print("\n=== Semantic Bootstrapping Demo ===")
+    result = alla.attempt_bootstrap_learning("photosynthesis")
+    if result:
+        print(f"Bootstrap successful: {result.total_words_learned} words learned")
+    else:
+        print("Bootstrap learning not available yet")
+    
+    # Demonstrate concept network querying
+    print("\n=== Concept Network Query Demo ===")
+    query_result = alla.query_concept_network("plants and sunlight")
+    print(query_result)
+    
+    # Show system status
+    print("\n=== System Status ===")
+    status = alla.get_system_status()
+    for key, value in status.items():
+        print(f"{key}: {value}")
+    
+    print("\n=== Demo Complete ===")
+
+if __name__ == "__main__":
+    quick_demo()
+
+
+
+

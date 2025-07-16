@@ -1,0 +1,2539 @@
+{
+  "photosynthesis": {
+    "definition": "Any process by which plants and other photoautotrophs convert light energy into chemical energy,",
+    "word_type": "action",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "test",
+    "related_concepts": [
+      "photoautotrophs",
+      "plants",
+      "chemical",
+      "energy",
+      "process",
+      "light",
+      "convert"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752666434.6040914
+  },
+  "photoautotrophs": {
+    "definition": "Photoautotrophs are organisms that can utilize light energy from sunlight, and elements from inorganic compounds, to produce organic materials needed to sustain their own metabolism. Such biological activities are known as photosynthesis, and examples of such organisms include plants, algae and cyanobacteria.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "metabolism",
+      "sunlight",
+      "biological",
+      "examples",
+      "materials",
+      "compounds",
+      "include",
+      "sustain",
+      "organic",
+      "organisms",
+      "inorganic",
+      "elements",
+      "cyanobacteria",
+      "activities",
+      "needed",
+      "produce",
+      "utilize"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666437.1131155
+  },
+  "chemical": {
+    "definition": "Any specific chemical element or chemical compound or alloy.",
+    "word_type": "property",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "alloy",
+      "element",
+      "compound",
+      "specific"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666440.115142
+  },
+  "convert": {
+    "definition": "A person who has converted to a religion.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "religion",
+      "converted",
+      "person"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666442.3338273
+  },
+  "process": {
+    "definition": "A series of events which produce a result (the product).",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "events",
+      "result",
+      "series",
+      "product"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666445.0425
+  },
+  "energy": {
+    "definition": "The impetus behind all motion and all activity.",
+    "word_type": "action",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "activity",
+      "motion",
+      "behind",
+      "impetus"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666446.6024983
+  },
+  "plants": {
+    "definition": "An organism that is not an animal, especially an organism capable of photosynthesis. Typically a small or herbaceous organism of this kind, rather than a tree.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "rather",
+      "not",
+      "than",
+      "tree",
+      "herbaceous",
+      "capable",
+      "animal",
+      "typically",
+      "organism",
+      "kind",
+      "small"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666449.2197633
+  },
+  "light": {
+    "definition": "Visible electromagnetic radiation. The human eye can typically detect radiation (light) in the wavelength range of about 400 to 750 nanometers. Nearby shorter and longer wavelength ranges, although not visible, are commonly called ultraviolet and infrared light.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "test",
+    "related_concepts": [
+      "nearby",
+      "shorter",
+      "detect",
+      "ranges",
+      "human",
+      "commonly",
+      "range",
+      "wavelength",
+      "visible",
+      "ultraviolet",
+      "infrared",
+      "called",
+      "nanometers",
+      "radiation",
+      "longer",
+      "eye",
+      "electromagnetic",
+      "although"
+    ],
+    "parent_concepts": [
+      "photosynthesis"
+    ],
+    "learned_timestamp": 1752666451.1739497
+  },
+  "cyanobacteria": {
+    "definition": "Any of very many photosynthetic prokaryotic microorganisms, of phylum Cyanobacteria, once known as blue-green algae.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [
+      "known",
+      "very",
+      "microorganisms",
+      "prokaryotic",
+      "phylum",
+      "green",
+      "once",
+      "photosynthetic",
+      "algae",
+      "blue"
+    ],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666456.3408382
+  },
+  "activities": {
+    "definition": "The state or quality of being active; activeness.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [
+      "quality",
+      "state",
+      "active"
+    ],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666460.4205008
+  },
+  "biological": {
+    "definition": "A biological product.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666462.3038027
+  },
+  "metabolism": {
+    "definition": "The chemical processes that occur within a living organism in order to maintain life.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [
+      "living",
+      "maintain",
+      "processes",
+      "life",
+      "order"
+    ],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666462.4324477
+  },
+  "compounds": {
+    "definition": "An enclosure within which workers, prisoners, or soldiers are confined",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [
+      "workers",
+      "prisoners",
+      "enclosure",
+      "confined",
+      "soldiers"
+    ],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666464.7917361
+  },
+  "inorganic": {
+    "definition": "An inorganic compound",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666466.7634323
+  },
+  "materials": {
+    "definition": "Matter which may be shaped or manipulated, particularly in making something.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [
+      "matter",
+      "making",
+      "particularly",
+      "manipulated",
+      "something",
+      "shaped"
+    ],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666466.8573968
+  },
+  "organisms": {
+    "definition": "A discrete and complete living thing, such as animal, plant, fungus or microorganism.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "microorganism",
+      "discrete",
+      "complete"
+    ],
+    "parent_concepts": [
+      "ecological"
+    ],
+    "learned_timestamp": 1752666808.4723682
+  },
+  "elements": {
+    "definition": "One of the simplest or essential parts or principles of which anything consists, or upon which the constitution or fundamental powers of anything are based.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666468.8512356
+  },
+  "examples": {
+    "definition": "Something that is representative of all such things in a group.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666473.6435738
+  },
+  "sunlight": {
+    "definition": "All the electromagnetic radiation given off by the Sun, especially that in the visible spectrum that bathes the Earth.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666474.8429437
+  },
+  "include": {
+    "definition": "A piece of source code or other content that is dynamically retrieved for inclusion in another item.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666478.1854768
+  },
+  "organic": {
+    "definition": "An organic compound.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666480.7738838
+  },
+  "produce": {
+    "definition": "To yield, make or manufacture; to generate.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666480.8587313
+  },
+  "sustain": {
+    "definition": "A mechanism which can be used to hold a note, as the right pedal on a piano.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666481.2301707
+  },
+  "utilize": {
+    "definition": "To make use of; to use.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666481.8406723
+  },
+  "needed": {
+    "definition": "\n\nA need is a deficiency at a point of time and in a given context. Needs are distinguished from wants. In the case of a need, a deficiency causes a clear adverse outcome: a dysfunction or death. In other words, a need is something required for a safe, stable and healthy life while a want is a desire, wish or aspiration. When needs or wants are backed by purchasing power, they have the potential to become economic demands.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "photoautotrophs"
+    ],
+    "learned_timestamp": 1752666482.0165038
+  },
+  "compound": {
+    "definition": "Compound may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "chemical"
+    ],
+    "learned_timestamp": 1752666488.3934596
+  },
+  "specific": {
+    "definition": "Specific may refer to:Specificity (disambiguation)\nSpecific, a cure or therapy for a specific illness",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "chemical"
+    ],
+    "learned_timestamp": 1752666488.768854
+  },
+  "element": {
+    "definition": "Element or elements may refer to:",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "chemical"
+    ],
+    "learned_timestamp": 1752666490.750438
+  },
+  "alloy": {
+    "definition": "An alloy is a mixture of chemical elements of which in most cases at least one is a metallic element, although it is also sometimes used for mixtures of elements; herein only metallic alloys are described. Metallic alloys often have properties that differ from those of the pure elements from which they are made.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "chemical"
+    ],
+    "learned_timestamp": 1752666490.8674402
+  },
+  "converted": {
+    "definition": "Conversion or convert may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "convert"
+    ],
+    "learned_timestamp": 1752666496.0148146
+  },
+  "religion": {
+    "definition": "\nReligion is a range of social-cultural systems, including designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that generally relate humanity to supernatural, transcendental, and spiritual elements\u2014although there is no scholarly consensus over what precisely constitutes a religion. It is an essentially contested concept. Different religions may or may not contain various elements ranging from the divine, sacredness, faith, and a supernatural being or beings.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "convert"
+    ],
+    "learned_timestamp": 1752666496.1561463
+  },
+  "person": {
+    "definition": "A person is a being who has certain capacities or attributes such as reason, morality, consciousness or self-consciousness, and being a part of a culturally established form of social relations such as kinship, ownership of property, or legal responsibility. The defining features of personhood and, consequently, what makes a person count as a person, differ widely among cultures and contexts.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "convert"
+    ],
+    "learned_timestamp": 1752666505.1312227
+  },
+  "product": {
+    "definition": "Product may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "process"
+    ],
+    "learned_timestamp": 1752666512.8191302
+  },
+  "events": {
+    "definition": "Event may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "process"
+    ],
+    "learned_timestamp": 1752666512.953053
+  },
+  "result": {
+    "definition": "A result is the outcome or consequence of a sequence of actions or events. Possible results include gain, injury, value, and victory. Some types of results include the outcome of an action, the final value of a calculation, and the outcome of a vote.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "process"
+    ],
+    "learned_timestamp": 1752666513.4367967
+  },
+  "series": {
+    "definition": "Series may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "process"
+    ],
+    "learned_timestamp": 1752666516.151595
+  },
+  "activity": {
+    "definition": "Activity may refer to:Action (philosophy), in general\nHuman activity: human behavior, in sociology behavior may refer to all basic human actions, economics may study human economic activities and along with cybernetics and psychology may study their modulation\nIn Semantics, a type of Aktionsart\nRecreation, or activities of leisure\nThe Aristotelian concept of energeia, Latinized as actus\nActivity (UML), a major task in Unified Modeling Language\nActivity, the rate of catalytic activity, such as enzyme activity, in physical chemistry and enzymology\nThermodynamic activity, the effective concentration of a solute for the purposes of mass action\nActivity \nActivity, the number of radioactive decays per second\nActivity \nActivity \nHMS\u00a0Activity\u00a0(D94), an aircraft carrier of the Royal Navy\n\"Activity\", a song by Way Out West from Intensify\nCultural activities, activities referred to culture.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "energy"
+    ],
+    "learned_timestamp": 1752666516.2417603
+  },
+  "impetus": {
+    "definition": "Impetus may refer to:A source of motivation\nTheory of impetus, a concept similar to inertia and momentum\nImpetus (album), a 1997 re-release of the EP Passive Restraints\nImpetus (waltz), a ballroom dance step\n\n",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "energy"
+    ],
+    "learned_timestamp": 1752666524.954742
+  },
+  "behind": {
+    "definition": "Behind may refer to:Behind (album), a 1992 album by Superior\nBehind, a method of scoring in Australian rules football, awarding one point\n\"Behind\" (song), a 2008 single by Flanders\nBehind (restaurant), in London\nBehind, a slang term for the buttocks\n\n",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "energy"
+    ],
+    "learned_timestamp": 1752666529.9508283
+  },
+  "motion": {
+    "definition": "In physics, motion is when an object changes its position with respect to a reference point in a given time. Motion is mathematically described in terms of displacement, distance, velocity, acceleration, speed, and frame of reference to an observer, measuring the change in position of the body relative to that frame with a change in time. The branch of physics describing the motion of objects without reference to their cause is called kinematics, while the branch studying forces and their effect on motion is called dynamics.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "energy"
+    ],
+    "learned_timestamp": 1752666537.8739276
+  },
+  "herbaceous": {
+    "definition": "Not woody, lacking lignified tissues.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666542.2584493
+  },
+  "typically": {
+    "definition": "In a typical or common manner.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666544.8828187
+  },
+  "organism": {
+    "definition": "A discrete and complete living thing, such as animal, plant, fungus or microorganism.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666547.000267
+  },
+  "capable": {
+    "definition": "Able and efficient; having the ability needed for a specific task; having the disposition to do something; permitting or being susceptible to something.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666550.140468
+  },
+  "animal": {
+    "definition": "In scientific usage, a multicellular organism that is usually mobile, whose cells are not encased in a rigid cell wall (distinguishing it from plants and fungi) and which derives energy solely from the consumption of other organisms (distinguishing it from plants).",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666550.8830428
+  },
+  "rather": {
+    "definition": "To prefer; to prefer to.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666554.7047343
+  },
+  "small": {
+    "definition": "Small means of insignificant size.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "particular"
+    ],
+    "learned_timestamp": 1752666922.7619667
+  },
+  "kind": {
+    "definition": "A type, race or category; a group of entities that have common characteristics such that they may be grouped together.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666559.5904512
+  },
+  "than": {
+    "definition": "At that time; then.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666562.8760996
+  },
+  "tree": {
+    "definition": "Fast growing function based on Kruskal's tree theorem.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666563.0110276
+  },
+  "not": {
+    "definition": "A unary operation on logical values that changes true to false, and false to true.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "plants"
+    ],
+    "learned_timestamp": 1752666565.7814949
+  },
+  "electromagnetic": {
+    "definition": "Relating to electromagnetism",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666567.1497433
+  },
+  "ultraviolet": {
+    "definition": "Ultraviolet colour.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666568.9750092
+  },
+  "nanometers": {
+    "definition": "An SI subunit of length equal to 10-9 metres. Symbol: nm",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666569.0603976
+  },
+  "wavelength": {
+    "definition": "The length of a single cycle of a wave, as measured by the distance between one peak or trough of a wave and the next; it is often designated in physics as \u03bb, and corresponds to the velocity of the wave divided by its frequency.",
+    "word_type": "relation",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666571.002079
+  },
+  "radiation": {
+    "definition": "The shooting forth of anything from a point or surface, like diverging rays of light.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666575.0808713
+  },
+  "although": {
+    "definition": "Though, even though, in spite of or despite the fact that: introducing a clause that expresses a concession.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666577.7923748
+  },
+  "commonly": {
+    "definition": "As a rule; frequently; usually",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666582.5818517
+  },
+  "infrared": {
+    "definition": "Electromagnetic radiation of a wavelength longer than visible light, but shorter than microwave radiation, having a wavelength between 700 nm and 1 mm",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666583.617368
+  },
+  "shorter": {
+    "definition": "Having a small distance from one end or edge to another, either horizontally or vertically.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666584.0248275
+  },
+  "visible": {
+    "definition": "Able to be seen.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "formed"
+    ],
+    "learned_timestamp": 1752666848.0701752
+  },
+  "called": {
+    "definition": "(heading) To use one's voice.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666584.7972941
+  },
+  "detect": {
+    "definition": "To discover or find by careful search, examination, or probing",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666585.8195624
+  },
+  "longer": {
+    "definition": "Having much distance from one terminating point on an object or an area to another terminating point (usually applies to horizontal dimensions; see Usage Notes below).",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666587.5015886
+  },
+  "nearby": {
+    "definition": "Nearby was a location-based social networking service launched in June 2010 and discontinued in September 2021 following a significant data breach. The service was created by Brian Hamachek and was known for leveraging the GPS technology in mobile devices to help users discover and interact with others located nearby, although explicitly not intended for dating, dating was the primary use case for the app.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666593.0624018
+  },
+  "ranges": {
+    "definition": "In the Hebrew Bible and in the Old Testament, the word ranges has two very different meanings.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666602.2639713
+  },
+  "human": {
+    "definition": "Humans or modern humans are the most common and widespread species of primate, and the last surviving species of the genus Homo. They are great apes characterized by their hairlessness, bipedalism, and high intelligence. Humans have large brains, enabling more advanced cognitive skills that facilitate successful adaptation to varied environments, development of sophisticated tools, and formation of complex social structures and civilizations.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666909.224722
+  },
+  "range": {
+    "definition": "Range may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666614.6357965
+  },
+  "eye": {
+    "definition": "An eye is a sensory organ that allows an organism to perceive visual information. It detects light and converts it into electro-chemical impulses in neurons (neurones). It is part of an organism's visual system.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "light"
+    ],
+    "learned_timestamp": 1752666614.7237458
+  },
+  "microorganisms": {
+    "definition": "A microorganism, or microbe, is an organism of microscopic size, which may exist in its single-celled form or as a colony of cells. The possible existence of unseen microbial life was suspected from antiquity, with an early attestation in Jain literature authored in 6th-century\u00a0BC India. The scientific study of microorganisms began with their observation under the microscope in the 1670s by Anton van Leeuwenhoek. In the 1850s, Louis Pasteur found that microorganisms caused food spoilage, debunking the theory of spontaneous generation. In the 1880s, Robert Koch discovered that microorganisms caused the diseases tuberculosis, cholera, diphtheria, and anthrax.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5215197
+  },
+  "photosynthetic": {
+    "definition": "Photosynthesis is a system of biological processes by which photosynthetic organisms, such as most plants, algae, and cyanobacteria, convert light energy, typically from sunlight, into the chemical energy necessary to fuel their metabolism. \nPhotosynthesis usually refers to oxygenic photosynthesis, a process that produces oxygen. Photosynthetic organisms store the chemical energy so produced within intracellular organic compounds like sugars, glycogen, cellulose and starches. To use this stored chemical energy, an organism's cells metabolize the organic compounds through cellular respiration. Photosynthesis plays a critical role in producing and maintaining the oxygen content of the Earth's atmosphere, and it supplies most of the biological energy necessary for complex life on Earth.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.522519
+  },
+  "prokaryotic": {
+    "definition": "A prokaryote is a single-celled organism whose cell lacks a nucleus and other membrane-bound organelles. The word prokaryote comes from the Ancient Greek \u03c0\u03c1\u03cc (pr\u00f3), meaning 'before', and \u03ba\u03ac\u03c1\u03c5\u03bf\u03bd (k\u00e1ruon), meaning 'nut' or 'kernel'. In the earlier two-empire system arising from the work of \u00c9douard Chatton, prokaryotes were classified within the empire Prokaryota. However, in the three-domain system, based upon molecular phylogenetics, prokaryotes are divided into two domains: Bacteria and Archaea. A third domain, Eukaryota, consists of organisms with nuclei.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5235188
+  },
+  "phylum": {
+    "definition": "In biology, a phylum is a level of classification, or taxonomic rank, that is below kingdom and above class. Traditionally, in botany the term division has been used instead of phylum, although the International Code of Nomenclature for algae, fungi, and plants accepts the terms as equivalent. Depending on definitions, the animal kingdom Animalia contains about 31 phyla, the plant kingdom Plantae contains about 14 phyla, and the fungus kingdom Fungi contains about eight phyla. Current research in phylogenetics is uncovering the relationships among phyla within larger clades like Ecdysozoa and Embryophyta.",
+    "word_type": "relation",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5245185
+  },
+  "algae": {
+    "definition": "Algae is an informal term for any organisms of a large and diverse group of photosynthetic organisms that are not plants, and includes species from multiple distinct clades. Such organisms range from unicellular microalgae, such as cyanobacteria, Chlorella, and diatoms, to multicellular macroalgae such as kelp or brown algae which may grow up to 50 metres (160\u00a0ft) in length. Most algae are aquatic organisms and lack many of the distinct cell and tissue types, such as stomata, xylem, and phloem that are found in land plants. The largest and most complex marine algae are called seaweeds. In contrast, the most complex freshwater forms are the Charophyta, a division of green algae which includes, for example, Spirogyra and stoneworts. Algae that are carried passively by water are plankton, specifically phytoplankton.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5255182
+  },
+  "green": {
+    "definition": "Green is the color between cyan and yellow on the visible spectrum. It is evoked by light which has a dominant wavelength of roughly 495\u2013570 nm. In subtractive color systems, used in painting and color printing, it is created by a combination of yellow and cyan; in the RGB color model, used on television and computer screens, it is one of the additive primary colors, along with red and blue, which are mixed in different combinations to create all other colors. By far the largest contributor to green in nature is chlorophyll, the chemical by which plants photosynthesize and convert sunlight into chemical energy. Many creatures have adapted to their green environments by taking on a green hue themselves as camouflage. Several minerals have a green color, including the emerald, which is colored green by its chromium content.",
+    "word_type": "relation",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5265174
+  },
+  "known": {
+    "definition": "Knowledge is an awareness of facts, a familiarity with individuals and situations, or a practical skill. Knowledge of facts, also called propositional knowledge, is often characterized as true belief that is distinct from opinion or guesswork by virtue of justification. While there is wide agreement among philosophers that propositional knowledge is a form of true belief, many controversies focus on justification. This includes questions like how to understand justification, whether it is needed at all, and whether something else besides it is needed. These controversies intensified in the latter half of the 20th century due to a series of thought experiments called Gettier cases that provoked alternative definitions.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5295162
+  },
+  "blue": {
+    "definition": "Blue is one of the three primary colours in the RYB colour model, as well as in the RGB (additive) colour model. It lies between violet and cyan on the spectrum of visible light. The term blue generally describes colours perceived by humans observing light with a dominant wavelength that's between approximately 450 and 495\u00a0nanometres. Most blues contain a slight mixture of other colours; azure contains some green, while ultramarine contains some violet. The clear daytime sky and the deep sea appear blue because of an optical effect known as Rayleigh scattering. An optical effect called the Tyndall effect explains blue eyes. Distant objects appear more blue because of another optical effect called aerial perspective.",
+    "word_type": "relation",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5305347
+  },
+  "once": {
+    "definition": "Once may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.5315146
+  },
+  "very": {
+    "definition": "Very may refer to:English's prevailing intensifier",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "cyanobacteria"
+    ],
+    "learned_timestamp": 1752666618.532515
+  },
+  "quality": {
+    "definition": "Quality may refer to:",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "activities"
+    ],
+    "learned_timestamp": 1752666618.533513
+  },
+  "active": {
+    "definition": "Active may refer to:",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "activities"
+    ],
+    "learned_timestamp": 1752666618.5345123
+  },
+  "state": {
+    "definition": "State most commonly refers to:State (polity), a centralized political organization that regulates law and society within a territory\nSovereign state, a sovereign polity in international law, commonly referred to as a country\nNation state, a state where the majority identify with a single nation \nConstituent state, a political subdivision of a state\nFederated state, constituent states part of a federation\nU.S. state\nState of nature, a concept within philosophy that describes the way humans acted before forming societies or civilizations",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "activities"
+    ],
+    "learned_timestamp": 1752666618.5345123
+  },
+  "processes": {
+    "definition": "A process is a series or set of activities that interact to produce a result; it may occur once-only or be recurrent or periodic.",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "metabolism"
+    ],
+    "learned_timestamp": 1752666618.5365112
+  },
+  "maintain": {
+    "definition": "The technical meaning of maintenance involves functional checks, servicing, repairing or replacing of necessary devices, equipment, machinery, building infrastructure and supporting utilities in industrial, business, and residential installations. Terms such as \"predictive\" or \"planned\" maintenance describe various cost-effective practices aimed at keeping equipment operational; these activities occur either before or after a potential failure.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "metabolism"
+    ],
+    "learned_timestamp": 1752666618.5385106
+  },
+  "living": {
+    "definition": "Living or The Living may refer to:",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "metabolism"
+    ],
+    "learned_timestamp": 1752666618.5395095
+  },
+  "order": {
+    "definition": "Arrangement, disposition, or sequence.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "metabolism"
+    ],
+    "learned_timestamp": 1752666618.5395095
+  },
+  "life": {
+    "definition": "The state of organisms preceding their death, characterized by biological processes such as metabolism and reproduction and distinguishing them from inanimate objects; the state of being alive and living.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "metabolism"
+    ],
+    "learned_timestamp": 1752666618.540509
+  },
+  "enclosure": {
+    "definition": "Something enclosed, i.e. inserted into a letter or similar package.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "compounds"
+    ],
+    "learned_timestamp": 1752666618.5415084
+  },
+  "prisoners": {
+    "definition": "A person incarcerated in a prison, while on trial or serving a sentence.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "compounds"
+    ],
+    "learned_timestamp": 1752666618.5425088
+  },
+  "confined": {
+    "definition": "To restrict; to keep within bounds; to shut or keep in a limited space or area.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "compounds"
+    ],
+    "learned_timestamp": 1752666618.5435073
+  },
+  "soldiers": {
+    "definition": "A member of an army, of any rank.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "compounds"
+    ],
+    "learned_timestamp": 1752666618.5435073
+  },
+  "workers": {
+    "definition": "A person who performs labor for a living, especially manual labor.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "compounds"
+    ],
+    "learned_timestamp": 1752666618.5465062
+  },
+  "particularly": {
+    "definition": "(focus) Especially, extremely.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "materials"
+    ],
+    "learned_timestamp": 1752666618.5475054
+  },
+  "manipulated": {
+    "definition": "To move, arrange or operate something using the hands",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "materials"
+    ],
+    "learned_timestamp": 1752666618.5485122
+  },
+  "something": {
+    "definition": "An object whose nature is yet to be defined.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "functions"
+    ],
+    "learned_timestamp": 1752666834.4345236
+  },
+  "making": {
+    "definition": "The act of forming, causing, or constituting; workmanship; construction.",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "materials"
+    ],
+    "learned_timestamp": 1752666618.5495038
+  },
+  "matter": {
+    "definition": "Substance, material.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "materials"
+    ],
+    "learned_timestamp": 1752666618.550503
+  },
+  "shaped": {
+    "definition": "To create or make.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "test",
+    "related_concepts": [],
+    "parent_concepts": [
+      "materials"
+    ],
+    "learned_timestamp": 1752666618.550503
+  },
+  "microorganism": {
+    "definition": "An organism that is too small to be seen by the unaided eye, especially a single-celled organism, such as a bacterium.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "organisms"
+    ],
+    "learned_timestamp": 1752666922.7729597
+  },
+  "complete": {
+    "definition": "A completed survey.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "organisms"
+    ],
+    "learned_timestamp": 1752666922.773959
+  },
+  "ecosystem": {
+    "definition": "A system formed by an ecological community and its environment that functions as a unit.",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "user",
+    "related_concepts": [
+      "formed",
+      "functions",
+      "system",
+      "unit",
+      "community",
+      "environment",
+      "its",
+      "ecological"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752666778.2346542
+  },
+  "environment": {
+    "definition": "The surroundings of, and influences on, a particular item of interest.",
+    "word_type": "action",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "item",
+      "interest",
+      "particular",
+      "influences",
+      "surroundings"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666778.9129872
+  },
+  "ecological": {
+    "definition": "Relating to ecology, the interrelationships of organisms and their environment.",
+    "word_type": "property",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "ecology",
+      "their",
+      "interrelationships",
+      "organisms",
+      "relating"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666780.1296492
+  },
+  "community": {
+    "definition": "A group sharing a common understanding, and often the same language, law, manners, and/or tradition.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "understanding",
+      "tradition",
+      "often",
+      "group",
+      "manners",
+      "sharing",
+      "common",
+      "law",
+      "language"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666781.644177
+  },
+  "functions": {
+    "definition": "What something does or is used for.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "something",
+      "used"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666782.4830337
+  },
+  "formed": {
+    "definition": "To assume (a certain shape or visible structure).",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "certain",
+      "shape",
+      "visible",
+      "assume",
+      "structure"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666782.944396
+  },
+  "system": {
+    "definition": "A collection of organized things; a whole composed of relationships among its members.",
+    "word_type": "relation",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "relationships",
+      "collection",
+      "composed",
+      "things",
+      "organized",
+      "members",
+      "whole"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666784.3082933
+  },
+  "unit": {
+    "definition": "A particular, minute unit of mass, defined differently for different substances, but so that varying substances of the same general type have the property that one international unit of the one has the same effect on the human body as one international unit of the other.",
+    "word_type": "noun",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "mass",
+      "defined",
+      "differently",
+      "general",
+      "varying",
+      "body",
+      "type",
+      "human",
+      "one",
+      "effect",
+      "different",
+      "minute",
+      "property",
+      "international",
+      "substances"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666787.5748403
+  },
+  "its": {
+    "definition": "One who is neither a he nor a she; a creature; a dehumanized being.",
+    "word_type": "property",
+    "bootstrap_depth": 1,
+    "confidence": 0.9,
+    "source": "user",
+    "related_concepts": [
+      "she",
+      "creature",
+      "nor",
+      "dehumanized"
+    ],
+    "parent_concepts": [
+      "ecosystem"
+    ],
+    "learned_timestamp": 1752666792.8472521
+  },
+  "surroundings": {
+    "definition": "An outlying area; area in proximity to something",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "area",
+      "proximity",
+      "outlying"
+    ],
+    "parent_concepts": [
+      "environment"
+    ],
+    "learned_timestamp": 1752666794.0595632
+  },
+  "influences": {
+    "definition": "The power to affect, control or manipulate something or someone; the ability to change the development of fluctuating things such as conduct, thoughts or decisions.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "manipulate",
+      "decisions",
+      "someone",
+      "thoughts",
+      "development",
+      "fluctuating",
+      "power",
+      "ability",
+      "change",
+      "control",
+      "conduct",
+      "affect"
+    ],
+    "parent_concepts": [
+      "environment"
+    ],
+    "learned_timestamp": 1752666794.3973722
+  },
+  "particular": {
+    "definition": "A small individual part of something larger; a detail, a point.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "part",
+      "point",
+      "detail",
+      "individual",
+      "small"
+    ],
+    "parent_concepts": [
+      "environment"
+    ],
+    "learned_timestamp": 1752666798.9349551
+  },
+  "interest": {
+    "definition": "The price paid for obtaining, or price received for providing, money or goods in a credit transaction, calculated as a fraction of the amount or value of what was borrowed.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "paid",
+      "borrowed",
+      "amount",
+      "fraction",
+      "credit",
+      "goods",
+      "value",
+      "transaction",
+      "money",
+      "calculated",
+      "price"
+    ],
+    "parent_concepts": [
+      "environment"
+    ],
+    "learned_timestamp": 1752666801.1749105
+  },
+  "item": {
+    "definition": "A distinct physical object.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "distinct",
+      "physical",
+      "object"
+    ],
+    "parent_concepts": [
+      "environment"
+    ],
+    "learned_timestamp": 1752666807.9588218
+  },
+  "interrelationships": {
+    "definition": "A relationship between multiple things.",
+    "word_type": "relation",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [
+      "multiple",
+      "relationship"
+    ],
+    "parent_concepts": [
+      "ecological"
+    ],
+    "learned_timestamp": 1752666808.200683
+  },
+  "relating": {
+    "definition": "To tell in a descriptive way.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "ecological"
+    ],
+    "learned_timestamp": 1752666809.1935546
+  },
+  "ecology": {
+    "definition": "The branch of biology dealing with the relationships of organisms with their environment and with each other.",
+    "word_type": "relation",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "ecological"
+    ],
+    "learned_timestamp": 1752666809.4556873
+  },
+  "their": {
+    "definition": "In Modern English, they is a third-person pronoun relating to a grammatical subject.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "ecological"
+    ],
+    "learned_timestamp": 1752666810.5036066
+  },
+  "understanding": {
+    "definition": "To grasp a concept fully and thoroughly, especially (of words, statements, art, etc.) to be aware of the meaning of and (of people) to be aware of the intent of.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666815.9601612
+  },
+  "tradition": {
+    "definition": "A part of culture that is passed from person to person or generation to generation, possibly differing in detail from family to family, such as the way to celebrate holidays.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666820.837198
+  },
+  "language": {
+    "definition": "A body of words, and set of methods of combining them (called a grammar), understood by a community and used as a form of communication.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666822.1948392
+  },
+  "manners": {
+    "definition": "Mode of action; way of performing or doing anything",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666824.1000252
+  },
+  "sharing": {
+    "definition": "To give part of what one has to somebody else to use or consume.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666826.252792
+  },
+  "common": {
+    "definition": "Mutual good, shared by more than one.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666829.2691183
+  },
+  "group": {
+    "definition": "A number of things or persons being in some relation to one another.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666830.6461253
+  },
+  "often": {
+    "definition": "Frequent.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666833.226216
+  },
+  "law": {
+    "definition": "The body of binding rules and regulations, customs and standards established in a community by its legislative and judicial authorities.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "community"
+    ],
+    "learned_timestamp": 1752666833.3051708
+  },
+  "used": {
+    "definition": "Used may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "functions"
+    ],
+    "learned_timestamp": 1752666835.1770976
+  },
+  "structure": {
+    "definition": "A structure is an arrangement and organization of interrelated elements in a material object or system, or the object or system so organized. Physical structures include artifacts and objects such as buildings and machines and natural objects such as biological organisms, minerals and chemicals. Abstract structures include data structures in computer science and musical form. Types of structure include a hierarchy, a network featuring many-to-many links, or a lattice featuring connections between components that are neighbors in space.",
+    "word_type": "relation",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "formed"
+    ],
+    "learned_timestamp": 1752666835.3400052
+  },
+  "certain": {
+    "definition": "Certainty is the epistemic property of beliefs which a person has no rational grounds for doubting. One standard way of defining epistemic certainty is that a belief is certain if and only if the person holding that belief could not be mistaken in holding that belief. Other common definitions of certainty involve the indubitable nature of such beliefs or define certainty as a property of those beliefs with the greatest possible justification. Certainty is closely related to knowledge, although contemporary philosophers tend to treat knowledge as having lower requirements than certainty.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "formed"
+    ],
+    "learned_timestamp": 1752666842.8001993
+  },
+  "assume": {
+    "definition": "Assumption, in Christianity, refers to the Assumption of Mary, a belief in the taking up of the Virgin Mary into heaven.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "formed"
+    ],
+    "learned_timestamp": 1752666848.2301536
+  },
+  "shape": {
+    "definition": "A shape is a graphical representation of an object's form or its external boundary, outline, or external surface. It is distinct from other object properties, such as color, texture, or material type.\nIn geometry, shape excludes information about the object's position, size, orientation and chirality.\nA figure is a representation including both shape and size.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "formed"
+    ],
+    "learned_timestamp": 1752666849.670667
+  },
+  "relationships": {
+    "definition": "Relationship most often refers to:Family relations and relatives\nconsanguinity\nInterpersonal relationship, a strong, deep, or close association or acquaintance between two or more people\nCorrelation and dependence, relationships in mathematics and statistics between two variables or sets of data\nSemantic relationship, an ontology component\nRomance (love), a connection between two people driven by love and/or sexual attraction",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666856.271225
+  },
+  "collection": {
+    "definition": "Collection or Collections may refer to:",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666862.464812
+  },
+  "organized": {
+    "definition": "Organizing or organized may refer to:Organizing (management), a process of coordinating task goals and activities to resources\nCommunity organizing, in which communities come together to act in their shared self-interest\nProfessional organizing, an industry build around creating organizational systems for individuals and businesses\nUnion organizing, the process of establishing trade unions\nOrganizing Institute, a unit within the Organizing and Field Services Department of the American Federation of Labor and Congress of Industrial Organizations (AFL-CIO)\nOrganizing model, a broad conception of organizations such as trade unions\nOrganizing principle, a core assumption from which everything else by proximity can derive a classification or a value\nOrganizing vision, a term developed by E. Burton Swanson and Neil Ramiller that defines how a vision is formed, a vision of how to organize structures and processes in regard to an information systems innovation\nOrganized (album), a 2000 album by Morgan Nicholls\nSorting, any process of arranging items systematically\nOrganize, a nonprofit organization founded by Greg Segal",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666862.6292155
+  },
+  "composed": {
+    "definition": "Composition or Compositions may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666868.4958308
+  },
+  "members": {
+    "definition": "Member may refer to:Military jury, referred to as \"Members\" in military jargon\nElement (mathematics), an object that belongs to a mathematical set\nIn object-oriented programming, a member of a class\nField, entries in a database\nMember variable, a variable that is associated with a specific object\nLimb (anatomy), an appendage of the human or animal body\nEuphemism for penis\nStructural component of a truss, connected by nodes\nUser (computing), a person making use of a computing service, especially on the Internet\nMember (geology), a component of a geological formation\nMember of parliament\nThe Members, a British punk rock band\nMeronymy, a semantic relationship in linguistics\nChurch membership, belonging to a local Christian congregation, a Christian denomination and the universal Church\nMember, a participant in a club or learned society",
+    "word_type": "relation",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666870.3442447
+  },
+  "things": {
+    "definition": "Things or The Things may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666877.1361086
+  },
+  "whole": {
+    "definition": "Whole may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "system"
+    ],
+    "learned_timestamp": 1752666877.197512
+  },
+  "international": {
+    "definition": "International is an adjective meaning \"between nations\".",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666877.4089313
+  },
+  "differently": {
+    "definition": "Difference commonly refers to:Difference (philosophy), the set of properties by which items are distinguished\nDifference (mathematics), the result of a subtraction",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666878.4287043
+  },
+  "substances": {
+    "definition": "Substance may refer to:Matter, anything that has mass and takes up space",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666879.6535075
+  },
+  "different": {
+    "definition": "Different may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666882.5556068
+  },
+  "property": {
+    "definition": "Property is a system of rights that gives people legal control of valuable things, and also refers to the valuable things themselves. Depending on the nature of the property, an owner of property may have the right to consume, alter, share, rent, sell, exchange, transfer, give away, or destroy it, or to exclude others from doing these things, as well as to perhaps abandon it; whereas regardless of the nature of the property, the owner thereof has the right to properly use it under the granted property rights.",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666882.6878388
+  },
+  "defined": {
+    "definition": "A definition is a statement of the meaning of a term. Definitions can be classified into two large categories: intensional definitions, and extensional definitions. Another important category of definitions is the class of ostensive definitions, which convey the meaning of a term by pointing out examples. A term may have many different senses and multiple meanings, and thus require multiple definitions.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666890.4205866
+  },
+  "general": {
+    "definition": "A general officer is an officer of high rank in the armies, and in some nations' air and space forces, marines or naval infantry.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666896.5044625
+  },
+  "varying": {
+    "definition": "Variation or Variations may refer to:",
+    "word_type": "action",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666901.1895432
+  },
+  "effect": {
+    "definition": "Effect may refer to:A result or change of something\nList of effects\nCause and effect, an idiom describing causality",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666902.0252771
+  },
+  "minute": {
+    "definition": "A minute is a unit of time defined as equal to 60 seconds.\nIt is not a unit in the International System of Units (SI), but is accepted for use with SI. The SI symbol for minutes is min. The prime symbol \u2032 is also sometimes used informally to denote minutes.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666905.4890325
+  },
+  "body": {
+    "definition": "Body may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666913.1329896
+  },
+  "mass": {
+    "definition": "(physical) Matter, material.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666913.266558
+  },
+  "type": {
+    "definition": "A grouping based on shared characteristics; a class.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666913.920119
+  },
+  "one": {
+    "definition": "The digit or figure 1.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "unit"
+    ],
+    "learned_timestamp": 1752666915.0180304
+  },
+  "dehumanized": {
+    "definition": "To take away humanity; to remove or deny human qualities, characteristics, or attributes; to impersonalize.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "its"
+    ],
+    "learned_timestamp": 1752666915.4674737
+  },
+  "creature": {
+    "definition": "A living being; an animal or (sometimes derogatory) a human.",
+    "word_type": "property",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "its"
+    ],
+    "learned_timestamp": 1752666919.4098868
+  },
+  "nor": {
+    "definition": "And not (introducing a negative statement, without necessarily following one).",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "its"
+    ],
+    "learned_timestamp": 1752666920.181445
+  },
+  "she": {
+    "definition": "A female.",
+    "word_type": "noun",
+    "bootstrap_depth": 2,
+    "confidence": 0.8,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "its"
+    ],
+    "learned_timestamp": 1752666922.6750154
+  },
+  "proximity": {
+    "definition": "Closeness; the state of being near as in space, time, or relationship.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "surroundings"
+    ],
+    "learned_timestamp": 1752666922.7489731
+  },
+  "outlying": {
+    "definition": "A region relatively remote from a central location.",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "surroundings"
+    ],
+    "learned_timestamp": 1752666922.7499726
+  },
+  "area": {
+    "definition": "A measure of the extent of a surface; it is measured in square units.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "surroundings"
+    ],
+    "learned_timestamp": 1752666922.7509718
+  },
+  "development": {
+    "definition": "The process of developing; growth, directed change.",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7509718
+  },
+  "fluctuating": {
+    "definition": "To vary irregularly; to swing.",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.751971
+  },
+  "manipulate": {
+    "definition": "To move, arrange or operate something using the hands",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.752973
+  },
+  "decisions": {
+    "definition": "The act of deciding.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.752973
+  },
+  "thoughts": {
+    "definition": "Form created in the mind, rather than the forms perceived through the five senses; an instance of thinking.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7539697
+  },
+  "ability": {
+    "definition": "Suitableness.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7549703
+  },
+  "conduct": {
+    "definition": "The act or method of controlling or directing",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7559688
+  },
+  "control": {
+    "definition": "Influence or authority over something.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7559688
+  },
+  "someone": {
+    "definition": "A partially specified but unnamed person.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7569735
+  },
+  "affect": {
+    "definition": "Affect may refer to:Affect (education)\nAffect (linguistics), attitude or emotion that a speaker brings to an utterance\nAffect (philosophy)\nAffect (psychology), the experience of feeling or emotion\nAffect display, signs of emotion, such as facial expression, vocalization, and posture\nAffect theory\nAffective science, the scientific study of emotion\nAffective computing, an area of research in computer science aiming to understand the emotional state of users\nReduced affect display, a.k.a. emotional blunting or affective flattening, a reduction in emotional reactivity\nPseudobulbar affect, a.k.a. labile affect, the unstable display of emotion\nAffect (rhetoric), the responsive, emotional feeling that precedes cognition\nAffected accent; see Accent (sociolinguistics)\nAffect (company), a defunct Japanese video game developer",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.757968
+  },
+  "change": {
+    "definition": "Change, Changed or Changing may refer to the below. Other forms are listed at \u00a7\u00a0See also",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7589676
+  },
+  "power": {
+    "definition": "Power may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "influences"
+    ],
+    "learned_timestamp": 1752666922.7599666
+  },
+  "individual": {
+    "definition": "A person considered alone, rather than as belonging to a group of people.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "particular"
+    ],
+    "learned_timestamp": 1752666922.7599666
+  },
+  "detail": {
+    "definition": "Detail(s) or The Detail(s) may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "particular"
+    ],
+    "learned_timestamp": 1752666922.7609658
+  },
+  "point": {
+    "definition": "A point is a small dot or the sharp tip of something. Point or points may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "particular"
+    ],
+    "learned_timestamp": 1752666922.7609658
+  },
+  "part": {
+    "definition": "Part, parts or PART may refer to:",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "particular"
+    ],
+    "learned_timestamp": 1752666922.7619667
+  },
+  "transaction": {
+    "definition": "The act of conducting or carrying out (business, negotiations, plans).",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7629652
+  },
+  "calculated": {
+    "definition": "Calculated is the only studio album by the American punk rock band Heavens to Betsy, released on March 21, 1994, by Kill Rock Stars. The album received positive reviews from critics.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7629652
+  },
+  "borrowed": {
+    "definition": "Borrowed is a 2022 drama film directed by Carlos Rafael Betancourt and Oscar Ernesto Ortega. The film explores the relationship between two men living in South Florida. Borrowed stars Jonathan Del Arco and H\u00e9ctor Medina, and had its world premiere at the 2022 Miami International Film Festival.",
+    "word_type": "relation",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.763964
+  },
+  "fraction": {
+    "definition": "A fraction represents a part of a whole or, more generally, any number of equal parts. When spoken in everyday English, a fraction describes how many parts of a certain size there are, for example, one-half, eight-fifths, three-quarters. A common, vulgar, or simple fraction consists of an integer numerator, displayed above a line, and a non-zero integer denominator, displayed below that line. If these integers are positive, then the numerator represents a number of equal parts, and the denominator indicates how many of those parts make up a unit or a whole. For example, in the fraction \u20603/4\u2060, the numerator 3 indicates that the fraction represents 3 equal parts, and the denominator 4 indicates that 4 parts make up a whole. The picture to the right illustrates \u20603/4\u2060 of a cake.",
+    "word_type": "action",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.764964
+  },
+  "amount": {
+    "definition": "Quantity or amount is a property that can exist as a multitude or magnitude, which illustrate discontinuity and continuity. Quantities can be compared in terms of \"more\", \"less\", or \"equal\", or by assigning a numerical value multiple of a unit of measurement. Mass, time, distance, heat, and angle are among the familiar examples of quantitative properties.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7659636
+  },
+  "credit": {
+    "definition": "Reliance on the truth of something said or done; faith; trust.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7659636
+  },
+  "goods": {
+    "definition": "The forces or behaviours that are the enemy of evil. Usually consists of helping others and general benevolence.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7669823
+  },
+  "money": {
+    "definition": "A legally or socially binding conceptual contract of entitlement to wealth, void of intrinsic value, payable for all debts and taxes, and regulated in supply.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7679622
+  },
+  "price": {
+    "definition": "The cost required to gain possession of something.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7679622
+  },
+  "value": {
+    "definition": "The quality (positive or negative) that renders something desirable or valuable.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.7689612
+  },
+  "paid": {
+    "definition": "Paid or PAID may refer to:Paid , an American film starring Joan Crawford\nPaid , a Dutch film\nPersonality and Individual Differences, a journal\n\"Paid\", a song by \u00a5$ from the album Vultures 1",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interest"
+    ],
+    "learned_timestamp": 1752666922.769961
+  },
+  "distinct": {
+    "definition": "Capable of being perceived very clearly.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "item"
+    ],
+    "learned_timestamp": 1752666922.769961
+  },
+  "physical": {
+    "definition": "Physical examination.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "item"
+    ],
+    "learned_timestamp": 1752666922.7709603
+  },
+  "object": {
+    "definition": "A thing that has physical existence.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "item"
+    ],
+    "learned_timestamp": 1752666922.7709603
+  },
+  "relationship": {
+    "definition": "Connection or association; the condition of being related.",
+    "word_type": "property",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interrelationships"
+    ],
+    "learned_timestamp": 1752666922.7719598
+  },
+  "multiple": {
+    "definition": "A whole number that can be divided by another number with no remainder.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "interrelationships"
+    ],
+    "learned_timestamp": 1752666922.7719598
+  },
+  "discrete": {
+    "definition": "Separate; distinct; individual; non-continuous.",
+    "word_type": "noun",
+    "bootstrap_depth": 3,
+    "confidence": 0.7,
+    "source": "user",
+    "related_concepts": [],
+    "parent_concepts": [
+      "organisms"
+    ],
+    "learned_timestamp": 1752666922.7749581
+  }
+}

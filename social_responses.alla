@@ -1,0 +1,19 @@
+# Social Response Patterns for ALLA
+# These are complete response patterns that ALLA can use
+
+# Gratitude responses
+social :: response_to_thanks :: You're welcome!
+social :: response_to_thanks_casual :: No problem!
+social :: response_to_thanks_warm :: You're very welcome!
+
+# Greeting responses  
+social :: response_to_hello :: Hello there!
+social :: response_to_greeting :: Hi! Nice to see you.
+
+# Farewell responses
+social :: response_to_goodbye :: Goodbye! Take care.
+social :: response_to_bye :: See you later!
+
+# Apology responses
+social :: response_to_sorry :: It's okay, no worries.
+social :: response_to_apology :: That's perfectly fine.

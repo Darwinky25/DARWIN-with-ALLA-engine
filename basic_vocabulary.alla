@@ -1,0 +1,100 @@
+# ALLA Basic Conversational Vocabulary
+# Essential words for natural language interaction
+
+# Basic inquiry words
+inquiry :: what :: none
+inquiry :: where :: none
+inquiry :: when :: none
+inquiry :: who :: none
+inquiry :: how :: none
+inquiry :: why :: none
+
+# Basic grammar words (usually ignored by parser but needed for completion)
+pronoun :: i :: none
+pronoun :: you :: none
+pronoun :: my :: none
+pronoun :: your :: none
+pronoun :: me :: none
+
+# Basic verbs
+verb :: is :: none
+verb :: are :: none
+verb :: was :: none
+verb :: were :: none
+verb :: do :: none
+verb :: does :: none
+verb :: did :: none
+verb :: have :: none
+verb :: has :: none
+verb :: had :: none
+
+# Basic social words
+social :: hi :: acknowledge_greeting
+social :: hello :: acknowledge_greeting
+social :: hey :: acknowledge_greeting
+social :: goodbye :: acknowledge_farewell
+social :: bye :: acknowledge_farewell
+social :: thanks :: acknowledge_gratitude
+social :: thank :: acknowledge_gratitude
+social :: sorry :: acknowledge_apology
+social :: please :: request_assistance
+social :: help :: request_assistance
+social :: yes :: affirmative_response
+social :: no :: negative_response
+
+# Basic positive/connection words for composition
+adjective :: nice :: none
+adjective :: good :: none  
+adjective :: great :: none
+adjective :: wonderful :: none
+verb :: see :: none
+verb :: meet :: none
+verb :: talk :: none
+
+# Basic farewell/care words
+noun :: care :: none
+adjective :: safe :: none
+adjective :: well :: none
+noun :: farewell :: none
+
+# Basic response words  
+noun :: welcome :: none
+noun :: problem :: none
+noun :: pleasure :: none
+adjective :: okay :: none
+adjective :: fine :: none
+adjective :: alright :: none
+
+# Remove hardcoded response patterns - ALLA will compose them dynamically
+
+# Basic nouns for identity
+noun :: name :: none
+noun :: alla :: obj.name.lower() == 'alla'
+
+# Basic actions
+action :: create :: none
+action :: destroy :: none
+action :: take :: none
+action :: give :: none
+
+# Basic properties for common objects
+property :: red :: obj.color == 'red'
+property :: blue :: obj.color == 'blue'
+property :: green :: obj.color == 'green'
+property :: brown :: obj.color == 'brown'
+property :: grey :: obj.color == 'grey'
+property :: big :: obj.size >= 7
+property :: small :: obj.size <= 3
+
+# Basic shapes - these should map to actual object shapes
+noun :: box :: obj.shape == 'box'
+noun :: cube :: obj.shape == 'cube'  
+noun :: sphere :: obj.shape == 'sphere'
+noun :: circle :: obj.shape == 'circle'
+noun :: tree :: obj.shape == 'tree'
+noun :: crystal :: obj.shape == 'crystal'
+noun :: globe :: obj.shape == 'sphere'  # Globe is a type of sphere
+
+# Basic relations
+relation :: bigger_than :: obj1.size > obj2.size
+relation :: smaller_than :: obj1.size < obj2.size
