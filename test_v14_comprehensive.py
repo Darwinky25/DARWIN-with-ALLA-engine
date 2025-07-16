@@ -53,7 +53,7 @@ def run_comprehensive_demo():
         print(f"   Goal set: {goal.description}")
         # Run a few thinking cycles
         for i in range(3):
-            print(f"   🤔 Thinking cycle {i+1}...")
+            print(f"   Thinking cycle {i+1}...")
             alla.tick()
     
     print("\nPHASE 5: Final knowledge summary...")

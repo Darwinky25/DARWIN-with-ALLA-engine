@@ -1,0 +1,14 @@
+{
+    "apple": {
+        "word_type": "noun",
+        "meaning_expression": "obj.shape == 'round'"
+    },
+    "find": {
+        "word_type": "action",
+        "meaning_expression": "none"
+    },
+    "artifact": {
+        "word_type": "noun",
+        "meaning_expression": "obj.material == 'stone'"
+    }
+}

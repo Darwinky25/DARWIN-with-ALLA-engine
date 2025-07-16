@@ -1,0 +1,115 @@
+//==============================================================================
+// ALLA v18.0 COMPLETE GRAMMAR DEFINITION
+// Comprehensive formal grammar for ALLA's natural language understanding
+// Supports ALL patterns and functions that ALLA can handle
+//==============================================================================
+
+?start: command | query | conditional | teaching | knowledge_query | social_interaction | greeting | help_query
+
+// SOCIAL INTERACTIONS - Basic human communication
+social_interaction: greeting | farewell | gratitude | apology | politeness
+greeting: "hello" -> social_greeting
+        | "hi" -> social_greeting 
+        | "hey" -> social_greeting
+        | "good" ("morning"|"afternoon"|"evening") -> social_greeting
+farewell: "goodbye" -> social_farewell
+        | "bye" -> social_farewell
+        | "see" "you" ("later"|"soon") -> social_farewell
+gratitude: "thank" "you" -> social_thanks
+         | "thanks" -> social_thanks
+apology: "sorry" -> social_apology
+       | "excuse" "me" -> social_apology
+politeness: "please" -> social_politeness
+
+// TEACHING COMMANDS - Complete word types
+teaching: "teach" word_type ESCAPED_STRING "as" ESCAPED_STRING -> teach_word
+word_type: "property" | "noun" | "relation" | "action" | "inquiry" | "operator" 
+         | "temporal" | "conditional" | "pronoun" | "verb" | "adjective" | "social"
+         | "color" | "shape" | "material" | "size" | "emotion" | "concept"
+
+// KNOWLEDGE QUERIES - Complete knowledge access
+knowledge_query: "what" "do" "you" "know" "about" WORD -> knowledge_about
+              | "list" "all" knowledge_type -> list_knowledge
+              | "show" "me" knowledge_type -> list_knowledge
+              | "tell" "me" "about" WORD -> knowledge_about
+              | "explain" WORD -> knowledge_about
+              | "describe" WORD -> knowledge_about
+knowledge_type: "actions" | "properties" | "colors" | "concepts" | "objects" 
+              | "relations" | "events" | "words" | "everything"
+
+// HELP QUERIES - User assistance
+help_query: "help" -> general_help
+          | "help" "me" -> general_help
+          | "help" "teach" -> help_teach
+          | "help" "with" WORD -> specific_help
+          | "how" "do" "i" action_phrase -> help_action
+          | "what" "can" "you" "do" -> capability_query
+          | "what" "commands" "do" "you" "know" -> command_list
+action_phrase: "create" | "destroy" | "teach" | "learn" | "ask"
+
+// COMMANDS (Imperative)
+command: create_command
+       | destroy_command  
+       | take_command
+       | give_command
+       | help_command
+
+create_command: "create" description "as" NAME -> create_object
+destroy_command: "destroy" NAME -> destroy_object
+take_command: "take" description -> take_object
+give_command: "give" description "to" agent -> give_object
+help_command: "help" "teach" -> help_teach
+
+// QUERIES (Interrogative) - Enhanced for flexibility
+query: what_query | where_query | when_query | who_query | is_query | inventory_query | comparison_query | temporal_query | identity_query
+
+what_query: "what" "is" description -> filter_objects
+          | "what" "is" "in" "the" "world" -> query_world
+          | "what" "are" "you" -> self_description
+          | "what" "do" "you" "do" -> capability_query
+where_query: "where" "is" NAME -> locate_object
+when_query: "when" "was" NAME past_action -> query_event
+who_query: "who" "is" NAME -> identify_agent
+         | "who" "are" "you" -> self_identity
+identity_query: "what" "is" "your" "name" -> name_query
+              | "what" "is" "my" "name" -> user_name_query
+is_query: "is" NAME property -> verify_property
+        | "is" NAME relation NAME -> verify_relation
+
+inventory_query: "what" "do" agent "have" -> query_inventory
+               | "do" agent "have" description -> verify_inventory
+
+comparison_query: "is" NAME "same" "as" NAME -> compare_same
+                | "is" NAME "different" "from" NAME -> compare_different
+
+temporal_query: "list" "events" -> list_events
+              | "what" "happened" temporal_op "event" NUMBER -> query_temporal
+
+// CONDITIONALS
+conditional: "if" condition "then" command -> if_then_statement
+           | "what" "if" condition -> hypothetical_query
+
+condition: agent "have" description -> inventory_condition
+         | NAME "is" property -> property_condition
+         | NAME relation NAME -> relation_condition
+
+// BASIC BUILDING BLOCKS
+description: (article? adjective* noun) | (adjective+ noun?) | noun+
+article: "a" | "an" | "the"
+adjective: WORD
+noun: WORD
+property: WORD
+relation: WORD
+agent: "i" | "you" | "alla" | NAME
+past_action: "created" | "destroyed" | "made" | "built" | "removed" | "deleted"
+temporal_op: "before" | "after"
+
+// TERMINALS
+NAME: /[a-zA-Z_][a-zA-Z0-9_]*/
+WORD: /[a-zA-Z]+/
+NUMBER: /[0-9]+/
+ESCAPED_STRING: /\"[^\"]*\"/
+
+// WHITESPACE
+%import common.WS
+%ignore WS

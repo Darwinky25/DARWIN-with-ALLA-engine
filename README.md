@@ -4,7 +4,21 @@
 [![License](https://img.shields.io/badge/license-Darwin%20Public%20License%20v1.0-red.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-yellow.svg)](https://python.org)
 [![CLA](https://img.shields.io/badge/CLA-required-orange.svg)](CLA.md)
-[![Custom License](https://img.shields.io/badge/WARNING-Custom%20License%20Terms-critical.svg)](LICENSE)
+[![Custom License](### **Semantic Network Architecture** *(v17.0)*
+ALLA's semantic reasoning is powered by:
+- **Concept Graph**: 261 interconnected concepts with 403 semantic connections
+- **Semantic Cascade Engine**: Recursive learning that expands concept networks automatically
+- **Semantic Bootstrapper**: Autonomous internet learning to build rich concept definitions
+- **Entity Extraction**: Automatic identification of related concepts from definitions
+- **Relationship Mapping**: Dense web of semantic relationships (synonyms, categories, properties)
+- **Persistent Storage**: Concept graphs and semantic networks saved across sessions
+
+### **Semantic Memory System** *(v14.0+)*
+ALLA builds abstract knowledge through:
+- **Nodes**: Concepts (colors, shapes, actions, etc.)
+- **Edges**: Relationships between concepts
+- **Reflection**: Periodic analysis of experiences
+- **Pattern Detection**: Automatic insight formation//img.shields.io/badge/WARNING-Custom%20License%20Terms-critical.svg)](LICENSE)
 
 > **IMPORTANT LICENSE NOTICE:** This project uses a **custom Darwin Public License v1.0** that prohibits commercial use without permission, military applications, and false attribution. Educational and research use is freely permitted. [Read full terms](LICENSE) | [CLA required for contributors](CLA.md)
 
@@ -49,7 +63,18 @@ User: take the flute
 
 ## **The ALLA Journey: Version History**
 
-### **v16.0 - The Inquisitive Agent** *(Current)*
+### **v17.0 - The Semantic Network Agent** *(Current)*
+**Breakthrough: Complete Semantic World Model**
+- **Semantic Cascade Engine**: Recursive learning - learning one word triggers learning of all related concepts
+- **Semantic Bootstrapping**: Autonomous internet learning to build concept graphs  
+- **261 Interconnected Concepts**: Every word ALLA knows is connected to a rich semantic network
+- **403 Semantic Connections**: Dense web of relationships enabling true semantic reasoning
+- **Autonomous Concept Expansion**: Can independently learn from the internet and extract entities/relations
+- **Mental Model**: True understanding through semantic graphs, not just isolated word definitions
+
+**Key Innovation**: `"photosynthesis"` → Automatically learns about plants, chlorophyll, sunlight, chemical energy, and all related concepts
+
+### **v16.0 - The Inquisitive Agent**
 **Breakthrough: Curiosity-Driven Learning**
 - **The Drive to Ask**: Unknown words trigger inquiry goals instead of failures
 - **UNDERSTAND Goal Type**: New goal category for learning about unknown concepts
@@ -235,6 +260,25 @@ ALLA: "Setting up conditional: IF I have blue sphere THEN take red box"
 
 User: "what if there is a giant purple elephant?"
 ALLA: "If there is a giant purple elephant: This condition would be False"
+```
+
+### **6. Semantic Network Reasoning** *(v17.0)*
+```python
+# Dense interconnected concept understanding:
+User: "Tell me about photosynthesis"
+# ALLA automatically learns entire concept web:
+# photosynthesis → plants → chlorophyll → sunlight → chemical energy → glucose
+# 50+ related concepts learned and interconnected
+
+# Semantic bootstrapping from single words:
+User: teach concept "democracy"
+# ALLA autonomously learns: voting, government, citizens, representation, 
+# election, political system, rights, freedom, and hundreds of connections
+
+# Rich semantic queries:
+User: "What concepts are related to happiness?"
+ALLA: "happiness connects to: joy, emotion, positive, satisfaction, well-being, 
+       contentment, pleasure, delight, fulfillment, cheerfulness..."
 ```
 
 ---
@@ -441,11 +485,14 @@ ALLA's autonomous behavior is driven by:
 - **v13.0**: 3/3 tests passing (Goal Setting, Planning, Autonomous Pursuit)
 
 ### **Code Metrics:**
-- **Total Lines**: ~2,500+ lines of Python
-- **Components**: 8 major cognitive systems
+- **Total Lines**: ~3,500+ lines of Python (including semantic systems)
+- **Components**: 10+ major cognitive systems (including semantic engines)
 - **Action Types**: 20+ different executable actions
-- **Test Scripts**: 10+ comprehensive test suites
-- **Vocabulary**: 25+ base concepts, unlimited learning capacity
+- **Test Scripts**: 12+ comprehensive test suites
+- **Vocabulary**: 72 base concepts with unlimited semantic expansion
+- **Semantic Concepts**: 261 interconnected concepts
+- **Semantic Connections**: 403 relationship mappings
+- **Concept Categories**: 8 major semantic categories
 
 ---
 

@@ -1,0 +1,6 @@
+{
+    "artifact": {
+        "word_type": "noun",
+        "meaning_expression": "obj.material == 'crystal'"
+    }
+}

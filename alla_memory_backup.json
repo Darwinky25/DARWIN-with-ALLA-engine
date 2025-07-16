@@ -1,0 +1,74 @@
+{
+  "hello": {
+    "word_type": "social",
+    "meaning_expression": "acknowledge_greeting"
+  },
+  "goodbye": {
+    "word_type": "social",
+    "meaning_expression": "acknowledge_farewell"
+  },
+  "hi": {
+    "word_type": "social",
+    "meaning_expression": "acknowledge_greeting"
+  },
+  "thanks": {
+    "word_type": "social",
+    "meaning_expression": "acknowledge_gratitude"
+  },
+  "sorry": {
+    "word_type": "social",
+    "meaning_expression": "acknowledge_apology"
+  },
+  "what": {
+    "word_type": "inquiry",
+    "meaning_expression": "none"
+  },
+  "how": {
+    "word_type": "inquiry",
+    "meaning_expression": "none"
+  },
+  "who": {
+    "word_type": "inquiry",
+    "meaning_expression": "none"
+  },
+  "name": {
+    "word_type": "noun",
+    "meaning_expression": "none"
+  },
+  "alla": {
+    "word_type": "social",
+    "meaning_expression": "Advanced Language Learning Agent"
+  },
+  "capability": {
+    "word_type": "social",
+    "meaning_expression": "learning and understanding through experience"
+  },
+  "teaching": {
+    "word_type": "social",
+    "meaning_expression": "sharing knowledge to help others learn"
+  },
+  "explain": {
+    "word_type": "social",
+    "meaning_expression": "break down complex ideas into simple parts"
+  },
+  "happy": {
+    "word_type": "social",
+    "meaning_expression": "emotional_state_joy"
+  },
+  "happy_response": {
+    "word_type": "social",
+    "meaning_expression": "I'm glad to hear you're feeling happy!"
+  },
+  "sad": {
+    "word_type": "social",
+    "meaning_expression": "emotional_state_sadness"
+  },
+  "sad_response": {
+    "word_type": "social",
+    "meaning_expression": "I'm sorry you're feeling sad. Is there anything I can do to help?"
+  },
+  "machine_learning": {
+    "word_type": "social",
+    "meaning_expression": "computers learning from data like humans learn from experience"
+  }
+}

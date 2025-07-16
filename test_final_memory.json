@@ -131,74 +131,6 @@
         "word_type": "social",
         "meaning_expression": "negative_response"
     },
-    "nice": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "good": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "great": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "wonderful": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "see": {
-        "word_type": "verb",
-        "meaning_expression": "none"
-    },
-    "meet": {
-        "word_type": "verb",
-        "meaning_expression": "none"
-    },
-    "talk": {
-        "word_type": "verb",
-        "meaning_expression": "none"
-    },
-    "care": {
-        "word_type": "noun",
-        "meaning_expression": "none"
-    },
-    "safe": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "well": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "farewell": {
-        "word_type": "noun",
-        "meaning_expression": "none"
-    },
-    "welcome": {
-        "word_type": "noun",
-        "meaning_expression": "none"
-    },
-    "problem": {
-        "word_type": "noun",
-        "meaning_expression": "none"
-    },
-    "pleasure": {
-        "word_type": "noun",
-        "meaning_expression": "none"
-    },
-    "okay": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "fine": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
-    "alright": {
-        "word_type": "adjective",
-        "meaning_expression": "none"
-    },
     "name": {
         "word_type": "noun",
         "meaning_expression": "none"
@@ -277,7 +209,7 @@
     },
     "globe": {
         "word_type": "noun",
-        "meaning_expression": "obj.shape == 'sphere'  # Globe is a type of sphere"
+        "meaning_expression": "obj.shape == 'sphere'"
     },
     "bigger_than": {
         "word_type": "relation",
@@ -286,5 +218,13 @@
     "smaller_than": {
         "word_type": "relation",
         "meaning_expression": "obj1.size < obj2.size"
+    },
+    "sparkly": {
+        "word_type": "property",
+        "meaning_expression": "obj.material == 'glitter'"
+    },
+    "blorgify": {
+        "word_type": "action",
+        "meaning_expression": "none"
     }
 }

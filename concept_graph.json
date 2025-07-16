@@ -472,7 +472,7 @@
     "learned_timestamp": 1752666496.0148146
   },
   "religion": {
-    "definition": "\nReligion is a range of social-cultural systems, including designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that generally relate humanity to supernatural, transcendental, and spiritual elements\u2014although there is no scholarly consensus over what precisely constitutes a religion. It is an essentially contested concept. Different religions may or may not contain various elements ranging from the divine, sacredness, faith, and a supernatural being or beings.",
+    "definition": "\nReligion is a range of social-cultural systems, including designated behaviors and practices, morals, beliefs, worldviews, texts, sanctified places, prophecies, ethics, or organizations, that generally relate humanity to supernatural, transcendental, and spiritual elements—although there is no scholarly consensus over what precisely constitutes a religion. It is an essentially contested concept. Different religions may or may not contain various elements ranging from the divine, sacredness, faith, and a supernatural being or beings.",
     "word_type": "property",
     "bootstrap_depth": 2,
     "confidence": 0.8,
@@ -544,7 +544,7 @@
     "learned_timestamp": 1752666516.151595
   },
   "activity": {
-    "definition": "Activity may refer to:Action (philosophy), in general\nHuman activity: human behavior, in sociology behavior may refer to all basic human actions, economics may study human economic activities and along with cybernetics and psychology may study their modulation\nIn Semantics, a type of Aktionsart\nRecreation, or activities of leisure\nThe Aristotelian concept of energeia, Latinized as actus\nActivity (UML), a major task in Unified Modeling Language\nActivity, the rate of catalytic activity, such as enzyme activity, in physical chemistry and enzymology\nThermodynamic activity, the effective concentration of a solute for the purposes of mass action\nActivity \nActivity, the number of radioactive decays per second\nActivity \nActivity \nHMS\u00a0Activity\u00a0(D94), an aircraft carrier of the Royal Navy\n\"Activity\", a song by Way Out West from Intensify\nCultural activities, activities referred to culture.",
+    "definition": "Activity may refer to:Action (philosophy), in general\nHuman activity: human behavior, in sociology behavior may refer to all basic human actions, economics may study human economic activities and along with cybernetics and psychology may study their modulation\nIn Semantics, a type of Aktionsart\nRecreation, or activities of leisure\nThe Aristotelian concept of energeia, Latinized as actus\nActivity (UML), a major task in Unified Modeling Language\nActivity, the rate of catalytic activity, such as enzyme activity, in physical chemistry and enzymology\nThermodynamic activity, the effective concentration of a solute for the purposes of mass action\nActivity \nActivity, the number of radioactive decays per second\nActivity \nActivity \nHMS Activity (D94), an aircraft carrier of the Royal Navy\n\"Activity\", a song by Way Out West from Intensify\nCultural activities, activities referred to culture.",
     "word_type": "action",
     "bootstrap_depth": 2,
     "confidence": 0.8,
@@ -760,7 +760,7 @@
     "learned_timestamp": 1752666569.0603976
   },
   "wavelength": {
-    "definition": "The length of a single cycle of a wave, as measured by the distance between one peak or trough of a wave and the next; it is often designated in physics as \u03bb, and corresponds to the velocity of the wave divided by its frequency.",
+    "definition": "The length of a single cycle of a wave, as measured by the distance between one peak or trough of a wave and the next; it is often designated in physics as λ, and corresponds to the velocity of the wave divided by its frequency.",
     "word_type": "relation",
     "bootstrap_depth": 2,
     "confidence": 0.8,
@@ -940,7 +940,7 @@
     "learned_timestamp": 1752666614.7237458
   },
   "microorganisms": {
-    "definition": "A microorganism, or microbe, is an organism of microscopic size, which may exist in its single-celled form or as a colony of cells. The possible existence of unseen microbial life was suspected from antiquity, with an early attestation in Jain literature authored in 6th-century\u00a0BC India. The scientific study of microorganisms began with their observation under the microscope in the 1670s by Anton van Leeuwenhoek. In the 1850s, Louis Pasteur found that microorganisms caused food spoilage, debunking the theory of spontaneous generation. In the 1880s, Robert Koch discovered that microorganisms caused the diseases tuberculosis, cholera, diphtheria, and anthrax.",
+    "definition": "A microorganism, or microbe, is an organism of microscopic size, which may exist in its single-celled form or as a colony of cells. The possible existence of unseen microbial life was suspected from antiquity, with an early attestation in Jain literature authored in 6th-century BC India. The scientific study of microorganisms began with their observation under the microscope in the 1670s by Anton van Leeuwenhoek. In the 1850s, Louis Pasteur found that microorganisms caused food spoilage, debunking the theory of spontaneous generation. In the 1880s, Robert Koch discovered that microorganisms caused the diseases tuberculosis, cholera, diphtheria, and anthrax.",
     "word_type": "noun",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -964,7 +964,7 @@
     "learned_timestamp": 1752666618.522519
   },
   "prokaryotic": {
-    "definition": "A prokaryote is a single-celled organism whose cell lacks a nucleus and other membrane-bound organelles. The word prokaryote comes from the Ancient Greek \u03c0\u03c1\u03cc (pr\u00f3), meaning 'before', and \u03ba\u03ac\u03c1\u03c5\u03bf\u03bd (k\u00e1ruon), meaning 'nut' or 'kernel'. In the earlier two-empire system arising from the work of \u00c9douard Chatton, prokaryotes were classified within the empire Prokaryota. However, in the three-domain system, based upon molecular phylogenetics, prokaryotes are divided into two domains: Bacteria and Archaea. A third domain, Eukaryota, consists of organisms with nuclei.",
+    "definition": "A prokaryote is a single-celled organism whose cell lacks a nucleus and other membrane-bound organelles. The word prokaryote comes from the Ancient Greek πρό (pró), meaning 'before', and κάρυον (káruon), meaning 'nut' or 'kernel'. In the earlier two-empire system arising from the work of Édouard Chatton, prokaryotes were classified within the empire Prokaryota. However, in the three-domain system, based upon molecular phylogenetics, prokaryotes are divided into two domains: Bacteria and Archaea. A third domain, Eukaryota, consists of organisms with nuclei.",
     "word_type": "property",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -988,7 +988,7 @@
     "learned_timestamp": 1752666618.5245185
   },
   "algae": {
-    "definition": "Algae is an informal term for any organisms of a large and diverse group of photosynthetic organisms that are not plants, and includes species from multiple distinct clades. Such organisms range from unicellular microalgae, such as cyanobacteria, Chlorella, and diatoms, to multicellular macroalgae such as kelp or brown algae which may grow up to 50 metres (160\u00a0ft) in length. Most algae are aquatic organisms and lack many of the distinct cell and tissue types, such as stomata, xylem, and phloem that are found in land plants. The largest and most complex marine algae are called seaweeds. In contrast, the most complex freshwater forms are the Charophyta, a division of green algae which includes, for example, Spirogyra and stoneworts. Algae that are carried passively by water are plankton, specifically phytoplankton.",
+    "definition": "Algae is an informal term for any organisms of a large and diverse group of photosynthetic organisms that are not plants, and includes species from multiple distinct clades. Such organisms range from unicellular microalgae, such as cyanobacteria, Chlorella, and diatoms, to multicellular macroalgae such as kelp or brown algae which may grow up to 50 metres (160 ft) in length. Most algae are aquatic organisms and lack many of the distinct cell and tissue types, such as stomata, xylem, and phloem that are found in land plants. The largest and most complex marine algae are called seaweeds. In contrast, the most complex freshwater forms are the Charophyta, a division of green algae which includes, for example, Spirogyra and stoneworts. Algae that are carried passively by water are plankton, specifically phytoplankton.",
     "word_type": "noun",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -1000,7 +1000,7 @@
     "learned_timestamp": 1752666618.5255182
   },
   "green": {
-    "definition": "Green is the color between cyan and yellow on the visible spectrum. It is evoked by light which has a dominant wavelength of roughly 495\u2013570 nm. In subtractive color systems, used in painting and color printing, it is created by a combination of yellow and cyan; in the RGB color model, used on television and computer screens, it is one of the additive primary colors, along with red and blue, which are mixed in different combinations to create all other colors. By far the largest contributor to green in nature is chlorophyll, the chemical by which plants photosynthesize and convert sunlight into chemical energy. Many creatures have adapted to their green environments by taking on a green hue themselves as camouflage. Several minerals have a green color, including the emerald, which is colored green by its chromium content.",
+    "definition": "Green is the color between cyan and yellow on the visible spectrum. It is evoked by light which has a dominant wavelength of roughly 495–570 nm. In subtractive color systems, used in painting and color printing, it is created by a combination of yellow and cyan; in the RGB color model, used on television and computer screens, it is one of the additive primary colors, along with red and blue, which are mixed in different combinations to create all other colors. By far the largest contributor to green in nature is chlorophyll, the chemical by which plants photosynthesize and convert sunlight into chemical energy. Many creatures have adapted to their green environments by taking on a green hue themselves as camouflage. Several minerals have a green color, including the emerald, which is colored green by its chromium content.",
     "word_type": "relation",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -1024,7 +1024,7 @@
     "learned_timestamp": 1752666618.5295162
   },
   "blue": {
-    "definition": "Blue is one of the three primary colours in the RYB colour model, as well as in the RGB (additive) colour model. It lies between violet and cyan on the spectrum of visible light. The term blue generally describes colours perceived by humans observing light with a dominant wavelength that's between approximately 450 and 495\u00a0nanometres. Most blues contain a slight mixture of other colours; azure contains some green, while ultramarine contains some violet. The clear daytime sky and the deep sea appear blue because of an optical effect known as Rayleigh scattering. An optical effect called the Tyndall effect explains blue eyes. Distant objects appear more blue because of another optical effect called aerial perspective.",
+    "definition": "Blue is one of the three primary colours in the RYB colour model, as well as in the RGB (additive) colour model. It lies between violet and cyan on the spectrum of visible light. The term blue generally describes colours perceived by humans observing light with a dominant wavelength that's between approximately 450 and 495 nanometres. Most blues contain a slight mixture of other colours; azure contains some green, while ultramarine contains some violet. The clear daytime sky and the deep sea appear blue because of an optical effect known as Rayleigh scattering. An optical effect called the Tyndall effect explains blue eyes. Distant objects appear more blue because of another optical effect called aerial perspective.",
     "word_type": "relation",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -1997,7 +1997,7 @@
     "learned_timestamp": 1752666902.0252771
   },
   "minute": {
-    "definition": "A minute is a unit of time defined as equal to 60 seconds.\nIt is not a unit in the International System of Units (SI), but is accepted for use with SI. The SI symbol for minutes is min. The prime symbol \u2032 is also sometimes used informally to denote minutes.",
+    "definition": "A minute is a unit of time defined as equal to 60 seconds.\nIt is not a unit in the International System of Units (SI), but is accepted for use with SI. The SI symbol for minutes is min. The prime symbol ′ is also sometimes used informally to denote minutes.",
     "word_type": "noun",
     "bootstrap_depth": 2,
     "confidence": 0.8,
@@ -2261,7 +2261,7 @@
     "learned_timestamp": 1752666922.757968
   },
   "change": {
-    "definition": "Change, Changed or Changing may refer to the below. Other forms are listed at \u00a7\u00a0See also",
+    "definition": "Change, Changed or Changing may refer to the below. Other forms are listed at § See also",
     "word_type": "noun",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -2357,7 +2357,7 @@
     "learned_timestamp": 1752666922.7629652
   },
   "borrowed": {
-    "definition": "Borrowed is a 2022 drama film directed by Carlos Rafael Betancourt and Oscar Ernesto Ortega. The film explores the relationship between two men living in South Florida. Borrowed stars Jonathan Del Arco and H\u00e9ctor Medina, and had its world premiere at the 2022 Miami International Film Festival.",
+    "definition": "Borrowed is a 2022 drama film directed by Carlos Rafael Betancourt and Oscar Ernesto Ortega. The film explores the relationship between two men living in South Florida. Borrowed stars Jonathan Del Arco and Héctor Medina, and had its world premiere at the 2022 Miami International Film Festival.",
     "word_type": "relation",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -2369,7 +2369,7 @@
     "learned_timestamp": 1752666922.763964
   },
   "fraction": {
-    "definition": "A fraction represents a part of a whole or, more generally, any number of equal parts. When spoken in everyday English, a fraction describes how many parts of a certain size there are, for example, one-half, eight-fifths, three-quarters. A common, vulgar, or simple fraction consists of an integer numerator, displayed above a line, and a non-zero integer denominator, displayed below that line. If these integers are positive, then the numerator represents a number of equal parts, and the denominator indicates how many of those parts make up a unit or a whole. For example, in the fraction \u20603/4\u2060, the numerator 3 indicates that the fraction represents 3 equal parts, and the denominator 4 indicates that 4 parts make up a whole. The picture to the right illustrates \u20603/4\u2060 of a cake.",
+    "definition": "A fraction represents a part of a whole or, more generally, any number of equal parts. When spoken in everyday English, a fraction describes how many parts of a certain size there are, for example, one-half, eight-fifths, three-quarters. A common, vulgar, or simple fraction consists of an integer numerator, displayed above a line, and a non-zero integer denominator, displayed below that line. If these integers are positive, then the numerator represents a number of equal parts, and the denominator indicates how many of those parts make up a unit or a whole. For example, in the fraction ⁠3/4⁠, the numerator 3 indicates that the fraction represents 3 equal parts, and the denominator 4 indicates that 4 parts make up a whole. The picture to the right illustrates ⁠3/4⁠ of a cake.",
     "word_type": "action",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -2453,7 +2453,7 @@
     "learned_timestamp": 1752666922.7689612
   },
   "paid": {
-    "definition": "Paid or PAID may refer to:Paid , an American film starring Joan Crawford\nPaid , a Dutch film\nPersonality and Individual Differences, a journal\n\"Paid\", a song by \u00a5$ from the album Vultures 1",
+    "definition": "Paid or PAID may refer to:Paid , an American film starring Joan Crawford\nPaid , a Dutch film\nPersonality and Individual Differences, a journal\n\"Paid\", a song by ¥$ from the album Vultures 1",
     "word_type": "noun",
     "bootstrap_depth": 3,
     "confidence": 0.7,
@@ -2535,5 +2535,1224 @@
       "organisms"
     ],
     "learned_timestamp": 1752666922.7749581
+  },
+  "what": {
+    "definition": "Semantic concept: none",
+    "word_type": "inquiry",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "identity",
+      "definition",
+      "nature",
+      "essence",
+      "question",
+      "inquiry"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "questions_investigation"
+  },
+  "where": {
+    "definition": "Semantic concept: none",
+    "word_type": "inquiry",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "location",
+      "position",
+      "place",
+      "geography",
+      "space",
+      "site"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "questions_investigation"
+  },
+  "when": {
+    "definition": "Semantic concept: none",
+    "word_type": "inquiry",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "time",
+      "moment",
+      "timing",
+      "chronology",
+      "schedule",
+      "occurrence"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "questions_investigation"
+  },
+  "who": {
+    "definition": "Semantic concept: none",
+    "word_type": "inquiry",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "person",
+      "identity",
+      "individual",
+      "agent",
+      "character",
+      "actor"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "questions_investigation"
+  },
+  "how": {
+    "definition": "Semantic concept: none",
+    "word_type": "inquiry",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "method",
+      "process",
+      "procedure",
+      "technique",
+      "way",
+      "mechanism"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "questions_investigation"
+  },
+  "why": {
+    "definition": "Semantic concept: none",
+    "word_type": "inquiry",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "reason",
+      "cause",
+      "purpose",
+      "motivation",
+      "explanation",
+      "justification"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "questions_investigation"
+  },
+  "i": {
+    "definition": "Semantic concept: none",
+    "word_type": "pronoun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "self",
+      "speaker",
+      "first_person",
+      "identity",
+      "ego",
+      "subject"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "reference_identity"
+  },
+  "you": {
+    "definition": "Semantic concept: none",
+    "word_type": "pronoun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "addressee",
+      "second_person",
+      "other",
+      "listener",
+      "recipient"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "reference_identity"
+  },
+  "my": {
+    "definition": "Semantic concept: none",
+    "word_type": "pronoun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "possession",
+      "ownership",
+      "belonging",
+      "first_person_possessive"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "reference_identity"
+  },
+  "your": {
+    "definition": "Semantic concept: none",
+    "word_type": "pronoun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "other_possession",
+      "second_person_possessive",
+      "belonging_to_other"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "reference_identity"
+  },
+  "me": {
+    "definition": "Semantic concept: none",
+    "word_type": "pronoun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "self_object",
+      "first_person_object",
+      "speaker_as_object",
+      "target"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "reference_identity"
+  },
+  "hi": {
+    "definition": "Semantic concept: acknowledge_greeting",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "greeting",
+      "informal_communication",
+      "friendly",
+      "casual",
+      "acknowledgment"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "hello": {
+    "definition": "Semantic concept: acknowledge_greeting",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "greeting",
+      "acknowledgment",
+      "communication",
+      "social_interaction",
+      "politeness",
+      "beginning",
+      "recognition"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "hey": {
+    "definition": "Semantic concept: acknowledge_greeting",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "attention_seeking",
+      "informal_greeting",
+      "casual",
+      "calling",
+      "alerting"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "goodbye": {
+    "definition": "Semantic concept: acknowledge_farewell",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "farewell",
+      "departure",
+      "ending",
+      "communication",
+      "social_interaction",
+      "closure",
+      "separation"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "bye": {
+    "definition": "Semantic concept: acknowledge_farewell",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "farewell",
+      "informal_departure",
+      "casual",
+      "ending",
+      "separation"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "thanks": {
+    "definition": "Semantic concept: acknowledge_gratitude",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "gratitude",
+      "appreciation",
+      "acknowledgment",
+      "politeness",
+      "social_courtesy",
+      "positive_emotion"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "thank": {
+    "definition": "Semantic concept: acknowledge_gratitude",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "gratitude",
+      "appreciation",
+      "acknowledgment",
+      "recognition",
+      "positive_feedback"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "sorry": {
+    "definition": "Semantic concept: acknowledge_apology",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "apology",
+      "regret",
+      "acknowledgment_of_error",
+      "remorse",
+      "social_repair",
+      "empathy"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "please": {
+    "definition": "Semantic concept: request_assistance",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "request",
+      "politeness",
+      "courtesy",
+      "asking",
+      "social_etiquette",
+      "respectful"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "help": {
+    "definition": "Semantic concept: request_assistance",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "assistance",
+      "support",
+      "cooperation",
+      "aid",
+      "problem_solving",
+      "collaboration"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "yes": {
+    "definition": "Semantic concept: affirmative_response",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "affirmation",
+      "agreement",
+      "positive_response",
+      "confirmation",
+      "acceptance"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "no": {
+    "definition": "Semantic concept: negative_response",
+    "word_type": "social",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "negation",
+      "disagreement",
+      "negative_response",
+      "refusal",
+      "denial"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "human_interaction"
+  },
+  "see": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "perceive",
+      "visual_perception",
+      "observe",
+      "notice",
+      "witness",
+      "detect"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "general_concepts"
+  },
+  "okay": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "agreement",
+      "acceptance",
+      "confirmation",
+      "understanding",
+      "consent"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "general_concepts"
+  },
+  "name": {
+    "definition": "Semantic concept: none",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "identifier",
+      "label",
+      "designation",
+      "title",
+      "signature",
+      "identity"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "objects_entities"
+  },
+  "alla": {
+    "definition": "Semantic concept: obj.name.lower() == 'alla'",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "artificial_intelligence",
+      "learning_agent",
+      "cognitive_system",
+      "AI",
+      "self"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "objects_entities"
+  },
+  "create": {
+    "definition": "Semantic concept: none",
+    "word_type": "action",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "generate",
+      "produce",
+      "construct",
+      "form",
+      "design",
+      "invent"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "activity_movement"
+  },
+  "destroy": {
+    "definition": "Semantic concept: none",
+    "word_type": "action",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "demolish",
+      "break",
+      "ruin",
+      "eliminate",
+      "dismantle",
+      "obliterate"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "activity_movement"
+  },
+  "take": {
+    "definition": "Semantic concept: none",
+    "word_type": "action",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "acquire",
+      "grasp",
+      "obtain",
+      "pickup",
+      "possession",
+      "gather",
+      "collect"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "activity_movement"
+  },
+  "give": {
+    "definition": "Semantic concept: none",
+    "word_type": "action",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "transfer",
+      "donate",
+      "offer",
+      "provide",
+      "share",
+      "hand_over",
+      "bestow"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "activity_movement"
+  },
+  "red": {
+    "definition": "Semantic concept: obj.color == 'red'",
+    "word_type": "property",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "color",
+      "warm_color",
+      "visible_spectrum",
+      "blood",
+      "fire",
+      "passion",
+      "danger"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "characteristics_qualities"
+  },
+  "big": {
+    "definition": "Semantic concept: obj.size >= 7",
+    "word_type": "property",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "size",
+      "large",
+      "magnitude",
+      "dimension",
+      "scale",
+      "significant"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "characteristics_qualities"
+  },
+  "box": {
+    "definition": "Semantic concept: obj.shape == 'box'",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "container",
+      "storage",
+      "rectangular",
+      "package",
+      "enclosure",
+      "object"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "objects_entities"
+  },
+  "bigger_than": {
+    "definition": "Semantic concept: obj1.size > obj2.size",
+    "word_type": "relation",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "larger",
+      "greater",
+      "superior_size",
+      "exceeding",
+      "dominant"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "spatial_logical_relations"
+  },
+  "smaller_than": {
+    "definition": "Semantic concept: obj1.size < obj2.size",
+    "word_type": "relation",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "lesser",
+      "inferior_size",
+      "compact",
+      "reduced",
+      "minimal"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668444.203791,
+    "semantic_category": "spatial_logical_relations"
+  },
+  "is": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "existence",
+      "being",
+      "state",
+      "present_tense",
+      "singular",
+      "identity",
+      "copula"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "are": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "existence",
+      "being",
+      "state",
+      "present_tense",
+      "plural",
+      "identity",
+      "copula"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "was": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "existence",
+      "being",
+      "state",
+      "past_tense",
+      "singular",
+      "history",
+      "copula"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "were": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "existence",
+      "being",
+      "state",
+      "past_tense",
+      "plural",
+      "history",
+      "copula"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "do": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "action",
+      "perform",
+      "execute",
+      "accomplish",
+      "auxiliary",
+      "present_tense"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "does": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "action",
+      "perform",
+      "execute",
+      "accomplish",
+      "auxiliary",
+      "third_person"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "did": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "action",
+      "perform",
+      "execute",
+      "accomplish",
+      "auxiliary",
+      "past_tense"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "have": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "possession",
+      "ownership",
+      "auxiliary",
+      "perfect_aspect",
+      "present_tense"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "has": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "possession",
+      "ownership",
+      "auxiliary",
+      "perfect_aspect",
+      "third_person"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "had": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "possession",
+      "ownership",
+      "auxiliary",
+      "perfect_aspect",
+      "past_tense"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "nice": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "pleasant",
+      "agreeable",
+      "kind",
+      "good",
+      "positive",
+      "attractive",
+      "enjoyable"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "good": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "positive",
+      "beneficial",
+      "quality",
+      "virtuous",
+      "excellent",
+      "favorable"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "great": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "excellent",
+      "magnificent",
+      "superior",
+      "outstanding",
+      "impressive",
+      "large"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "wonderful": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "amazing",
+      "marvelous",
+      "excellent",
+      "delightful",
+      "extraordinary"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "meet": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "encounter",
+      "gather",
+      "introduce",
+      "assemble",
+      "convene",
+      "social_interaction"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "talk": {
+    "definition": "Semantic concept: none",
+    "word_type": "verb",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "speak",
+      "communicate",
+      "converse",
+      "discuss",
+      "chat",
+      "verbal_communication"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "care": {
+    "definition": "Semantic concept: none",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "concern",
+      "attention",
+      "compassion",
+      "responsibility",
+      "nurture",
+      "protection"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "safe": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "secure",
+      "protected",
+      "harmless",
+      "reliable",
+      "danger_free",
+      "trustworthy"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "well": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "healthy",
+      "good",
+      "properly",
+      "satisfactorily",
+      "thoroughly",
+      "adequately"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "farewell": {
+    "definition": "Semantic concept: none",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "goodbye",
+      "departure",
+      "parting",
+      "leave_taking",
+      "separation",
+      "ending"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "welcome": {
+    "definition": "Semantic concept: none",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "greeting",
+      "reception",
+      "hospitality",
+      "acceptance",
+      "invitation",
+      "arrival"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "problem": {
+    "definition": "Semantic concept: none",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "issue",
+      "difficulty",
+      "challenge",
+      "obstacle",
+      "complication",
+      "trouble"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "pleasure": {
+    "definition": "Semantic concept: none",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "enjoyment",
+      "satisfaction",
+      "delight",
+      "happiness",
+      "gratification",
+      "joy"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "fine": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "good",
+      "acceptable",
+      "excellent",
+      "thin",
+      "delicate",
+      "precise",
+      "penalty"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "alright": {
+    "definition": "Semantic concept: none",
+    "word_type": "adjective",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "okay",
+      "acceptable",
+      "satisfactory",
+      "fine",
+      "adequate",
+      "approved"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "general_concepts"
+  },
+  "brown": {
+    "definition": "Semantic concept: obj.color == 'brown'",
+    "word_type": "property",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "color",
+      "earth_tone",
+      "wood",
+      "soil",
+      "natural",
+      "warm_color",
+      "chocolate"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "characteristics_qualities"
+  },
+  "grey": {
+    "definition": "Semantic concept: obj.color == 'grey'",
+    "word_type": "property",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "color",
+      "neutral",
+      "ash",
+      "storm",
+      "intermediate",
+      "dull",
+      "subdued"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "characteristics_qualities"
+  },
+  "cube": {
+    "definition": "Semantic concept: obj.shape == 'cube'",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "shape",
+      "3D",
+      "six_faces",
+      "square_faces",
+      "geometric",
+      "solid",
+      "rectangular"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "sphere": {
+    "definition": "Semantic concept: obj.shape == 'sphere'",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "shape",
+      "3D",
+      "round",
+      "ball",
+      "geometric",
+      "circular",
+      "perfect_symmetry"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "circle": {
+    "definition": "Semantic concept: obj.shape == 'circle'",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "shape",
+      "2D",
+      "round",
+      "curved",
+      "geometric",
+      "circumference",
+      "radius"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "crystal": {
+    "definition": "Semantic concept: obj.shape == 'crystal'",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "structure",
+      "geometric",
+      "faceted",
+      "mineral",
+      "transparent",
+      "lattice"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
+  },
+  "globe": {
+    "definition": "Semantic concept: obj.shape == 'sphere'  # Globe is a type of sphere",
+    "word_type": "noun",
+    "bootstrap_depth": 0,
+    "confidence": 1.0,
+    "source": "semantic_network_builder",
+    "related_concepts": [
+      "sphere",
+      "world",
+      "earth",
+      "round",
+      "map",
+      "planetary",
+      "global"
+    ],
+    "parent_concepts": [],
+    "learned_timestamp": 1752668818.972683,
+    "semantic_category": "objects_entities"
   }
 }
