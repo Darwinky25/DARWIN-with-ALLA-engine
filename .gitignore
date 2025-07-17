@@ -76,6 +76,17 @@ temp_*.json
 *.log
 logs/
 
+# ARC-AGI-2 dataset and related files
+ARC-AGI-2/
+*arc2*
+*ARC2*
+ALLA_ARC_*
+ALLA_COMPREHENSIVE_ARC_*
+DARWIN_ARC2_*
+enhanced_alla_run.log
+enhanced_alla.log
+test_fixes.log
+
 # Backup files
 *.bak
 *.backup

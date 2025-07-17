@@ -1,0 +1,341 @@
+{
+  "semantic_grounding": {
+    "tests_passed": 0,
+    "total_tests": 4,
+    "semantic_coherence_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "grounding_strength_scores": [
+      0.5,
+      0.4444444444444444,
+      0.5,
+      0.5
+    ],
+    "detailed_results": [
+      {
+        "question": "What makes a dog different from a cat?",
+        "answer": "I need to learn how to answer this type of question.",
+        "confidence": 0.3,
+        "concept_coverage": 0.0,
+        "coherence_score": 0.0,
+        "grounding_score": 0.5,
+        "passed": false
+      },
+      {
+        "question": "Why do people feel happy when they succeed?",
+        "answer": "I couldn't identify the causal relationship in this question.",
+        "confidence": 0.3,
+        "concept_coverage": 0.0,
+        "coherence_score": 0.0,
+        "grounding_score": 0.4444444444444444,
+        "passed": false
+      },
+      {
+        "question": "What happens when someone learns something new?",
+        "answer": "I need to learn how to answer this type of question.",
+        "confidence": 0.3,
+        "concept_coverage": 0.0,
+        "coherence_score": 0.0,
+        "grounding_score": 0.5,
+        "passed": false
+      },
+      {
+        "question": "How are friendship and love similar?",
+        "answer": "I need to learn how to answer this type of question.",
+        "confidence": 0.3,
+        "concept_coverage": 0.0,
+        "coherence_score": 0.0,
+        "grounding_score": 0.5,
+        "passed": false
+      }
+    ],
+    "success_rate": 0.0,
+    "average_coherence": 0.0,
+    "average_grounding": 0.4861111111111111
+  },
+  "autonomous_learning": {
+    "learning_sessions": [
+      {
+        "new_concepts": [],
+        "new_relationships": [],
+        "strengthened_connections": [],
+        "narrative_insights": [
+          {
+            "type": "causation",
+            "instances": 1,
+            "pattern": "(because|since|therefore|thus|so)"
+          }
+        ],
+        "emotional_discoveries": [
+          {
+            "emotion_type": "positive",
+            "instances": 1,
+            "specific_emotions": [
+              "joy"
+            ]
+          }
+        ],
+        "quality_score": 0.1866666666666667
+      },
+      {
+        "new_concepts": [],
+        "new_relationships": [],
+        "strengthened_connections": [],
+        "narrative_insights": [
+          {
+            "type": "causation",
+            "instances": 2,
+            "pattern": "(because|since|therefore|thus|so)"
+          },
+          {
+            "type": "emotion",
+            "instances": 1,
+            "pattern": "(felt|emotion|mood|feeling)"
+          }
+        ],
+        "emotional_discoveries": [],
+        "quality_score": 0.16000000000000003
+      },
+      {
+        "new_concepts": [],
+        "new_relationships": [],
+        "strengthened_connections": [],
+        "narrative_insights": [
+          {
+            "type": "causation",
+            "instances": 5,
+            "pattern": "(because|since|therefore|thus|so)"
+          },
+          {
+            "type": "contrast",
+            "instances": 1,
+            "pattern": "(but|however|although|despite)"
+          },
+          {
+            "type": "emotion",
+            "instances": 5,
+            "pattern": "(felt|emotion|mood|feeling)"
+          }
+        ],
+        "emotional_discoveries": [
+          {
+            "emotion_type": "neutral",
+            "instances": 1,
+            "specific_emotions": [
+              "peaceful"
+            ]
+          }
+        ],
+        "quality_score": 0.26666666666666666
+      }
+    ],
+    "concepts_learned": 0,
+    "relationships_discovered": 0,
+    "quality_scores": [
+      0.1866666666666667,
+      0.16000000000000003,
+      0.26666666666666666
+    ],
+    "knowledge_integration_success": 0.26133333333333336,
+    "semantic_stability_maintained": true,
+    "average_quality": 0.20444444444444446
+  },
+  "emotional_reasoning": {
+    "tests_passed": 0,
+    "total_tests": 4,
+    "emotional_accuracy_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "reasoning_depth_scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "empathy_demonstration_scores": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "detailed_results": [
+      {
+        "scenario": "A student fails an important exam after studying very hard",
+        "question": "How would the student feel and why?",
+        "answer": "This would create positive emotions like happiness and joy.",
+        "emotional_accuracy": 0.0,
+        "reasoning_depth": 0.0,
+        "empathy_score": 0.25,
+        "passed": false
+      },
+      {
+        "scenario": "Someone receives an unexpected gift from a close friend",
+        "question": "What emotions would this trigger and what would happen next?",
+        "answer": "This would create positive emotions like happiness and joy.",
+        "emotional_accuracy": 0.0,
+        "reasoning_depth": 0.0,
+        "empathy_score": 0.25,
+        "passed": false
+      },
+      {
+        "scenario": "A person sees their childhood pet after many years",
+        "question": "Describe the emotional experience and why it occurs",
+        "answer": "This would create positive emotions like happiness and joy.",
+        "emotional_accuracy": 0.0,
+        "reasoning_depth": 0.0,
+        "empathy_score": 0.25,
+        "passed": false
+      },
+      {
+        "scenario": "Someone has to choose between helping a friend or advancing their career",
+        "question": "What emotional conflict would they experience?",
+        "answer": "This would create positive emotions like happiness and joy.",
+        "emotional_accuracy": 0.0,
+        "reasoning_depth": 0.0,
+        "empathy_score": 0.25,
+        "passed": false
+      }
+    ],
+    "success_rate": 0.0,
+    "average_emotional_accuracy": 0.0,
+    "average_reasoning_depth": 0.0,
+    "average_empathy": 0.25
+  },
+  "narrative_understanding": {
+    "narrative_comprehension_scores": [
+      0.0,
+      0.0
+    ],
+    "theme_extraction_scores": [
+      0.2,
+      0.6
+    ],
+    "causal_understanding_scores": [],
+    "character_analysis_scores": [],
+    "detailed_results": [
+      {
+        "story": "\n                Maya had always dreamed of becoming a scientist. Despite facing many obstacles,\n                including financial difficulties and discouragement from others, she persevered.\n                Through years of hard work and determination, she eventually discovered a new\n                treatment for a rare disease. Her discovery not only fulfilled her childhood dream\n                but also brought hope to thousands of patients worldwide.\n                ",
+        "question_results": [
+          {
+            "question": "What was Maya's goal and what obstacles did she face?",
+            "answer": "I need to learn how to answer this type of question.",
+            "confidence": 0.3,
+            "comprehension_score": 0.0
+          },
+          {
+            "question": "How did her journey end and what impact did it have?",
+            "answer": "I need to learn how to answer this type of question.",
+            "confidence": 0.3,
+            "comprehension_score": 0.0
+          },
+          {
+            "question": "What character traits enabled Maya to succeed?",
+            "answer": "I need to learn how to answer this type of question.",
+            "confidence": 0.3,
+            "comprehension_score": 0.0
+          }
+        ],
+        "themes_extracted": [
+          "perseverance",
+          "conflict"
+        ],
+        "overall_comprehension": 0.0
+      },
+      {
+        "story": "\n                Two friends, Alex and Jordan, had very different approaches to solving problems.\n                Alex preferred to think carefully before acting, while Jordan liked to jump in\n                and learn by doing. When they worked together on a challenging project, they\n                initially clashed over their different styles. However, they eventually realized\n                that combining their approaches created better solutions than either could achieve alone.\n                ",
+        "question_results": [
+          {
+            "question": "How were Alex and Jordan different in their approaches?",
+            "answer": "I need to learn how to answer this type of question.",
+            "confidence": 0.3,
+            "comprehension_score": 0.0
+          },
+          {
+            "question": "What happened when they worked together?",
+            "answer": "I need to learn how to answer this type of question.",
+            "confidence": 0.3,
+            "comprehension_score": 0.0
+          },
+          {
+            "question": "What did they learn about collaboration?",
+            "answer": "I need to learn how to answer this type of question.",
+            "confidence": 0.3,
+            "comprehension_score": 0.0
+          }
+        ],
+        "themes_extracted": [
+          "growth",
+          "conflict",
+          "resolution",
+          "collaboration"
+        ],
+        "overall_comprehension": 0.0
+      }
+    ],
+    "average_comprehension": 0.0,
+    "average_theme_extraction": 0.4
+  },
+  "world_model_development": {
+    "domain_understanding_scores": {
+      "physical_world": 0.0,
+      "social_world": 0.0,
+      "emotional_world": 0.0,
+      "temporal_world": 0.0
+    },
+    "world_model_coherence": 0.0,
+    "knowledge_integration_score": 0.09200000000000001,
+    "detailed_results": [
+      {
+        "domain": "physical_world",
+        "question": "What happens when you drop a heavy object and a light object from the same height?",
+        "answer": "I need to learn how to answer this type of question.",
+        "domain_score": 0.0,
+        "confidence": 0.3
+      },
+      {
+        "domain": "social_world",
+        "question": "Why do people form communities and societies?",
+        "answer": "I couldn't identify the causal relationship in this question.",
+        "domain_score": 0.0,
+        "confidence": 0.3
+      },
+      {
+        "domain": "emotional_world",
+        "question": "How do emotions influence decision-making?",
+        "answer": "This would create positive emotions like happiness and joy.",
+        "domain_score": 0.0,
+        "confidence": 0.8
+      },
+      {
+        "domain": "temporal_world",
+        "question": "How does the concept of time affect human behavior?",
+        "answer": "I need to learn how to answer this type of question.",
+        "domain_score": 0.0,
+        "confidence": 0.3
+      }
+    ]
+  },
+  "knowledge_refinement": {
+    "initial_concepts": 116050,
+    "initial_relationships": 456607,
+    "connections_pruned": 0,
+    "semantic_stability": 1.0,
+    "reasoning_improvement": 0.2588888888888889,
+    "refinement_quality": 0.6576666666666666
+  },
+  "overall_scores": {
+    "semantic_grounding": 0.09722222222222222,
+    "autonomous_learning": 0.2385777777777778,
+    "emotional_reasoning": 0.075,
+    "narrative_understanding": 0.16000000000000003,
+    "world_model_development": 0.046000000000000006,
+    "knowledge_refinement": 0.6576666666666666,
+    "overall": 0.2124111111111111
+  }
+}

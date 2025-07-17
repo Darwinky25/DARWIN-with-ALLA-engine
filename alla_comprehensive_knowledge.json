@@ -1,0 +1,426 @@
+{
+  "hypotheses": {
+    "line_extension": {
+      "name": "line_extension",
+      "description": "Colored objects extend into full horizontal or vertical lines",
+      "confidence": 0.7999999999999999,
+      "evidence_count": 6818,
+      "test_results": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "context_conditions": [
+        "refined_line_extension",
+        "improved_line_extension_detection",
+        "enhanced_line_extension_application"
+      ]
+    },
+    "expansion": {
+      "name": "expansion",
+      "description": "Pattern involving expansion",
+      "confidence": 0.6400000000000001,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_expansion",
+        "detect_expansion"
+      ]
+    },
+    "grid_tiling": {
+      "name": "grid_tiling",
+      "description": "Input grid is tiled in 1x1 arrangement",
+      "confidence": 0.9000000000000001,
+      "evidence_count": 10395,
+      "test_results": [
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9,
+        0.9
+      ],
+      "context_conditions": [
+        "refined_grid_tiling",
+        "improved_grid_tiling_detection",
+        "enhanced_grid_tiling_application"
+      ]
+    },
+    "object_removal": {
+      "name": "object_removal",
+      "description": "Pattern involving object_removal",
+      "confidence": 0.7200000000000001,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_object_removal",
+        "detect_object_removal"
+      ]
+    },
+    "object_creation": {
+      "name": "object_creation",
+      "description": "Pattern involving object_creation",
+      "confidence": 0.8,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_object_creation",
+        "detect_object_creation"
+      ]
+    },
+    "object_replication": {
+      "name": "object_replication",
+      "description": "Objects from input are replicated across the output",
+      "confidence": 0.7000000000000001,
+      "evidence_count": 635,
+      "test_results": [
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7,
+        0.7
+      ],
+      "context_conditions": [
+        "refined_object_replication",
+        "improved_object_replication_detection",
+        "enhanced_object_replication_application"
+      ]
+    },
+    "spatial_transformation": {
+      "name": "spatial_transformation",
+      "description": "Pattern involving spatial_transformation",
+      "confidence": 0.1,
+      "evidence_count": 372,
+      "test_results": [],
+      "context_conditions": [
+        "apply_spatial_transformation",
+        "detect_spatial_transformation",
+        "refined_spatial_transformation",
+        "improved_spatial_transformation_detection",
+        "enhanced_spatial_transformation_application"
+      ]
+    },
+    "contraction": {
+      "name": "contraction",
+      "description": "Pattern involving contraction",
+      "confidence": 0.4,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_contraction",
+        "detect_contraction"
+      ]
+    },
+    "size_scaling": {
+      "name": "size_scaling",
+      "description": "Pattern involving size_scaling",
+      "confidence": 0.1,
+      "evidence_count": 92,
+      "test_results": [],
+      "context_conditions": [
+        "apply_size_scaling",
+        "detect_size_scaling",
+        "refined_size_scaling",
+        "improved_size_scaling_detection",
+        "enhanced_size_scaling_application"
+      ]
+    },
+    "size_reduction": {
+      "name": "size_reduction",
+      "description": "Pattern involving size_reduction",
+      "confidence": 0.35999999999999976,
+      "evidence_count": 51,
+      "test_results": [],
+      "context_conditions": [
+        "apply_size_reduction",
+        "detect_size_reduction",
+        "refined_size_reduction",
+        "improved_size_reduction_detection",
+        "enhanced_size_reduction_application"
+      ]
+    },
+    "color_mapping": {
+      "name": "color_mapping",
+      "description": "Learned pattern: color mapping",
+      "confidence": 0.5060341734463522,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_color_mapping"
+      ]
+    },
+    "shape_transformation": {
+      "name": "shape_transformation",
+      "description": "Learned pattern: shape transformation",
+      "confidence": 0.5151185322669467,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_shape_transformation"
+      ]
+    },
+    "spatial_relation": {
+      "name": "spatial_relation",
+      "description": "Learned pattern: spatial relation",
+      "confidence": 0.4700496566870829,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_spatial_relation"
+      ]
+    },
+    "pattern_completion": {
+      "name": "pattern_completion",
+      "description": "Learned pattern: pattern completion",
+      "confidence": 0.6661474718548245,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_pattern_completion"
+      ]
+    },
+    "symmetry_operation": {
+      "name": "symmetry_operation",
+      "description": "Learned pattern: symmetry operation",
+      "confidence": 0.5215538548634726,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_symmetry_operation"
+      ]
+    },
+    "rotation_reflection": {
+      "name": "rotation_reflection",
+      "description": "Learned pattern: rotation reflection",
+      "confidence": 0.4251117098570944,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_rotation_reflection"
+      ]
+    },
+    "object_extraction": {
+      "name": "object_extraction",
+      "description": "Learned pattern: object extraction",
+      "confidence": 0.4517566606729743,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_object_extraction"
+      ]
+    },
+    "boundary_detection": {
+      "name": "boundary_detection",
+      "description": "Learned pattern: boundary detection",
+      "confidence": 0.3855276466820702,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_boundary_detection"
+      ]
+    },
+    "sequence_continuation": {
+      "name": "sequence_continuation",
+      "description": "Learned pattern: sequence continuation",
+      "confidence": 0.4624683208494139,
+      "evidence_count": 1,
+      "test_results": [],
+      "context_conditions": [
+        "apply_sequence_continuation"
+      ]
+    },
+    "error_resistant": {
+      "name": "error_resistant",
+      "description": "Robust handling of edge cases and errors",
+      "confidence": 0.6,
+      "evidence_count": 230,
+      "test_results": [],
+      "context_conditions": [
+        "handle_errors",
+        "robust_processing"
+      ]
+    }
+  },
+  "knowledge_base": {
+    "line_extension": {
+      "concept": "line_extension",
+      "definition": "Learned transformation_pattern: line_extension",
+      "examples": [
+        "{'type': 'object', 'color': 2, 'positions': [(13, 2), (14, 1)], 'size': 2, 'context': 'input'}",
+        "{'type': 'object', 'color': 7, 'positions': [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (1, 7), (1, 8), (1, 9), (1, 10), (1, 11), (1, 12), (1, 13), (1, 14), (1, 15), (2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12), (2, 13), (2, 14), (2, 15), (3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (3, 8), (3, 9), (3, 10), (3, 11), (3, 12), (3, 13), (3, 14), (3, 15), (4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (4, 8), (4, 9), (4, 10), (4, 11), (4, 12), (4, 13), (4, 14), (4, 15), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10), (5, 11), (5, 12), (5, 13), (5, 14), (5, 15), (6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7), (6, 8), (6, 9), (6, 10), (6, 11), (6, 12), (6, 13), (6, 14), (6, 15), (7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7), (7, 8), (7, 9), (7, 10), (7, 11), (7, 12), (7, 13), (7, 14), (7, 15), (8, 0), (8, 1), (8, 2), (8, 3), (8, 4), (8, 5), (8, 6), (8, 7), (8, 8), (8, 9), (8, 10), (8, 11), (8, 12), (8, 13), (8, 14), (8, 15), (9, 0), (9, 1), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6), (9, 7), (9, 8), (9, 9), (9, 10), (9, 11), (9, 12), (9, 13), (9, 14), (9, 15), (10, 0), (10, 1), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11), (10, 12), (10, 13), (10, 14), (10, 15), (11, 0), (11, 1), (11, 2), (11, 3), (11, 4), (11, 5), (11, 6), (11, 7), (11, 8), (11, 9), (11, 10), (11, 11), (11, 12), (11, 13), (11, 14), (11, 15), (12, 0), (12, 1), (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12), (12, 13), (12, 14), (12, 15), (13, 0), (13, 1), (13, 3), (13, 4), (13, 5), (13, 6), (13, 7), (13, 8), (13, 9), (13, 10), (13, 11), (13, 12), (13, 13), (13, 14), (13, 15), (14, 0), (14, 2), (14, 3), (14, 4), (14, 5), (14, 6), (14, 7), (14, 8), (14, 9), (14, 10), (14, 11), (14, 12), (14, 13), (14, 14), (14, 15), (15, 0), (15, 1), (15, 2), (15, 3), (15, 4), (15, 5), (15, 6), (15, 7), (15, 8), (15, 9), (15, 10), (15, 11), (15, 12), (15, 13), (15, 14), (15, 15)], 'size': 254, 'context': 'input'}",
+        "{'type': 'object', 'color': 2, 'positions': [(15, 0)], 'size': 1, 'context': 'input'}",
+        "{'type': 'object', 'color': 7, 'positions': [(0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (0, 6), (0, 7), (0, 8), (0, 9), (0, 10), (0, 11), (0, 12), (0, 13), (0, 14), (0, 15), (1, 0), (1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (1, 7), (1, 8), (1, 9), (1, 10), (1, 11), (1, 12), (1, 13), (1, 14), (1, 15), (2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (2, 9), (2, 10), (2, 11), (2, 12), (2, 13), (2, 14), (2, 15), (3, 0), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (3, 8), (3, 9), (3, 10), (3, 11), (3, 12), (3, 13), (3, 14), (3, 15), (4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (4, 8), (4, 9), (4, 10), (4, 11), (4, 12), (4, 13), (4, 14), (4, 15), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (5, 9), (5, 10), (5, 11), (5, 12), (5, 13), (5, 14), (5, 15), (6, 0), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7), (6, 8), (6, 9), (6, 10), (6, 11), (6, 12), (6, 13), (6, 14), (6, 15), (7, 0), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7), (7, 8), (7, 9), (7, 10), (7, 11), (7, 12), (7, 13), (7, 14), (7, 15), (8, 0), (8, 1), (8, 2), (8, 3), (8, 4), (8, 5), (8, 6), (8, 7), (8, 8), (8, 9), (8, 10), (8, 11), (8, 12), (8, 13), (8, 14), (8, 15), (9, 0), (9, 1), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6), (9, 7), (9, 8), (9, 9), (9, 10), (9, 11), (9, 12), (9, 13), (9, 14), (9, 15), (10, 0), (10, 1), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (10, 7), (10, 8), (10, 9), (10, 10), (10, 11), (10, 12), (10, 13), (10, 14), (10, 15), (11, 0), (11, 1), (11, 2), (11, 3), (11, 4), (11, 5), (11, 6), (11, 7), (11, 8), (11, 9), (11, 10), (11, 11), (11, 12), (11, 13), (11, 14), (11, 15), (12, 0), (12, 1), (12, 2), (12, 3), (12, 4), (12, 5), (12, 6), (12, 7), (12, 8), (12, 9), (12, 10), (12, 11), (12, 12), (12, 13), (12, 14), (12, 15), (13, 0), (13, 1), (13, 2), (13, 3), (13, 4), (13, 5), (13, 6), (13, 7), (13, 8), (13, 9), (13, 10), (13, 11), (13, 12), (13, 13), (13, 14), (13, 15), (14, 0), (14, 1), (14, 2), (14, 3), (14, 4), (14, 5), (14, 6), (14, 7), (14, 8), (14, 9), (14, 10), (14, 11), (14, 12), (14, 13), (14, 14), (14, 15), (15, 1), (15, 2), (15, 3), (15, 4), (15, 5), (15, 6), (15, 7), (15, 8), (15, 9), (15, 10), (15, 11), (15, 12), (15, 13), (15, 14), (15, 15)], 'size': 255, 'context': 'input'}",
+        "{'type': 'object', 'color': 2, 'positions': [(10, 5), (11, 4), (12, 3)], 'size': 3, 'context': 'input'}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 1.0
+    },
+    "expansion": {
+      "concept": "expansion",
+      "definition": "Learned transformation: expansion",
+      "examples": [
+        "{'type': 'expansion', 'factor': 9.0}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 0.6400000000000001
+    },
+    "grid_tiling": {
+      "concept": "grid_tiling",
+      "definition": "Learned transformation_pattern: grid_tiling",
+      "examples": [
+        "{'type': 'object_creation', 'factor': 3.0}",
+        "{'type': 'object_creation', 'factor': 3.0}",
+        "{'type': 'object_creation', 'factor': 3.0}",
+        "{'type': 'object', 'color': 1, 'positions': [(1, 1), (1, 2), (1, 3), (1, 4), (1, 5), (1, 6), (1, 7), (1, 8), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (2, 8), (3, 1), (3, 2), (3, 3), (3, 4), (3, 5), (3, 6), (3, 7), (3, 8), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (4, 6), (4, 7), (4, 8), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5), (5, 6), (5, 7), (5, 8), (6, 1), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (6, 7), (6, 8), (7, 1), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (7, 7), (7, 8), (9, 8), (9, 9), (9, 10), (10, 8), (10, 9), (10, 10), (11, 8), (11, 9), (11, 10)], 'size': 65, 'context': 'input'}",
+        "{'type': 'object', 'color': 1, 'positions': [(1, 1), (1, 2), (1, 3), (1, 4), (1, 7), (1, 8), (1, 9), (2, 1), (2, 2), (2, 3), (2, 4), (2, 7), (2, 8), (2, 9), (3, 1), (3, 2), (3, 3), (3, 4), (3, 7), (3, 8), (3, 9), (4, 1), (4, 2), (4, 3), (4, 4), (6, 2), (6, 3), (6, 4), (6, 5), (6, 6), (7, 2), (7, 3), (7, 4), (7, 5), (7, 6), (8, 2), (8, 3), (8, 4), (8, 5), (8, 6), (9, 2), (9, 3), (9, 4), (9, 5), (9, 6), (10, 2), (10, 3), (10, 4), (10, 5), (10, 6), (11, 2), (11, 3), (11, 4), (11, 5), (11, 6)], 'size': 55, 'context': 'input'}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 1.0
+    },
+    "object_removal": {
+      "concept": "object_removal",
+      "definition": "Learned transformation: object_removal",
+      "examples": [
+        "{'type': 'object_removal', 'factor': 2.0}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 0.7200000000000001
+    },
+    "object_creation": {
+      "concept": "object_creation",
+      "definition": "Learned transformation: object_creation",
+      "examples": [
+        "{'type': 'object_creation', 'factor': 2.0}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 0.8
+    },
+    "object_replication": {
+      "concept": "object_replication",
+      "definition": "Learned transformation_pattern: object_replication",
+      "examples": [
+        "{'type': 'object_creation', 'factor': 1.3333333333333333}",
+        "{'type': 'expansion', 'factor': 9.461538461538462}",
+        "{'type': 'object_creation', 'factor': 1.5}",
+        "{'type': 'expansion', 'factor': 4.615384615384615}",
+        "{'type': 'object_creation', 'factor': 1.25}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 1.0
+    },
+    "spatial_transformation": {
+      "concept": "spatial_transformation",
+      "definition": "Learned transformation_pattern: spatial_transformation",
+      "examples": [
+        "{'type': 'object_removal', 'factor': 1.25}",
+        "{'type': 'object_removal', 'factor': 1.5}",
+        "{'type': 'object_removal', 'factor': 1.3333333333333333}",
+        "{'type': 'object', 'color': 3, 'positions': [(0, 1), (0, 5), (0, 9), (1, 3), (1, 7), (2, 1), (2, 5), (2, 9), (3, 3), (3, 7), (4, 1), (4, 5), (4, 9), (5, 3), (5, 7), (6, 1), (6, 5), (6, 9), (7, 3), (7, 7), (8, 1), (8, 5), (8, 9), (9, 3), (9, 7), (10, 1), (10, 5), (10, 9)], 'size': 28, 'context': 'input'}",
+        "{'type': 'object', 'color': 5, 'positions': [(0, 2), (0, 6), (0, 10), (1, 0), (1, 4), (1, 8), (2, 2), (2, 6), (2, 10), (3, 0), (3, 4), (3, 8), (4, 2), (4, 6), (4, 10), (5, 0), (5, 4), (5, 8), (6, 2), (6, 6), (6, 10), (7, 0), (7, 4), (7, 8), (8, 2), (8, 6), (8, 10), (9, 0), (9, 4), (9, 8), (10, 2), (10, 6), (10, 10)], 'size': 33, 'context': 'input'}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 0.5
+    },
+    "contraction": {
+      "concept": "contraction",
+      "definition": "Learned transformation: contraction",
+      "examples": [
+        "{'type': 'contraction', 'factor': 3.0}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 0.4
+    },
+    "size_scaling": {
+      "concept": "size_scaling",
+      "definition": "Learned transformation_pattern: size_scaling",
+      "examples": [
+        "{'type': 'expansion', 'factor': 2.6666666666666665}",
+        "{'type': 'expansion', 'factor': 3.0}",
+        "{'type': 'expansion', 'factor': 2.5}",
+        "{'type': 'object', 'color': 1, 'positions': [(0, 0)], 'size': 1, 'context': 'input'}",
+        "{'type': 'object', 'color': 3, 'positions': [(1, 1)], 'size': 1, 'context': 'input'}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [],
+      "confidence": 0.6
+    },
+    "size_reduction": {
+      "concept": "size_reduction",
+      "definition": "Learned transformation_pattern: size_reduction",
+      "examples": [
+        "{'type': 'contraction', 'factor': 3.0}",
+        "{'type': 'object_removal', 'factor': 3.0}",
+        "{'type': 'contraction', 'factor': 3.0}",
+        "{'type': 'contraction', 'factor': 3.0}",
+        "{'type': 'object_removal', 'factor': 2.0}"
+      ],
+      "related_concepts": [],
+      "usage_patterns": [
+        "Used in 1 tasks with 60.00% success"
+      ],
+      "confidence": 0.6
+    }
+  },
+  "learned_patterns": {},
+  "processing_stats": {
+    "total_tasks": 301,
+    "successful_tasks": 10,
+    "failed_tasks": 291,
+    "average_accuracy": 0.0,
+    "pattern_types_discovered": [
+      "line_extension",
+      "grid_tiling",
+      "unknown",
+      "error",
+      "object_replication",
+      "spatial_transformation",
+      "size_scaling"
+    ],
+    "total_concepts_learned": 887
+  },
+  "last_updated": "2025-07-17T01:28:38.969634"
+}

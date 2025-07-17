@@ -1,0 +1,30 @@
+{
+  "cycle": 5,
+  "timestamp": "2025-07-17T01:25:48.741470",
+  "total_concepts": 10,
+  "total_hypotheses": 20,
+  "concept_trace_entries": 5000,
+  "semantic_bootstraps": 3849,
+  "top_concepts": [
+    [
+      "object_creation",
+      0.8
+    ],
+    [
+      "object_removal",
+      0.7200000000000001
+    ],
+    [
+      "line_extension",
+      0.701874503553894
+    ],
+    [
+      "expansion",
+      0.6400000000000001
+    ],
+    [
+      "size_scaling",
+      0.6
+    ]
+  ]
+}

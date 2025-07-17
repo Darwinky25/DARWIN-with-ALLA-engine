@@ -1,0 +1,56 @@
+{
+  "lexicon": [
+    {
+      "word": "what",
+      "word_type": "inquiry",
+      "meaning_expression": "lambda: 'what inquiry'"
+    },
+    {
+      "word": "where",
+      "word_type": "inquiry",
+      "meaning_expression": "lambda: 'where inquiry'"
+    },
+    {
+      "word": "when",
+      "word_type": "inquiry",
+      "meaning_expression": "lambda: 'when inquiry'"
+    },
+    {
+      "word": "create",
+      "word_type": "action",
+      "meaning_expression": "lambda: 'create action'"
+    },
+    {
+      "word": "destroy",
+      "word_type": "action",
+      "meaning_expression": "lambda: 'destroy action'"
+    },
+    {
+      "word": "red",
+      "word_type": "property",
+      "meaning_expression": "lambda obj: obj.color == 'red'"
+    },
+    {
+      "word": "blue",
+      "word_type": "property",
+      "meaning_expression": "lambda obj: obj.color == 'blue'"
+    },
+    {
+      "word": "green",
+      "word_type": "property",
+      "meaning_expression": "lambda obj: obj.color == 'green'"
+    },
+    {
+      "word": "box",
+      "word_type": "noun",
+      "meaning_expression": "lambda obj: obj.shape == 'box'"
+    },
+    {
+      "word": "circle",
+      "word_type": "noun",
+      "meaning_expression": "lambda obj: obj.shape == 'circle'"
+    }
+  ],
+  "version": "20.0",
+  "timestamp": 1752687199.9411945
+}

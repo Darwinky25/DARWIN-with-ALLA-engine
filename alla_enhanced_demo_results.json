@@ -1,0 +1,93 @@
+{
+  "timestamp": "2025-07-16 22:32:22",
+  "overall_score": 0.4143809523809524,
+  "performance_metrics": {
+    "learning_quality": 0.18222222222222226,
+    "reasoning_score": 0.18000000000000002,
+    "semantic_stability": 1.0,
+    "world_model_score": 0.5285714285714286
+  },
+  "learning_sessions": [
+    {
+      "new_concepts": [],
+      "new_relationships": [],
+      "strengthened_connections": [],
+      "narrative_insights": [
+        {
+          "type": "causation",
+          "instances": 2,
+          "pattern": "(because|since|therefore|thus|so)"
+        },
+        {
+          "type": "contrast",
+          "instances": 1,
+          "pattern": "(but|however|although|despite)"
+        },
+        {
+          "type": "emotion",
+          "instances": 1,
+          "pattern": "(felt|emotion|mood|feeling)"
+        }
+      ],
+      "emotional_discoveries": [],
+      "quality_score": 0.2
+    },
+    {
+      "new_concepts": [],
+      "new_relationships": [],
+      "strengthened_connections": [],
+      "narrative_insights": [
+        {
+          "type": "sequence",
+          "instances": 1,
+          "pattern": "(first|then|next|finally|after|before)"
+        },
+        {
+          "type": "causation",
+          "instances": 1,
+          "pattern": "(because|since|therefore|thus|so)"
+        }
+      ],
+      "emotional_discoveries": [],
+      "quality_score": 0.16000000000000003
+    },
+    {
+      "new_concepts": [],
+      "new_relationships": [],
+      "strengthened_connections": [],
+      "narrative_insights": [
+        {
+          "type": "causation",
+          "instances": 2,
+          "pattern": "(because|since|therefore|thus|so)"
+        }
+      ],
+      "emotional_discoveries": [
+        {
+          "emotion_type": "neutral",
+          "instances": 1,
+          "specific_emotions": [
+            "calm"
+          ]
+        }
+      ],
+      "quality_score": 0.1866666666666667
+    }
+  ],
+  "reasoning_tests": [
+    {
+      "question": "Why do friendships become stronger through difficult times?",
+      "score": 0.18
+    },
+    {
+      "question": "How does learning change the brain?",
+      "score": 0.18
+    },
+    {
+      "question": "What makes something a symbol of endurance?",
+      "score": 0.18
+    }
+  ],
+  "status": "TRANSFORMATION IN PROGRESS",
+  "assessment": "🎯 GOOD - ALLA demonstrates solid semantic understanding!"
+}
