@@ -15,7 +15,7 @@ This file lists all contributors to the DARWIN-with-ALLA-engine project.
   - Complete test suite and documentation
 - **Project**: DARWIN-with-ALLA-engine
 - **Repository**: https://github.com/Darwinky25/DARWIN-with-ALLA-engine
-- **License**: Darwin Public License (ALLA License) v1.0
+- **License**: MIT License
 
 ---
 

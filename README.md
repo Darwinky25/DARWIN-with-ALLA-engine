@@ -1,10 +1,11 @@
 # ALLA - Autonomous Learning Language Agent
 
 [![Version](https://img.shields.io/badge/version-16.0-blue.svg)](https://github.com/Darwinky25/DARWIN-with-ALLA-engine)
-[![License](https://img.shields.io/badge/license-Darwin%20Public%20License%20v1.0-red.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.11+-yellow.svg)](https://python.org)
 [![CLA](https://img.shields.io/badge/CLA-required-orange.svg)](CLA.md)
-[![Custom License](### **Semantic Network Architecture** *(v17.0)*
+
+### **Semantic Network Architecture** *(v17.0)*
 ALLA's semantic reasoning is powered by:
 - **Concept Graph**: 261 interconnected concepts with 403 semantic connections
 - **Semantic Cascade Engine**: Recursive learning that expands concept networks automatically
@@ -18,9 +19,9 @@ ALLA builds abstract knowledge through:
 - **Nodes**: Concepts (colors, shapes, actions, etc.)
 - **Edges**: Relationships between concepts
 - **Reflection**: Periodic analysis of experiences
-- **Pattern Detection**: Automatic insight formation//img.shields.io/badge/WARNING-Custom%20License%20Terms-critical.svg)](LICENSE)
+- **Pattern Detection**: Automatic insight formation
 
-> **IMPORTANT LICENSE NOTICE:** This project uses a **custom Darwin Public License v1.0** that prohibits commercial use without permission, military applications, and false attribution. Educational and research use is freely permitted. [Read full terms](LICENSE) | [CLA required for contributors](CLA.md)
+> **IMPORTANT LICENSE NOTICE:** This project is now licensed under the **MIT License**, allowing for both commercial and non-commercial use. [Read full terms](LICENSE) | [CLA required for contributors](CLA.md)
 
 ## The Inquisitive Agent: AI That Learns Through Curiosity
 
@@ -509,7 +510,7 @@ ALLA is an open-source project welcoming contributions! Here's how you can help:
 
 ### **Contribution Guidelines:**
 1. **Read the CLA**: All contributors must agree to our [Contributor License Agreement](CLA.md)
-2. **Respect the License**: Understand and follow the Darwin Public License terms
+2. **Respect the License**: Understand and follow the MIT License terms
 3. Fork the repository
 4. Create a feature branch (`git checkout -b feature/amazing-feature`)
 5. Add comprehensive tests for new functionality
@@ -525,6 +526,7 @@ Before contributing, you must agree to our Contributor License Agreement by incl
 ```
 I agree to the Darwin Project Contributor License Agreement (CLA) v1.0.
 I understand that my contributions will be governed by the terms outlined in CLA.md.
+Note: This project is now under MIT License for code distribution.
 ```
 
 ---
@@ -547,18 +549,15 @@ I understand that my contributions will be governed by the terms outlined in CLA
 
 ## **License**
 
-This project is licensed under the **Darwin Public License (ALLA License) v1.0** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 ### Key License Points:
-- **Free for Education & Research**: Use freely for academic and research purposes
+- **Free for All Uses**: Use freely for academic, research, and commercial purposes
 - **Open Source Collaboration**: Contribute and share improvements
-- **No Commercial Use**: Commercial applications require explicit permission
-- **No False Claims**: Cannot claim modifications as entirely new original work
-- **No Harmful Use**: Prohibited for military, destructive, or exploitative purposes
-- **Attribution Required**: Must credit Darwinky25 as original creator
-
-### Commercial Licensing
-For commercial use inquiries, please contact through the GitHub repository.
+- **Commercial Use Permitted**: Commercial applications are allowed under MIT License
+- **Modification Allowed**: Modify and distribute modified versions
+- **Attribution Required**: Must include the original copyright notice and license
+- **No Warranty**: Software provided "as is" without warranty
 
 ### Contributors
 All contributors must agree to our [Contributor License Agreement (CLA)](CLA.md). See [CONTRIBUTORS.md](CONTRIBUTORS.md) for our amazing contributors!
